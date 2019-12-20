@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MMScriptFramework",
+        "repositoryURL": "https://github.com/z415073783/MMScriptFramework.git",
+        "state": {
+          "branch": null,
+          "revision": "9da2895b4f1e85fb84a8e2878c006e5205f36032",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

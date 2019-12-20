@@ -1,0 +1,16 @@
+PODS:
+  - SwiftShellFramework (0.0.5)
+
+DEPENDENCIES:
+  - SwiftShellFramework (= 0.0.5)
+
+SPEC REPOS:
+  "ssh://git@appgit.yealink.com:10022/ios-dev/YLCocoaPods.git":
+    - SwiftShellFramework
+
+SPEC CHECKSUMS:
+  SwiftShellFramework: 9a9aefd4fd244894285f747cc73b897dd71ff048
+
+PODFILE CHECKSUM: 2e516e568a8c94dda7ae3878bf38f14c45656cb6
+
+COCOAPODS: 1.5.3

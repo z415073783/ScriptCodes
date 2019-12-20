@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Project Path</key>
+	<string>../</string>
+	<key>isDebug</key>
+	<string>false</string>
+	<key>Certificate</key>
+	<string>iPhone Distribution: Yealink (xiamen) Network Technology Co. Ltd.</string>
+	<key>GitPath</key>
+	<string>ssh://git@appgit.yealink.com:10022/UC/Odin-iOS-UC.git</string>
+	<key>Project Workspace Path</key>
+	<string>Odin-UC.xcworkspace</string>
+	<key>Bundle ID</key>
+	<string>enterprise.yealink.Odin-UC-Beta</string>
+	<key>Pgyer API Key</key>
+	<string>994b098bab5ddb641d0ec24bccb228cf</string>
+	<key>Pgyer User key</key>
+	<string>0d8a855b8068628d55503304ac113c16</string>
+	<key>Fir Token</key>
+	<string>36207dfac52ff6be1766099301638182</string>
+	<key>Branch Name</key>
+	<string>master</string>
+	<key>Project Info List</key>
+	<string>Odin-UC/Configure/Info.plist</string>
+	<key>ProjectName</key>
+	<string>Odin-UC</string>
+	<key>IPAPath</key>
+	<string>shell/AutoBuildFile</string>
+	<key>Upload URL Type</key>
+	<dict>
+		<key>fir</key>
+		<false/>
+		<key>pgyer</key>
+		<false/>
+	</dict>
+	<key>ReplaceData</key>
+	<dict>
+		<key>audio</key>
+		<dict>
+			<key>GoalPath</key>
+			<string>UC-Logic/src/Talk-iOS/extern/AudioEngine/ios/lib/libaudio_engine.a</string>
+			<key>VersionNumber</key>
+			<string></string>
+			<key>Path</key>
+			<string>/Volumes/package/uc/android/audio/VCM-IOS</string>
+		</dict>
+		<key>h323-software</key>
+		<dict>
+			<key>GoalPath</key>
+			<string>UC-Logic/src/Talk-iOS/extern/VoipEngine/ios/lib/libh323app.a</string>
+			<key>VersionNumber</key>
+			<string></string>
+			<key>Path</key>
+			<string>/Volumes/package/uc/android/h323/VCM-IOS</string>
+		</dict>
+		<key>sip-software</key>
+		<dict>
+			<key>GoalPath</key>
+			<string>UC-Logic/src/Talk-iOS/extern/VoipEngine/ios/lib/libsipapp.a</string>
+			<key>VersionNumber</key>
+			<string></string>
+			<key>Path</key>
+			<string>/Volumes/package/uc/android/sip/VCM-IOS</string>
+		</dict>
+		<key>video</key>
+		<dict>
+			<key>GoalPath</key>
+			<string>UC-Logic/src/Talk-iOS/extern/VideoEngine/ios/lib/libVideo.a</string>
+			<key>VersionNumber</key>
+			<string></string>
+			<key>Path</key>
+			<string>/Volumes/package/uc/android/video/VCM-IOS</string>
+		</dict>
+	</dict>
+	<key>app</key>
+	<string></string>
+</dict>
+</plist>

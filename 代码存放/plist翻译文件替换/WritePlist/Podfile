@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+source 'ssh://git@appgit.yealink.com:10022/ios-dev/YLCocoaPods.git'
+
+#platform :osx
+
+target 'writePlist' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for writePlist
+
+  pod 'SwiftShellFramework', '0.0.5'
+
+
+end

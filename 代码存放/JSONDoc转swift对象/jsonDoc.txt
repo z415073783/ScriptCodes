@@ -1,0 +1,2526 @@
+{
+   "interface" : [ "rpc_call" ],
+   "method" : [
+      {
+         "input" : {
+            "method" : "mediaUpdateEncParams",
+            "param" : {
+               "bVideoStream" : true,
+               "idSession" : "int",
+               "nFrameRate" : "int",
+               "nHeight" : "int",
+               "nWidth" : "int"
+            }
+         },
+         "name" : "mediaUpdateEncParams",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "mediaGetAudioMute",
+            "param" : null
+         },
+         "name" : "mediaGetAudioMute",
+         "ouput" : {
+            "body" : {
+               "bMute" : true
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "mediaGetAudioRunning",
+            "param" : null
+         },
+         "name" : "mediaGetAudioRunning",
+         "ouput" : {
+            "body" : {
+               "bRunning" : true
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "loginInCloudAuth",
+            "param" : {
+               "bRememberPwd" : true,
+               "strNumber" : "",
+               "strProxyServer" : "",
+               "strRandomKey" : "",
+               "strServer" : ""
+            }
+         },
+         "name" : "loginInCloudAuth",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "setSyslogLevel",
+            "param" : {
+               "eLogLevel" : "SSL_NONE,ONT_EMERGENCY,ONT_ALERT,ONT_CRITICAL,ONT_ERROR,ONT_WARNING,ONT_NOTICE,ONT_INFO,ONT_RUNTIME,ONT_DEBUG,ONT_SPY,ONT_TEST"
+            }
+         },
+         "name" : "setSyslogLevel",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "setSyslogEnable",
+            "param" : {
+               "bLogEnable" : true
+            }
+         },
+         "name" : "setSyslogEnable",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "setSyslogDebugEnable",
+            "param" : {
+               "bLogEnable" : true
+            }
+         },
+         "name" : "setSyslogDebugEnable",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "delConfIDHistory",
+            "param" : {
+               "strConfId" : ""
+            }
+         },
+         "name" : "delConfIDHistory",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getConfIDHistory",
+            "param" : null
+         },
+         "name" : "getConfIDHistory",
+         "ouput" : {
+            "body" : {
+               "list" : [
+                  {
+                     "bOpenCamera" : true,
+                     "bOpenMic" : true,
+                     "strAccountServer" : "",
+                     "strConfId" : "",
+                     "strName" : "",
+                     "strPassword" : "",
+                     "strServer" : "",
+                     "strServerType" : ""
+                  },
+                  {
+                     "bOpenCamera" : true,
+                     "bOpenMic" : true,
+                     "strAccountServer" : "",
+                     "strConfId" : "",
+                     "strName" : "",
+                     "strPassword" : "",
+                     "strServer" : "",
+                     "strServerType" : ""
+                  }
+               ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getConfIDHistoryByServer",
+            "param" : {
+               "strAccountServer" : ""
+            }
+         },
+         "name" : "getConfIDHistoryByServer",
+         "ouput" : {
+            "body" : {
+               "list" : [
+                  {
+                     "bOpenCamera" : true,
+                     "bOpenMic" : true,
+                     "strAccountServer" : "",
+                     "strConfId" : "",
+                     "strName" : "",
+                     "strPassword" : "",
+                     "strServer" : "",
+                     "strServerType" : ""
+                  },
+                  {
+                     "bOpenCamera" : true,
+                     "bOpenMic" : true,
+                     "strAccountServer" : "",
+                     "strConfId" : "",
+                     "strName" : "",
+                     "strPassword" : "",
+                     "strServer" : "",
+                     "strServerType" : ""
+                  }
+               ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getDepartByNumber",
+            "param" : {
+               "strNumber" : ""
+            }
+         },
+         "name" : "getDepartByNumber",
+         "ouput" : {
+            "body" : {
+               "departments" : [
+                  {
+                     "i18nKey" : "",
+                     "name" : ""
+                  },
+                  {
+                     "i18nKey" : "",
+                     "name" : ""
+                  }
+               ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getTreeNodeInfoByIds",
+            "param" : {
+               "listOrgNodeIds" : [ "", "" ]
+            }
+         },
+         "name" : "getTreeNodeInfoByIds",
+         "ouput" : {
+            "body" : {
+               "listOrgTreeNode" : [
+                  {
+                     "data" : {
+                        "email" : "",
+                        "extension" : "",
+                        "i18nKey" : "",
+                        "index" : "int",
+                        "name" : "",
+                        "namePinyin" : "",
+                        "namePinyinAlia" : "",
+                        "number" : "",
+                        "searchKey" : ""
+                     },
+                     "id" : "",
+                     "leavesNum" : "int",
+                     "oldId" : "",
+                     "parentId" : "",
+                     "type" : "ONT_UNKNOW,ONT_ORG,ONT_STAFF,ONT_DEVICE,ONT_VMR,ONT_THIRDPARTY,ONT_EXTERNAL_CONTACTS,ONT_SERVICE_NUMBER"
+                  },
+                  {
+                     "data" : {
+                        "email" : "",
+                        "extension" : "",
+                        "i18nKey" : "",
+                        "index" : "int",
+                        "name" : "",
+                        "namePinyin" : "",
+                        "namePinyinAlia" : "",
+                        "number" : "",
+                        "searchKey" : ""
+                     },
+                     "id" : "",
+                     "leavesNum" : "int",
+                     "oldId" : "",
+                     "parentId" : "",
+                     "type" : "ONT_UNKNOW,ONT_ORG,ONT_STAFF,ONT_DEVICE,ONT_VMR,ONT_THIRDPARTY,ONT_EXTERNAL_CONTACTS,ONT_SERVICE_NUMBER"
+                  }
+               ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "setMeetingScheduleMajorState",
+            "param" : {
+               "bMajor" : true,
+               "strMeetingId" : "",
+               "strScheduleId" : ""
+            }
+         },
+         "name" : "setMeetingScheduleMajorState",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "delayToRemindMeetingSchedule",
+            "param" : {
+               "strMeetingId" : "",
+               "strScheduleId" : ""
+            }
+         },
+         "name" : "delayToRemindMeetingSchedule",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "isMajorMeetingShcedule",
+            "param" : {
+               "strMeetingId" : "",
+               "strScheduleId" : ""
+            }
+         },
+         "name" : "isMajorMeetingShcedule",
+         "ouput" : {
+            "body" : {
+               "bMajor" : true
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "isSupportMeetNow",
+            "param" : null
+         },
+         "name" : "isSupportMeetNow",
+         "ouput" : {
+            "body" : {
+               "bEnableMeetNow" : true
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "isSupportShcedule",
+            "param" : null
+         },
+         "name" : "isSupportShcedule",
+         "ouput" : {
+            "body" : {
+               "bEnableShcedule" : true
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "isSupportAddRtmpUser",
+            "param" : null
+         },
+         "name" : "isSupportAddRtmpUser",
+         "ouput" : {
+            "body" : {
+               "bEnableAddRtmpUser" : true
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getMeetingResourceInfo",
+            "param" : null
+         },
+         "name" : "getMeetingResourceInfo",
+         "ouput" : {
+            "body" : {
+               "cloudResourceInfo" : {
+                  "bEnableAddRtmpUser" : true,
+                  "bEnableApplicationShare" : true,
+                  "bEnableBookSchedule" : true,
+                  "bEnableClientUseIce" : true,
+                  "bEnableConfRtmpInvite" : true,
+                  "bEnableConfSchedule" : true,
+                  "bEnableConfSfbInvite" : true,
+                  "bEnableMeetNow" : true,
+                  "bSupportH323" : true,
+                  "bSupportLobby" : true,
+                  "listIpcallDomain" : [
+                     {
+                        "strDomain" : "",
+                        "strDomainType" : ""
+                     },
+                     {
+                        "strDomain" : "",
+                        "strDomainType" : ""
+                     }
+                  ],
+                  "strAutopPassword" : "",
+                  "strAutopUrl" : "",
+                  "strAutopUserName" : "",
+                  "strEgotiateUrl" : "",
+                  "strPhonebookPassword" : "",
+                  "strPhonebookUrl" : "",
+                  "strPhonebookUserName" : "",
+                  "strServerInternetIP" : "",
+                  "strServerInternetStaticNat" : "",
+                  "strServerIntranetIP" : "",
+                  "strServerIntranetStaticNat" : "",
+                  "strUri" : "",
+                  "strWebResourceUri" : ""
+               }
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "isSupportConfRtmpInvite",
+            "param" : null
+         },
+         "name" : "isSupportConfRtmpInvite",
+         "ouput" : {
+            "body" : {
+               "bEnableConfRtmpInvite" : true
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "isSupportConfSfbInvite",
+            "param" : null
+         },
+         "name" : "isSupportConfSfbInvite",
+         "ouput" : {
+            "body" : {
+               "bEnableConfSfbInvite" : true
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getEntityByMeetingID",
+            "param" : {
+               "strMeetingId" : ""
+            }
+         },
+         "name" : "getEntityByMeetingID",
+         "ouput" : {
+            "body" : {
+               "strEntity" : ""
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "reloadMeetingShcedule",
+            "param" : null
+         },
+         "name" : "reloadMeetingShcedule",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getOperateMeetingWebInfo",
+            "param" : null
+         },
+         "name" : "getOperateMeetingWebInfo",
+         "ouput" : {
+            "body" : {
+               "tWebFrontEndConfig" : {
+                  "strConfPlanDetailUrl" : "",
+                  "strConfPlanRevervationMeeting" : "",
+                  "strConfPlanRevervationVideoUrl" : "",
+                  "strServer" : ""
+               }
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "setConfShareParam",
+            "param" : {
+               "confShareParam" : {
+                  "bIsDST" : true,
+                  "iUtcOffset" : "int",
+                  "strLanguage" : ""
+               }
+            }
+         },
+         "name" : "setConfShareParam",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "answerChannelCall",
+            "param" : {
+               "bVideo" : true,
+               "nCallId" : "int"
+            }
+         },
+         "name" : "answerChannelCall",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "joinConfByConfID",
+            "param" : {
+               "bOpenCamera" : true,
+               "bOpenMic" : true,
+               "strConfID" : "",
+               "strName" : "",
+               "strPassword" : "",
+               "strServer" : "",
+               "strServerType" : ""
+            }
+         },
+         "name" : "joinConfByConfID",
+         "ouput" : {
+            "body" : {
+               "callID" : "int"
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "joinInConfByConfID",
+            "param" : {
+               "bOpenCamera" : true,
+               "bOpenMic" : true,
+               "bVideo" : true,
+               "strConfID" : "",
+               "strName" : "",
+               "strPassword" : "",
+               "strServer" : "",
+               "strServerType" : ""
+            }
+         },
+         "name" : "joinInConfByConfID",
+         "ouput" : {
+            "body" : {
+               "callID" : "int"
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getMemberInfoList",
+            "param" : {
+               "nCallId" : "int",
+               "usersId" : [ "", "" ]
+            }
+         },
+         "name" : "getMemberInfoList",
+         "ouput" : {
+            "body" : {
+               "memberInfoList" : [
+                  {
+                     "bAudioMute" : true,
+                     "bDataMe" : true,
+                     "bLecturer" : true,
+                     "bMuteByServer" : true,
+                     "bMuteSpeakerByServer" : true,
+                     "bMuteVideoByServer" : true,
+                     "bRequestSpeak" : true,
+                     "bShareSend" : true,
+                     "bShareVideo" : true,
+                     "eMemberJoinConfType" : "CMT_UNKNOWN,CMT_APOLLO,CMT_OTHER,CMT_RTMP",
+                     "eUserProtocol" : "UPT_NONE,UPT_SIP,UPT_H323",
+                     "id" : "",
+                     "listDepart" : [
+                        {
+                           "i18nKey" : "",
+                           "name" : ""
+                        },
+                        {
+                           "i18nKey" : "",
+                           "name" : ""
+                        }
+                     ],
+                     "nAudioId" : "int",
+                     "nVideoId" : "int",
+                     "roleUser" : "CUR_PRESENTER,CUR_ATTENDEE,CUR_CASTVIEWER",
+                     "staJoin" : "CJS_CONNECTED,CJS_DISCONNECTED,CJS_PREPARE",
+                     "strId" : "",
+                     "strMediumServerType" : "",
+                     "strName" : "",
+                     "strNumber" : "",
+                     "strUri" : "",
+                     "strUserIP" : "",
+                     "strUserUID" : ""
+                  },
+                  {
+                     "bAudioMute" : true,
+                     "bDataMe" : true,
+                     "bLecturer" : true,
+                     "bMuteByServer" : true,
+                     "bMuteSpeakerByServer" : true,
+                     "bMuteVideoByServer" : true,
+                     "bRequestSpeak" : true,
+                     "bShareSend" : true,
+                     "bShareVideo" : true,
+                     "eMemberJoinConfType" : "CMT_UNKNOWN,CMT_APOLLO,CMT_OTHER,CMT_RTMP",
+                     "eUserProtocol" : "UPT_NONE,UPT_SIP,UPT_H323",
+                     "id" : "",
+                     "listDepart" : [
+                        {
+                           "i18nKey" : "",
+                           "name" : ""
+                        },
+                        {
+                           "i18nKey" : "",
+                           "name" : ""
+                        }
+                     ],
+                     "nAudioId" : "int",
+                     "nVideoId" : "int",
+                     "roleUser" : "CUR_PRESENTER,CUR_ATTENDEE,CUR_CASTVIEWER",
+                     "staJoin" : "CJS_CONNECTED,CJS_DISCONNECTED,CJS_PREPARE",
+                     "strId" : "",
+                     "strMediumServerType" : "",
+                     "strName" : "",
+                     "strNumber" : "",
+                     "strUri" : "",
+                     "strUserIP" : "",
+                     "strUserUID" : ""
+                  }
+               ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getChangeMemberInfo",
+            "param" : {
+               "nCallId" : "int"
+            }
+         },
+         "name" : "getChangeMemberInfo",
+         "ouput" : {
+            "body" : {
+               "memberInfoList" : [
+                  {
+                     "bAudioMute" : true,
+                     "bDataMe" : true,
+                     "bLecturer" : true,
+                     "bMuteByServer" : true,
+                     "bMuteSpeakerByServer" : true,
+                     "bMuteVideoByServer" : true,
+                     "bRequestSpeak" : true,
+                     "bShareSend" : true,
+                     "bShareVideo" : true,
+                     "eMemberJoinConfType" : "CMT_UNKNOWN,CMT_APOLLO,CMT_OTHER,CMT_RTMP",
+                     "eUserProtocol" : "UPT_NONE,UPT_SIP,UPT_H323",
+                     "id" : "",
+                     "listDepart" : [
+                        {
+                           "i18nKey" : "",
+                           "name" : ""
+                        },
+                        {
+                           "i18nKey" : "",
+                           "name" : ""
+                        }
+                     ],
+                     "nAudioId" : "int",
+                     "nVideoId" : "int",
+                     "roleUser" : "CUR_PRESENTER,CUR_ATTENDEE,CUR_CASTVIEWER",
+                     "staJoin" : "CJS_CONNECTED,CJS_DISCONNECTED,CJS_PREPARE",
+                     "strId" : "",
+                     "strMediumServerType" : "",
+                     "strName" : "",
+                     "strNumber" : "",
+                     "strUri" : "",
+                     "strUserIP" : "",
+                     "strUserUID" : ""
+                  },
+                  {
+                     "bAudioMute" : true,
+                     "bDataMe" : true,
+                     "bLecturer" : true,
+                     "bMuteByServer" : true,
+                     "bMuteSpeakerByServer" : true,
+                     "bMuteVideoByServer" : true,
+                     "bRequestSpeak" : true,
+                     "bShareSend" : true,
+                     "bShareVideo" : true,
+                     "eMemberJoinConfType" : "CMT_UNKNOWN,CMT_APOLLO,CMT_OTHER,CMT_RTMP",
+                     "eUserProtocol" : "UPT_NONE,UPT_SIP,UPT_H323",
+                     "id" : "",
+                     "listDepart" : [
+                        {
+                           "i18nKey" : "",
+                           "name" : ""
+                        },
+                        {
+                           "i18nKey" : "",
+                           "name" : ""
+                        }
+                     ],
+                     "nAudioId" : "int",
+                     "nVideoId" : "int",
+                     "roleUser" : "CUR_PRESENTER,CUR_ATTENDEE,CUR_CASTVIEWER",
+                     "staJoin" : "CJS_CONNECTED,CJS_DISCONNECTED,CJS_PREPARE",
+                     "strId" : "",
+                     "strMediumServerType" : "",
+                     "strName" : "",
+                     "strNumber" : "",
+                     "strUri" : "",
+                     "strUserIP" : "",
+                     "strUserUID" : ""
+                  }
+               ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getOperateResultList",
+            "param" : {
+               "nCallId" : "int"
+            }
+         },
+         "name" : "getOperateResultList",
+         "ouput" : {
+            "body" : {
+               "operateResultList" : [
+                  {
+                     "errorCode" : "int",
+                     "errorDesc" : "",
+                     "isSuccess" : true,
+                     "operate" : "",
+                     "userId" : ""
+                  },
+                  {
+                     "errorCode" : "int",
+                     "errorDesc" : "",
+                     "isSuccess" : true,
+                     "operate" : "",
+                     "userId" : ""
+                  }
+               ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cancelInvite",
+            "param" : {
+               "nCallId" : "int"
+            }
+         },
+         "name" : "cancelInvite",
+         "ouput" : {
+            "body" : {
+               "usersId" : [ "", "" ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "allowSpeakerRequest",
+            "param" : {
+               "bAllow" : true,
+               "nCallId" : "int",
+               "usersId" : [ "", "" ]
+            }
+         },
+         "name" : "allowSpeakerRequest",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "disableMemberSpeaker",
+            "param" : {
+               "bMute" : true,
+               "nCallId" : "int",
+               "usersId" : [ "", "" ]
+            }
+         },
+         "name" : "disableMemberSpeaker",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "memberSilence",
+            "param" : {
+               "bSilence" : true,
+               "nCallId" : "int",
+               "usersId" : [ "", "" ]
+            }
+         },
+         "name" : "memberSilence",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "muteMemberVideo",
+            "param" : {
+               "bMuteVideo" : true,
+               "nCallId" : "int",
+               "usersId" : [ "", "" ]
+            }
+         },
+         "name" : "muteMemberVideo",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "lockConference",
+            "param" : {
+               "bLockConf" : true,
+               "nCallId" : "int"
+            }
+         },
+         "name" : "lockConference",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "modifyConfRole",
+            "param" : {
+               "nCallId" : "int",
+               "userRole" : "",
+               "usersId" : [ "", "" ]
+            }
+         },
+         "name" : "modifyConfRole",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "setMemberLecturer",
+            "param" : {
+               "bLecturer" : true,
+               "nCallId" : "int",
+               "usersId" : [ "", "" ]
+            }
+         },
+         "name" : "setMemberLecturer",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "removeConfMember",
+            "param" : {
+               "nCallId" : "int",
+               "usersId" : [ "", "" ]
+            }
+         },
+         "name" : "removeConfMember",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getConfMsgList",
+            "param" : {
+               "nCallId" : "int",
+               "nStartIndex" : "int"
+            }
+         },
+         "name" : "getConfMsgList",
+         "ouput" : {
+            "body" : {
+               "confMsgList" : [
+                  {
+                     "bOperateByLocal" : true,
+                     "bornTime" : "uint64",
+                     "index" : "int",
+                     "listDepart" : [
+                        {
+                           "i18nKey" : "",
+                           "name" : ""
+                        },
+                        {
+                           "i18nKey" : "",
+                           "name" : ""
+                        }
+                     ],
+                     "msgType" : "",
+                     "name" : "",
+                     "strErrorCode" : "",
+                     "strErrorInfo" : "",
+                     "strNumber" : ""
+                  },
+                  {
+                     "bOperateByLocal" : true,
+                     "bornTime" : "uint64",
+                     "index" : "int",
+                     "listDepart" : [
+                        {
+                           "i18nKey" : "",
+                           "name" : ""
+                        },
+                        {
+                           "i18nKey" : "",
+                           "name" : ""
+                        }
+                     ],
+                     "msgType" : "",
+                     "name" : "",
+                     "strErrorCode" : "",
+                     "strErrorInfo" : "",
+                     "strNumber" : ""
+                  }
+               ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "upgradeToConf",
+            "param" : {
+               "bVideoConf" : true,
+               "listInviteMember" : [ "", "" ],
+               "nCallId" : "int"
+            }
+         },
+         "name" : "upgradeToConf",
+         "ouput" : {
+            "body" : {
+               "iCallId" : "int"
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getConfGlobalInfo",
+            "param" : {
+               "nCallId" : "int"
+            }
+         },
+         "name" : "getConfGlobalInfo",
+         "ouput" : {
+            "body" : {
+               "confGlobalInfo" : {
+                  "bConferenceLocked" : true,
+                  "bMemberAllMute" : true,
+                  "bMemberAllSilence" : true,
+                  "iBroadcastUserCnt" : "int",
+                  "iInteractiveUserCnt" : "int",
+                  "iParticipantCnt" : "int",
+                  "iPresenterVideoMaxView" : "int",
+                  "iVideoMaxView" : "int",
+                  "strPresenterVideoLayout" : "",
+                  "strVideoLayout" : ""
+               }
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getConfTimeInfo",
+            "param" : {
+               "nCallId" : "int"
+            }
+         },
+         "name" : "getConfTimeInfo",
+         "ouput" : {
+            "body" : {
+               "confTimeInfo" : {
+                  "bHasTime" : true,
+                  "bookEndTime" : "uint64",
+                  "bookStartTime" : "uint64",
+                  "startTime" : "uint64"
+               }
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "refuseIncomingCall",
+            "param" : {
+               "bHangupByTimeOut" : true,
+               "idCall" : "int",
+               "nReason" : "int"
+            }
+         },
+         "name" : "refuseIncomingCall",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "joinInConference",
+            "param" : {
+               "bVideoCall" : true,
+               "listInviteMember" : [ "", "" ],
+               "strConferenceNumber" : "",
+               "strEntity" : "",
+               "strSubject" : "",
+               "strUri" : ""
+            }
+         },
+         "name" : "joinInConference",
+         "ouput" : {
+            "body" : {
+               "iCallId" : "int"
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getCurrentTalkId",
+            "param" : null
+         },
+         "name" : "getCurrentTalkId",
+         "ouput" : {
+            "body" : {
+               "iCallId" : "int"
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "modifyConferenceLayout",
+            "param" : {
+               "iCallId" : "int",
+               "iMaxView" : "int",
+               "iVideoLayout" : "int",
+               "layoutInfo" : {
+                  "bPresenter" : true,
+                  "strConfLayoutType" : "",
+                  "strExclusiveUri" : ""
+               }
+            }
+         },
+         "name" : "modifyConferenceLayout",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "setConfDemonstrator",
+            "param" : {
+               "bPresenter" : true,
+               "iCallId" : "int",
+               "iDemoState" : "int",
+               "strUser" : ""
+            }
+         },
+         "name" : "setConfDemonstrator",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getAccountNatInfo",
+            "param" : {
+               "accountID" : "int"
+            }
+         },
+         "name" : "getAccountNatInfo",
+         "ouput" : {
+            "body" : {
+               "iNatInfo" : "int"
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getConfShareInfo",
+            "param" : {
+               "iCallId" : "int"
+            }
+         },
+         "name" : "getConfShareInfo",
+         "ouput" : {
+            "body" : {
+               "shareInfo" : {
+                  "listRTMP" : [
+                     {
+                        "strSessionType" : "",
+                        "strWebShareUrl" : ""
+                     },
+                     {
+                        "strSessionType" : "",
+                        "strWebShareUrl" : ""
+                     }
+                  ],
+                  "strEnterpriseId" : "",
+                  "strRecordId" : "",
+                  "strShareData" : ""
+               }
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getConfigInfo",
+            "param" : {
+               "strFile" : "",
+               "strKey" : "",
+               "strSession" : ""
+            }
+         },
+         "name" : "getConfigInfo",
+         "ouput" : {
+            "body" : {
+               "strValue" : ""
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "setConfigInfo",
+            "param" : {
+               "strFile" : "",
+               "strKey" : "",
+               "strSession" : "",
+               "strValue" : ""
+            }
+         },
+         "name" : "setConfigInfo",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getResolutionForBandwidth",
+            "param" : {
+               "bConf" : true,
+               "bSend" : true,
+               "iBandWidth" : "int",
+               "iVideoType" : "int"
+            }
+         },
+         "name" : "getResolutionForBandwidth",
+         "ouput" : {
+            "body" : {
+               "iEndBandWidth" : "int",
+               "iStartBandWidth" : "int",
+               "resolution" : {
+                  "iBandWidth" : "int",
+                  "iFrameRate" : "int",
+                  "iHeight" : "int",
+                  "iWidth" : "int"
+               }
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "setResolutionBandwidth",
+            "param" : {
+               "bConf" : true,
+               "bSend" : true,
+               "iBandWidth" : "int",
+               "iEndBandWidth" : "int",
+               "iStartBandWidth" : "int",
+               "iVideoType" : "int",
+               "resolution" : {
+                  "iBandWidth" : "int",
+                  "iFrameRate" : "int",
+                  "iHeight" : "int",
+                  "iWidth" : "int"
+               }
+            }
+         },
+         "name" : "setResolutionBandwidth",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "mediaChannelCtl",
+            "param" : {
+               "iCallId" : "int",
+               "iCtl" : "int"
+            }
+         },
+         "name" : "mediaChannelCtl",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "isBroadcastConf",
+            "param" : {
+               "nCallId" : "int"
+            }
+         },
+         "name" : "isBroadcastConf",
+         "ouput" : {
+            "body" : {
+               "bInteractiveBroadcastConf" : true
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_initCloudContact",
+            "param" : null
+         },
+         "name" : "cc_initCloudContact",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_uninitCloudContact",
+            "param" : null
+         },
+         "name" : "cc_uninitCloudContact",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_shutdownCloudContact",
+            "param" : null
+         },
+         "name" : "cc_shutdownCloudContact",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_isCloudContactAvaliable",
+            "param" : null
+         },
+         "name" : "cc_isCloudContactAvaliable",
+         "ouput" : {
+            "body" : {
+               "isCloudContactAvaliable" : true
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_isCloudContactEnable",
+            "param" : null
+         },
+         "name" : "cc_isCloudContactEnable",
+         "ouput" : {
+            "body" : {
+               "isCloudContactAvaliable" : true
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_getLoadMode",
+            "param" : null
+         },
+         "name" : "cc_getLoadMode",
+         "ouput" : {
+            "body" : {
+               "loadMode" : "CC_LOAD_NONE,CC_LOAD_AUTO,CC_LOAD_OVERALL,CC_LOAD_PARTIAL"
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_getCompanyID",
+            "param" : null
+         },
+         "name" : "cc_getCompanyID",
+         "ouput" : {
+            "body" : {
+               "companyID" : ""
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_getCloudNodeInfoByNumber",
+            "param" : {
+               "strNumber" : ""
+            }
+         },
+         "name" : "cc_getCloudNodeInfoByNumber",
+         "ouput" : {
+            "body" : {
+               "nodeInfo" : {
+                  "contactCountRecursive" : "uint",
+                  "email" : "",
+                  "extensionNum" : "",
+                  "i18nName" : "",
+                  "id" : "",
+                  "name" : "",
+                  "number" : "",
+                  "parentID" : [ "", "" ],
+                  "pinyin" : "",
+                  "pinyinAbbr" : "",
+                  "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+               }
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_getCloudNodeInfoByNumbers",
+            "param" : {
+               "strNumber" : [ "", "" ]
+            }
+         },
+         "name" : "cc_getCloudNodeInfoByNumbers",
+         "ouput" : {
+            "body" : {
+               "nodeInfo" : [
+                  {
+                     "contactCountRecursive" : "uint",
+                     "email" : "",
+                     "extensionNum" : "",
+                     "i18nName" : "",
+                     "id" : "",
+                     "name" : "",
+                     "number" : "",
+                     "parentID" : [ "", "" ],
+                     "pinyin" : "",
+                     "pinyinAbbr" : "",
+                     "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+                  },
+                  {
+                     "contactCountRecursive" : "uint",
+                     "email" : "",
+                     "extensionNum" : "",
+                     "i18nName" : "",
+                     "id" : "",
+                     "name" : "",
+                     "number" : "",
+                     "parentID" : [ "", "" ],
+                     "pinyin" : "",
+                     "pinyinAbbr" : "",
+                     "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+                  }
+               ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_getLocalCloudNodeInfoByNumbers",
+            "param" : {
+               "strNumber" : [ "", "" ]
+            }
+         },
+         "name" : "cc_getLocalCloudNodeInfoByNumbers",
+         "ouput" : {
+            "body" : {
+               "nodeInfo" : [
+                  {
+                     "contactCountRecursive" : "uint",
+                     "email" : "",
+                     "extensionNum" : "",
+                     "i18nName" : "",
+                     "id" : "",
+                     "name" : "",
+                     "number" : "",
+                     "parentID" : [ "", "" ],
+                     "pinyin" : "",
+                     "pinyinAbbr" : "",
+                     "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+                  },
+                  {
+                     "contactCountRecursive" : "uint",
+                     "email" : "",
+                     "extensionNum" : "",
+                     "i18nName" : "",
+                     "id" : "",
+                     "name" : "",
+                     "number" : "",
+                     "parentID" : [ "", "" ],
+                     "pinyin" : "",
+                     "pinyinAbbr" : "",
+                     "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+                  }
+               ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_getNodeInfoById",
+            "param" : {
+               "strNodeId" : ""
+            }
+         },
+         "name" : "cc_getNodeInfoById",
+         "ouput" : {
+            "body" : {
+               "cloudInfo" : {
+                  "contactCountRecursive" : "uint",
+                  "email" : "",
+                  "extensionNum" : "",
+                  "i18nName" : "",
+                  "id" : "",
+                  "name" : "",
+                  "number" : "",
+                  "parentID" : [ "", "" ],
+                  "pinyin" : "",
+                  "pinyinAbbr" : "",
+                  "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+               }
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_getSubNodeInfo",
+            "param" : {
+               "id" : "",
+               "limit" : "uint",
+               "offset" : "uint",
+               "recursive" : true,
+               "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+            }
+         },
+         "name" : "cc_getSubNodeInfo",
+         "ouput" : {
+            "body" : {
+               "cloudInfoList" : [
+                  {
+                     "contactCountRecursive" : "uint",
+                     "email" : "",
+                     "extensionNum" : "",
+                     "i18nName" : "",
+                     "id" : "",
+                     "name" : "",
+                     "number" : "",
+                     "parentID" : [ "", "" ],
+                     "pinyin" : "",
+                     "pinyinAbbr" : "",
+                     "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+                  },
+                  {
+                     "contactCountRecursive" : "uint",
+                     "email" : "",
+                     "extensionNum" : "",
+                     "i18nName" : "",
+                     "id" : "",
+                     "name" : "",
+                     "number" : "",
+                     "parentID" : [ "", "" ],
+                     "pinyin" : "",
+                     "pinyinAbbr" : "",
+                     "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+                  }
+               ],
+               "total" : "uint"
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_getSubNodeIDVectorWithType",
+            "param" : {
+               "id" : "",
+               "limit" : "uint",
+               "offset" : "uint",
+               "recursive" : true,
+               "strFilter" : "",
+               "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+            }
+         },
+         "name" : "cc_getSubNodeIDVectorWithType",
+         "ouput" : {
+            "body" : {
+               "idAndTypeVector" : [
+                  {
+                     "id" : "",
+                     "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+                  },
+                  {
+                     "id" : "",
+                     "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+                  }
+               ],
+               "total" : "uint"
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_searchContactInfo",
+            "param" : {
+               "key" : "",
+               "limit" : "uint",
+               "offset" : "uint"
+            }
+         },
+         "name" : "cc_searchContactInfo",
+         "ouput" : {
+            "body" : {
+               "cloudInfoList" : [
+                  {
+                     "contactCountRecursive" : "uint",
+                     "email" : "",
+                     "extensionNum" : "",
+                     "i18nName" : "",
+                     "id" : "",
+                     "name" : "",
+                     "number" : "",
+                     "parentID" : [ "", "" ],
+                     "pinyin" : "",
+                     "pinyinAbbr" : "",
+                     "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+                  },
+                  {
+                     "contactCountRecursive" : "uint",
+                     "email" : "",
+                     "extensionNum" : "",
+                     "i18nName" : "",
+                     "id" : "",
+                     "name" : "",
+                     "number" : "",
+                     "parentID" : [ "", "" ],
+                     "pinyin" : "",
+                     "pinyinAbbr" : "",
+                     "type" : "CC_NODE_NONE,CC_NODE_DEPARTMENT,CC_NODE_STAFF,CC_NODE_DEVICE,CC_NODE_VMR,CC_NODE_THIRDPARTY,CC_NODE_TERMINAL,CC_NODE_ALL"
+                  }
+               ],
+               "total" : "uint"
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_getMyId",
+            "param" : null
+         },
+         "name" : "cc_getMyId",
+         "ouput" : {
+            "body" : {
+               "myId" : ""
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "cc_cleanCache",
+            "param" : null
+         },
+         "name" : "cc_cleanCache",
+         "ouput" : {
+            "body" : {
+               "nSize" : "double"
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "isFavoriteAvailable",
+            "param" : null
+         },
+         "name" : "isFavoriteAvailable",
+         "ouput" : {
+            "body" : {
+               "bFavoriteAvailable" : true
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getFavoriteLoadStatus",
+            "param" : null
+         },
+         "name" : "getFavoriteLoadStatus",
+         "ouput" : {
+            "body" : {
+               "eLoadStatus" : "FLS_NONE,FLS_LOADING,FLS_LOAD_SUCCESS,FLS_LOAD_FAIL,FLS_PAGE_LOAD_SUCCESS",
+               "iErrorCode" : "int",
+               "strErrorInfo" : ""
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getFavoriteRootId",
+            "param" : null
+         },
+         "name" : "getFavoriteRootId",
+         "ouput" : {
+            "body" : {
+               "strRootId" : {
+                  "contactsId" : "",
+                  "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+               }
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getFavoriteChildrenByIds",
+            "param" : {
+               "childOnly" : true,
+               "iCount" : "int",
+               "iIndex" : "int",
+               "strNodeId" : {
+                  "contactsId" : "",
+                  "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+               }
+            }
+         },
+         "name" : "getFavoriteChildrenByIds",
+         "ouput" : {
+            "body" : {
+               "listChildrenIds" : [
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  },
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  }
+               ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getFavoriteChildrenInfoByIds",
+            "param" : {
+               "iCount" : "int",
+               "iIndex" : "int",
+               "strNodeId" : {
+                  "contactsId" : "",
+                  "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+               }
+            }
+         },
+         "name" : "getFavoriteChildrenInfoByIds",
+         "ouput" : {
+            "body" : {
+               "listChildrenInfo" : [
+                  {
+                     "data" : {
+                        "i18nKey" : "",
+                        "name" : "",
+                        "number" : ""
+                     },
+                     "id" : {
+                        "contactsId" : "",
+                        "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                     },
+                     "leavesNum" : "int"
+                  },
+                  {
+                     "data" : {
+                        "i18nKey" : "",
+                        "name" : "",
+                        "number" : ""
+                     },
+                     "id" : {
+                        "contactsId" : "",
+                        "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                     },
+                     "leavesNum" : "int"
+                  }
+               ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getFavoriteInfoByIds",
+            "param" : {
+               "strNodeIds" : [
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  },
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  }
+               ]
+            }
+         },
+         "name" : "getFavoriteInfoByIds",
+         "ouput" : {
+            "body" : {
+               "listFavoriteNodes" : [
+                  {
+                     "data" : {
+                        "i18nKey" : "",
+                        "name" : "",
+                        "number" : ""
+                     },
+                     "id" : {
+                        "contactsId" : "",
+                        "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                     },
+                     "leavesNum" : "int"
+                  },
+                  {
+                     "data" : {
+                        "i18nKey" : "",
+                        "name" : "",
+                        "number" : ""
+                     },
+                     "id" : {
+                        "contactsId" : "",
+                        "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                     },
+                     "leavesNum" : "int"
+                  }
+               ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "addFavoriteGroup",
+            "param" : {
+               "bSync" : true,
+               "listContacts" : [
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  },
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  }
+               ],
+               "strGroupName" : ""
+            }
+         },
+         "name" : "addFavoriteGroup",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "editFavoriteGroup",
+            "param" : {
+               "bSync" : true,
+               "listContacts" : [
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  },
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  }
+               ],
+               "strGroupId" : "",
+               "strGroupName" : ""
+            }
+         },
+         "name" : "editFavoriteGroup",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "deleteFavoriteContacts",
+            "param" : {
+               "bSync" : true,
+               "listContacts" : [
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  },
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  }
+               ],
+               "strGroupId" : ""
+            }
+         },
+         "name" : "deleteFavoriteContacts",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "addContactsToFavorite",
+            "param" : {
+               "bSync" : true,
+               "listContacts" : [
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  },
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  }
+               ],
+               "listGroupIds" : [
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  },
+                  {
+                     "contactsId" : "",
+                     "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+                  }
+               ]
+            }
+         },
+         "name" : "addContactsToFavorite",
+         "ouput" : {
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      },
+      {
+         "input" : {
+            "method" : "getFavoriteParents",
+            "param" : {
+               "strNodeId" : {
+                  "contactsId" : "",
+                  "type" : "FNT_UNKNOW,FNT_GROUP,FNT_STAFF,FNT_DEVICE,FNT_VMR,FNT_THIRDPARTY,FNT_EXTERNAL_CONTACTS,FNT_SERVICE_NUMBER"
+               }
+            }
+         },
+         "name" : "getFavoriteParents",
+         "ouput" : {
+            "body" : {
+               "listParentIds" : [ "", "" ]
+            },
+            "result" : {
+               "errorCode" : "int",
+               "errorDesc" : "",
+               "operateID" : "",
+               "type" : "resultType::SUCCESS,resultType::FAIL,resultType::WAIT"
+            }
+         }
+      }
+   ],
+   "notify" : [
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_MEMBERLIST_INFO_UPDATE"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_MEMBER_REQUEST_SPEAKER"
+      },
+      {
+         "data" : {
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_DELETE_USER_FAILED"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_LOCK_CONFERENCE_RESULT"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_MODIFY_ROLE_RESULT"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_MUTE_ALL_RESULT"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_EGRESS_RESULT"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_MUTE_BATCH_RESULT"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_SETDEMO_RESULT"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_GLOBAL_INFO_UPDATE"
+      },
+      {
+         "data" : {
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_MESSAGE_LIST_UPDATE"
+      },
+      {
+         "data" : {
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_PATTERN_CHANGED"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_ADDUSERS_BATCH_RESULT"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_MODIFY_CONFLAYOUT_RESULT"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_SHARE_INFO_UPDATE"
+      },
+      {
+         "data" : {
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "MSG_TALK_CONFERENCE_LAST"
+      },
+      {
+         "data" : {
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "CC_MSG_UPDATING"
+      },
+      {
+         "data" : {
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "CC_MSG_UPDATE_FINISHED"
+      },
+      {
+         "data" : {
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "CC_MSG_ENABLE_STATUS_CHANGED"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "CC_MSG_NODE_CHANGED"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "FAVORITE_CONTACTS_AVAILABLE_CHANGED"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "FAVORITE_CONTACTS_LOADING_STATUS_UPDATE"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "FAVORITE_CONTACTS_UPDATE_LOADING"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "FAVORITE_CONTACTS_LOADING_UPDATE_SUCCEED"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "FAVORITE_CONTACTS_LOADING_UPDATE_FAILED"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "FAVORITE_CONTACTS_LOADING_PAGE_UPDATE_SUCCEED"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "FAVORITE_CONTACTS_ADD_GROUP_RESULT"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "FAVORITE_CONTACTS_EDIT_GROUP_RESULT"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "FAVORITE_CONTACTS_DELETE_RESULT"
+      },
+      {
+         "data" : {
+            "extradata" : "",
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "FAVORITE_CONTACTS_ADD_TO_FAVORITE_RESULT"
+      },
+      {
+         "data" : {
+            "lparam" : 0,
+            "wparam" : 0
+         },
+         "name" : "FAVORITE_CONTACTS_LAST"
+      }
+   ]
+}

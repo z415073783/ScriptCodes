@@ -1,0 +1,1316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180805C61F8E024D00BF5275 /* AudioRouteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180805C51F8E024D00BF5275 /* AudioRouteManager.swift */; };
+		180805CA1F8E0DA100BF5275 /* RotationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180805C91F8E0DA100BF5275 /* RotationManager.swift */; };
+		180805CB1F8E0EC000BF5275 /* RotationManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = 180805C91F8E0DA100BF5275 /* RotationManager.swift */; };
+		180805D51F8E159F00BF5275 /* CallServerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180805D41F8E159F00BF5275 /* CallServerDataSource.swift */; };
+		180805E81F8E1B3E00BF5275 /* CallServerDeviceSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180805E71F8E1B3E00BF5275 /* CallServerDeviceSource.swift */; };
+		180805EA1F8E1B9B00BF5275 /* CallFinishGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180805E91F8E1B9B00BF5275 /* CallFinishGroundView.swift */; };
+		180805EC1F8E1CFC00BF5275 /* CallInvitePersonDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180805EB1F8E1CFC00BF5275 /* CallInvitePersonDataModel.swift */; };
+		180805EE1F8E1D6200BF5275 /* CallInviteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180805ED1F8E1D6200BF5275 /* CallInviteManager.swift */; };
+		180805F01F8E1E8000BF5275 /* CallManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180805EF1F8E1E8000BF5275 /* CallManagerController.swift */; };
+		180BBC1B1FA3102C00DA2F57 /* YLContactAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BBC171FA3102B00DA2F57 /* YLContactAPI.m */; };
+		180BBC1C1FA3102C00DA2F57 /* YLConfAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 180BBC181FA3102B00DA2F57 /* YLConfAPI.h */; };
+		180BBC1D1FA3102C00DA2F57 /* YLContactAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 180BBC191FA3102B00DA2F57 /* YLContactAPI.h */; };
+		180BBC1E1FA3102C00DA2F57 /* YLConfAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BBC1A1FA3102B00DA2F57 /* YLConfAPI.m */; };
+		180BBC211FA3103300DA2F57 /* YLServiceAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BBC1F1FA3103300DA2F57 /* YLServiceAPI.m */; };
+		180BBC221FA3103300DA2F57 /* YLServiceAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 180BBC201FA3103300DA2F57 /* YLServiceAPI.h */; };
+		180ED82F1FBB060E001B6A62 /* YLSDKMeetingLockMeetingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180ED82E1FBB060E001B6A62 /* YLSDKMeetingLockMeetingModel.swift */; };
+		180ED8311FBB070A001B6A62 /* YLSDKMeetingModifyConfRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180ED8301FBB070A001B6A62 /* YLSDKMeetingModifyConfRole.swift */; };
+		180ED8331FBB081D001B6A62 /* YLSDKMeetingSetSpeaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180ED8321FBB081D001B6A62 /* YLSDKMeetingSetSpeaker.swift */; };
+		1817EEF81F8D9F740088FA04 /* CallServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817EEF71F8D9F740088FA04 /* CallServer.m */; };
+		1817EEF91F8D9F740088FA04 /* CallServer.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1817EEF61F8D9F740088FA04 /* CallServer.h */; };
+		181AED511F90AE1A003E9B1C /* CallServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1817EEF61F8D9F740088FA04 /* CallServer.h */; };
+		181AED541F94AB8C003E9B1C /* CallStatisticsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181AED531F94AB8B003E9B1C /* CallStatisticsController.swift */; };
+		181AED621F94AFC8003E9B1C /* TransparentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 181AED5C1F94AFC8003E9B1C /* TransparentView.h */; };
+		181AED631F94AFC8003E9B1C /* TransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AED5D1F94AFC8003E9B1C /* TransparentView.m */; };
+		181AED641F94AFC8003E9B1C /* UINavigationBar+Transparent.h in Headers */ = {isa = PBXBuildFile; fileRef = 181AED5E1F94AFC8003E9B1C /* UINavigationBar+Transparent.h */; };
+		181AED651F94AFC8003E9B1C /* UINavigationBar+Transparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AED5F1F94AFC8003E9B1C /* UINavigationBar+Transparent.m */; };
+		181AED691F94B0D2003E9B1C /* SegementChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181AED681F94B0D2003E9B1C /* SegementChangeView.swift */; };
+		181AED6D1F94B171003E9B1C /* CallStatisticsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181AED6A1F94B171003E9B1C /* CallStatisticsHeaderCell.swift */; };
+		181AED6E1F94B171003E9B1C /* CallStatisticsHoriCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181AED6B1F94B171003E9B1C /* CallStatisticsHoriCell.swift */; };
+		181AED6F1F94B171003E9B1C /* CallStatisticsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181AED6C1F94B171003E9B1C /* CallStatisticsCell.swift */; };
+		181AED731F94B292003E9B1C /* CallStatisticsHorizontalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181AED721F94B291003E9B1C /* CallStatisticsHorizontalHeader.swift */; };
+		183CCC0F1F8DA2F2006020B6 /* liblogicService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 183CCC101F8DA2F2006020B6 /* liblogicService.a */; };
+		183CCC171F8DA810006020B6 /* CallSwiftAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CCC161F8DA810006020B6 /* CallSwiftAPI.swift */; };
+		183CCC1B1F8DA9C4006020B6 /* CallWholeDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CCC1A1F8DA9C4006020B6 /* CallWholeDefine.swift */; };
+		183CCC1D1F8DA9D9006020B6 /* CallWholeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CCC1C1F8DA9D9006020B6 /* CallWholeEnum.swift */; };
+		183CCC1F1F8DA9EC006020B6 /* CallNotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CCC1E1F8DA9EC006020B6 /* CallNotificationNames.swift */; };
+		183CCC301F8DB1DE006020B6 /* CallTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CCC2F1F8DB1DE006020B6 /* CallTest.swift */; };
+		183CCC311F8DB2A1006020B6 /* CallTest.swift in Headers */ = {isa = PBXBuildFile; fileRef = 183CCC2F1F8DB1DE006020B6 /* CallTest.swift */; };
+		183CCC501F8DB780006020B6 /* TKEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 183CCC451F8DB77F006020B6 /* TKEvent.h */; };
+		183CCC511F8DB780006020B6 /* TKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCC461F8DB77F006020B6 /* TKEvent.m */; };
+		183CCC521F8DB780006020B6 /* TKState.h in Headers */ = {isa = PBXBuildFile; fileRef = 183CCC471F8DB77F006020B6 /* TKState.h */; };
+		183CCC531F8DB780006020B6 /* TKState.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCC481F8DB77F006020B6 /* TKState.m */; };
+		183CCC541F8DB780006020B6 /* TKStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 183CCC491F8DB77F006020B6 /* TKStateMachine.h */; };
+		183CCC551F8DB780006020B6 /* TKStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCC4A1F8DB77F006020B6 /* TKStateMachine.m */; };
+		183CCC561F8DB780006020B6 /* TKTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 183CCC4B1F8DB77F006020B6 /* TKTransition.h */; };
+		183CCC571F8DB780006020B6 /* TKTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCC4C1F8DB77F006020B6 /* TKTransition.m */; };
+		183CCC581F8DB780006020B6 /* TransitionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 183CCC4D1F8DB77F006020B6 /* TransitionKit.h */; };
+		183CCC811F8DC90B006020B6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CCC801F8DC90B006020B6 /* Reachability.swift */; };
+		183CCCE31F8DE9EA006020B6 /* YLLogicAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 183CCCDB1F8DE9E9006020B6 /* YLLogicAPI.h */; };
+		183CCCE51F8DE9EA006020B6 /* YLLogicAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCCDD1F8DE9E9006020B6 /* YLLogicAPI.m */; };
+		184558321F988031008D8D85 /* CallServerObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 184558301F988031008D8D85 /* CallServerObject.h */; };
+		184558351F98813A008D8D85 /* CallServerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 184558341F988139008D8D85 /* CallServerObject.m */; };
+		1845583A1F988C4B008D8D85 /* CallServerObject.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 184558301F988031008D8D85 /* CallServerObject.h */; };
+		1845583C1F9898D5008D8D85 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845583B1F9898D5008D8D85 /* NSObject+Extension.swift */; };
+		184A10BE1FBC3F35003A3200 /* CallMeetingCellSourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A10BD1FBC3F35003A3200 /* CallMeetingCellSourceModel.swift */; };
+		184A10C01FBC5069003A3200 /* YLSDKMeetingSilenceORNotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A10BF1FBC5069003A3200 /* YLSDKMeetingSilenceORNotModel.swift */; };
+		184A10C21FBC5130003A3200 /* YLSDKMeetingMuteVideoOrNotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A10C11FBC5130003A3200 /* YLSDKMeetingMuteVideoOrNotModel.swift */; };
+		184A10C41FBC5200003A3200 /* YLSDKMeetingRemoveOutUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A10C31FBC5200003A3200 /* YLSDKMeetingRemoveOutUsers.swift */; };
+		184DB1021FCFAC0A0005183A /* YLSDKAnswerChannelCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DB1011FCFAC0A0005183A /* YLSDKAnswerChannelCall.swift */; };
+		184E9D331FB5A4ED00141888 /* YLSDKMeetingCancelInviteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9D321FB5A4ED00141888 /* YLSDKMeetingCancelInviteModel.swift */; };
+		184E9D351FB5A7B100141888 /* YLSDKMeetingAllowSpeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9D341FB5A7B100141888 /* YLSDKMeetingAllowSpeak.swift */; };
+		184E9D371FB5A87600141888 /* YLSDKMeetingAbleOrDisableMemberSpeaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9D361FB5A87600141888 /* YLSDKMeetingAbleOrDisableMemberSpeaker.swift */; };
+		184EB7E71F95FE0100D44445 /* libh323app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184EB7E61F95FE0100D44445 /* libh323app.a */; };
+		184EB7E91F95FE1100D44445 /* libsipapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184EB7E81F95FE1100D44445 /* libsipapp.a */; };
+		184EB7EB1F95FE1D00D44445 /* libVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184EB7EA1F95FE1C00D44445 /* libVideo.a */; };
+		184EB7ED1F95FE2A00D44445 /* libaudio_engine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184EB7EC1F95FE2A00D44445 /* libaudio_engine.a */; };
+		184ED2731FB9872C00DB0296 /* YLBaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184ED2741FB9872C00DB0296 /* YLBaseFramework.framework */; };
+		184ED2761FB989F600DB0296 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ED2751FB989F600DB0296 /* UIColor+Extension.swift */; };
+		184ED2781FB989FC00DB0296 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ED2771FB989FC00DB0296 /* UIFont+Extension.swift */; };
+		1855267E1F8DFBBA00357DF1 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855267D1F8DFBB900357DF1 /* SoundPlayer.swift */; };
+		185526811F8DFBD300357DF1 /* CallStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855267F1F8DFBD200357DF1 /* CallStateMachine.m */; };
+		185526821F8DFBD300357DF1 /* CallStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 185526801F8DFBD200357DF1 /* CallStateMachine.h */; };
+		185ED5E71FD16FF000E432BA /* SDKTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ED5E61FD16FF000E432BA /* SDKTimeManager.swift */; };
+		185ED5E91FD1720100E432BA /* CallReasonCodeToText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ED5E81FD1720100E432BA /* CallReasonCodeToText.swift */; };
+		185ED5ED1FD3807E00E432BA /* YLCallServerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ED5EC1FD3807E00E432BA /* YLCallServerDataSource.swift */; };
+		185ED5EF1FD3817A00E432BA /* YLNotifyHandleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ED5EE1FD3817A00E432BA /* YLNotifyHandleManager.swift */; };
+		185ED5F11FD39EA800E432BA /* CallManagerUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ED5F01FD39EA800E432BA /* CallManagerUIController.swift */; };
+		185ED5F31FD3A6DA00E432BA /* CallManagerUIGusterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ED5F21FD3A6DA00E432BA /* CallManagerUIGusterVC.swift */; };
+		185ED5F51FD3AB7800E432BA /* CallManagerUIMethodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ED5F41FD3AB7800E432BA /* CallManagerUIMethodVC.swift */; };
+		185ED5F71FD3C74800E432BA /* CallManagerUILayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ED5F61FD3C74800E432BA /* CallManagerUILayout.swift */; };
+		186418CF1F8F023800E15BF6 /* CallMoreCellDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418CE1F8F023800E15BF6 /* CallMoreCellDataModel.swift */; };
+		186418D11F8F029300E15BF6 /* YLDailListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418D01F8F029300E15BF6 /* YLDailListSection.swift */; };
+		186418D81F8F097800E15BF6 /* CallAngleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418D51F8F097800E15BF6 /* CallAngleView.swift */; };
+		186418D91F8F097800E15BF6 /* CallDtmfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418D61F8F097800E15BF6 /* CallDtmfView.swift */; };
+		186418DA1F8F097800E15BF6 /* CallMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418D71F8F097800E15BF6 /* CallMoreView.swift */; };
+		186418DD1F8F09D500E15BF6 /* CallLocalVideoMuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418DB1F8F09D500E15BF6 /* CallLocalVideoMuteView.swift */; };
+		186418DE1F8F09D500E15BF6 /* CallSmallVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418DC1F8F09D500E15BF6 /* CallSmallVideoView.swift */; };
+		186418E01F8F0A2100E15BF6 /* CallOutGoingVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418DF1F8F0A2100E15BF6 /* CallOutGoingVideoView.swift */; };
+		186418E21F8F0A6600E15BF6 /* CallOutGoingAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418E11F8F0A6600E15BF6 /* CallOutGoingAudioView.swift */; };
+		186418E41F8F0AC000E15BF6 /* CallInVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418E31F8F0AC000E15BF6 /* CallInVideoView.swift */; };
+		186418E61F8F0B1800E15BF6 /* CallInfoAndTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418E51F8F0B1800E15BF6 /* CallInfoAndTimeView.swift */; };
+		186418E81F8F0BA000E15BF6 /* CallMoreSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418E71F8F0BA000E15BF6 /* CallMoreSelectCell.swift */; };
+		186418EC1F8F0C7E00E15BF6 /* CallHoldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418EB1F8F0C7D00E15BF6 /* CallHoldView.swift */; };
+		186418EE1F8F0CCA00E15BF6 /* CallDtmfKeyContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186418ED1F8F0CCA00E15BF6 /* CallDtmfKeyContainerView.swift */; };
+		186D89071FB586550000FC2D /* YLSDKJoinConfByConfIDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D89061FB586550000FC2D /* YLSDKJoinConfByConfIDModel.swift */; };
+		186D890B1FB58B3D0000FC2D /* YLSDKMeetingMemberListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D890A1FB58B3D0000FC2D /* YLSDKMeetingMemberListModel.swift */; };
+		1888BAE21FC2B4B0004D2015 /* YLSDKInterFaceNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888BAE11FC2B4B0004D2015 /* YLSDKInterFaceNames.swift */; };
+		188BD4701F909F3800539984 /* CallServerInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 188BD46E1F909F3800539984 /* CallServerInterface.h */; };
+		188BD4711F909F3800539984 /* CallServerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BD46F1F909F3800539984 /* CallServerInterface.m */; };
+		18A6CAFD1FBBDD2C0026F8FC /* YLSDKInterFaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6CAFC1FBBDD2C0026F8FC /* YLSDKInterFaceManager.swift */; };
+		18AADC8E1F8F3D600038FC53 /* YLCallServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AADC8D1F8F3D5F0038FC53 /* YLCallServerManager.swift */; };
+		18AADC8F1F8F50E60038FC53 /* YLCallServerManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = 18AADC8D1F8F3D5F0038FC53 /* YLCallServerManager.swift */; };
+		18AADC901F8F50EF0038FC53 /* CallServerDataSource.swift in Headers */ = {isa = PBXBuildFile; fileRef = 180805D41F8E159F00BF5275 /* CallServerDataSource.swift */; };
+		18C1E4DA1FAC582900BC4BA7 /* langconv.py in Resources */ = {isa = PBXBuildFile; fileRef = 18C1E4CF1FAC582900BC4BA7 /* langconv.py */; };
+		18C1E4DB1FAC582900BC4BA7 /* langconv.pyc in Resources */ = {isa = PBXBuildFile; fileRef = 18C1E4D01FAC582900BC4BA7 /* langconv.pyc */; };
+		18C1E4DC1FAC582900BC4BA7 /* RunScript.sh in Resources */ = {isa = PBXBuildFile; fileRef = 18C1E4D11FAC582900BC4BA7 /* RunScript.sh */; };
+		18C1E4DD1FAC582900BC4BA7 /* swift_language.py in Resources */ = {isa = PBXBuildFile; fileRef = 18C1E4D21FAC582900BC4BA7 /* swift_language.py */; };
+		18C1E4DE1FAC582900BC4BA7 /* zh_wiki.py in Resources */ = {isa = PBXBuildFile; fileRef = 18C1E4D31FAC582900BC4BA7 /* zh_wiki.py */; };
+		18C1E4DF1FAC582900BC4BA7 /* zh_wiki.pyc in Resources */ = {isa = PBXBuildFile; fileRef = 18C1E4D41FAC582900BC4BA7 /* zh_wiki.pyc */; };
+		18C1E62D1FAC71C800BC4BA7 /* YLSDKLanguage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18C1E62C1FAC71C700BC4BA7 /* YLSDKLanguage.bundle */; };
+		18C1E7951FB134A700BC4BA7 /* YLSDKLanguage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18C1E7941FB134A600BC4BA7 /* YLSDKLanguage.bundle */; };
+		18D2FCCD1FB16BD1004A18F2 /* YLSdkLogAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D2FCCB1FB16BD1004A18F2 /* YLSdkLogAPI.h */; };
+		18D2FCCE1FB16BD1004A18F2 /* YLSdkLogAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2FCCC1FB16BD1004A18F2 /* YLSdkLogAPI.m */; };
+		18DCD00B1F96DDA1002CA0E6 /* ScheduleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCCFFA1F96DDA1002CA0E6 /* ScheduleManager.swift */; };
+		18DCD00C1F96DDA1002CA0E6 /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCCFFB1F96DDA1002CA0E6 /* ScheduleModel.swift */; };
+		18DCD00D1F96DDA1002CA0E6 /* YLLocalPushManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCCFFC1F96DDA1002CA0E6 /* YLLocalPushManager.swift */; };
+		18DCD0101F96DDA1002CA0E6 /* VoIPPushManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCD0021F96DDA1002CA0E6 /* VoIPPushManager.swift */; };
+		18DD925F1FB44ABC00E63EAE /* YLSDKAutoTestIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD925E1FB44ABC00E63EAE /* YLSDKAutoTestIDs.swift */; };
+		18DD92621FB5456700E63EAE /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD92631FB5456700E63EAE /* HandyJSON.framework */; };
+		18E018061F974AE000C499F8 /* YLSDKLanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E018051F974AE000C499F8 /* YLSDKLanguageManager.swift */; };
+		18E0180C1F9841B100C499F8 /* RegisterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E0180B1F9841B100C499F8 /* RegisterManager.swift */; };
+		482F54B81FB596BF0034EE5C /* YLSDKAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F54B11FB596BF0034EE5C /* YLSDKAlertView.swift */; };
+		482F54B91FB596BF0034EE5C /* YLSDKTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F54B21FB596BF0034EE5C /* YLSDKTextView.swift */; };
+		482F54BA1FB596BF0034EE5C /* YLSDKCancelLongPressTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F54B31FB596BF0034EE5C /* YLSDKCancelLongPressTextView.swift */; };
+		482F54BB1FB596BF0034EE5C /* YLWhiteTitleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F54B41FB596BF0034EE5C /* YLWhiteTitleController.swift */; };
+		482F54BC1FB596BF0034EE5C /* YLSDKAlertNoButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F54B51FB596BF0034EE5C /* YLSDKAlertNoButtonView.swift */; };
+		482F54BD1FB596BF0034EE5C /* YLBlueCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F54B61FB596BF0034EE5C /* YLBlueCallViewController.swift */; };
+		482F54BE1FB596BF0034EE5C /* YLSDKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F54B71FB596BF0034EE5C /* YLSDKTableViewCell.swift */; };
+		482F54C11FB5970A0034EE5C /* YLSDKDispatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F54BF1FB5970A0034EE5C /* YLSDKDispatchManager.swift */; };
+		482F54C21FB5970A0034EE5C /* YLSDKOperationQueueDm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F54C01FB5970A0034EE5C /* YLSDKOperationQueueDm.swift */; };
+		482F54C41FB597470034EE5C /* SDKNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F54C31FB597470034EE5C /* SDKNetworkManager.swift */; };
+		484729A61FB1C200005364B3 /* YLSDKLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484729A51FB1C200005364B3 /* YLSDKLogger.swift */; };
+		484729AC1FB1C553005364B3 /* CallMeetingControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484729AB1FB1C553005364B3 /* CallMeetingControlController.swift */; };
+		484729AE1FB1C57B005364B3 /* CallMeetingCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484729AD1FB1C57B005364B3 /* CallMeetingCellModel.swift */; };
+		484729B11FB1C5A1005364B3 /* CallMeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484729AF1FB1C5A0005364B3 /* CallMeetingCell.swift */; };
+		484729B21FB1C5A1005364B3 /* CallMeetingSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484729B01FB1C5A1005364B3 /* CallMeetingSectionHeader.swift */; };
+		4874DA7C1F973777009E9D60 /* SettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4874DA7B1F973777009E9D60 /* SettingManager.swift */; };
+		4874DA7F1F973A75009E9D60 /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4874DA7E1F973A75009E9D60 /* SettingModel.swift */; };
+		8F99CE681FCFF35A0099FC20 /* YLSDKLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F99CE671FCFF35A0099FC20 /* YLSDKLanguage.swift */; };
+		8FADB0001FD0DB7800E198F0 /* MeetingMemberMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADAFFA1FD0DB7700E198F0 /* MeetingMemberMessageController.swift */; };
+		8FADB0011FD0DB7800E198F0 /* MeetingMemberMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADAFFC1FD0DB7700E198F0 /* MeetingMemberMessage.swift */; };
+		8FADB0021FD0DB7800E198F0 /* MeetingMemberMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADAFFE1FD0DB7700E198F0 /* MeetingMemberMessageCell.swift */; };
+		8FADB0031FD0DB7800E198F0 /* MeetingMemberMessageEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADAFFF1FD0DB7700E198F0 /* MeetingMemberMessageEmptyView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1817EEF11F8D9F740088FA04 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1845583A1F988C4B008D8D85 /* CallServerObject.h in Copy Files */,
+				1817EEF91F8D9F740088FA04 /* CallServer.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		180805C51F8E024D00BF5275 /* AudioRouteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRouteManager.swift; sourceTree = "<group>"; };
+		180805C91F8E0DA100BF5275 /* RotationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationManager.swift; sourceTree = "<group>"; };
+		180805D41F8E159F00BF5275 /* CallServerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallServerDataSource.swift; sourceTree = "<group>"; };
+		180805E71F8E1B3E00BF5275 /* CallServerDeviceSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallServerDeviceSource.swift; sourceTree = "<group>"; };
+		180805E91F8E1B9B00BF5275 /* CallFinishGroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallFinishGroundView.swift; sourceTree = "<group>"; };
+		180805EB1F8E1CFC00BF5275 /* CallInvitePersonDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallInvitePersonDataModel.swift; sourceTree = "<group>"; };
+		180805ED1F8E1D6200BF5275 /* CallInviteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallInviteManager.swift; sourceTree = "<group>"; };
+		180805EF1F8E1E8000BF5275 /* CallManagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManagerController.swift; sourceTree = "<group>"; };
+		180BBC171FA3102B00DA2F57 /* YLContactAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLContactAPI.m; sourceTree = "<group>"; };
+		180BBC181FA3102B00DA2F57 /* YLConfAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLConfAPI.h; sourceTree = "<group>"; };
+		180BBC191FA3102B00DA2F57 /* YLContactAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLContactAPI.h; sourceTree = "<group>"; };
+		180BBC1A1FA3102B00DA2F57 /* YLConfAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLConfAPI.m; sourceTree = "<group>"; };
+		180BBC1F1FA3103300DA2F57 /* YLServiceAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLServiceAPI.m; sourceTree = "<group>"; };
+		180BBC201FA3103300DA2F57 /* YLServiceAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLServiceAPI.h; sourceTree = "<group>"; };
+		180ED82E1FBB060E001B6A62 /* YLSDKMeetingLockMeetingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKMeetingLockMeetingModel.swift; sourceTree = "<group>"; };
+		180ED8301FBB070A001B6A62 /* YLSDKMeetingModifyConfRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKMeetingModifyConfRole.swift; sourceTree = "<group>"; };
+		180ED8321FBB081D001B6A62 /* YLSDKMeetingSetSpeaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKMeetingSetSpeaker.swift; sourceTree = "<group>"; };
+		1817EEF31F8D9F740088FA04 /* libCallServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCallServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1817EEF61F8D9F740088FA04 /* CallServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallServer.h; sourceTree = "<group>"; };
+		1817EEF71F8D9F740088FA04 /* CallServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallServer.m; sourceTree = "<group>"; };
+		181AED531F94AB8B003E9B1C /* CallStatisticsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallStatisticsController.swift; sourceTree = "<group>"; };
+		181AED5C1F94AFC8003E9B1C /* TransparentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentView.h; sourceTree = "<group>"; };
+		181AED5D1F94AFC8003E9B1C /* TransparentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentView.m; sourceTree = "<group>"; };
+		181AED5E1F94AFC8003E9B1C /* UINavigationBar+Transparent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Transparent.h"; sourceTree = "<group>"; };
+		181AED5F1F94AFC8003E9B1C /* UINavigationBar+Transparent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Transparent.m"; sourceTree = "<group>"; };
+		181AED681F94B0D2003E9B1C /* SegementChangeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegementChangeView.swift; sourceTree = "<group>"; };
+		181AED6A1F94B171003E9B1C /* CallStatisticsHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallStatisticsHeaderCell.swift; sourceTree = "<group>"; };
+		181AED6B1F94B171003E9B1C /* CallStatisticsHoriCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallStatisticsHoriCell.swift; sourceTree = "<group>"; };
+		181AED6C1F94B171003E9B1C /* CallStatisticsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallStatisticsCell.swift; sourceTree = "<group>"; };
+		181AED721F94B291003E9B1C /* CallStatisticsHorizontalHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallStatisticsHorizontalHeader.swift; sourceTree = "<group>"; };
+		183CCC101F8DA2F2006020B6 /* liblogicService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblogicService.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		183CCC131F8DA4E7006020B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		183CCC151F8DA810006020B6 /* CallServer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CallServer-Bridging-Header.h"; sourceTree = "<group>"; };
+		183CCC161F8DA810006020B6 /* CallSwiftAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSwiftAPI.swift; sourceTree = "<group>"; };
+		183CCC1A1F8DA9C4006020B6 /* CallWholeDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallWholeDefine.swift; sourceTree = "<group>"; };
+		183CCC1C1F8DA9D9006020B6 /* CallWholeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallWholeEnum.swift; sourceTree = "<group>"; };
+		183CCC1E1F8DA9EC006020B6 /* CallNotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallNotificationNames.swift; sourceTree = "<group>"; };
+		183CCC2F1F8DB1DE006020B6 /* CallTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallTest.swift; sourceTree = "<group>"; };
+		183CCC451F8DB77F006020B6 /* TKEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKEvent.h; sourceTree = "<group>"; };
+		183CCC461F8DB77F006020B6 /* TKEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKEvent.m; sourceTree = "<group>"; };
+		183CCC471F8DB77F006020B6 /* TKState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKState.h; sourceTree = "<group>"; };
+		183CCC481F8DB77F006020B6 /* TKState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKState.m; sourceTree = "<group>"; };
+		183CCC491F8DB77F006020B6 /* TKStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKStateMachine.h; sourceTree = "<group>"; };
+		183CCC4A1F8DB77F006020B6 /* TKStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKStateMachine.m; sourceTree = "<group>"; };
+		183CCC4B1F8DB77F006020B6 /* TKTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTransition.h; sourceTree = "<group>"; };
+		183CCC4C1F8DB77F006020B6 /* TKTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTransition.m; sourceTree = "<group>"; };
+		183CCC4D1F8DB77F006020B6 /* TransitionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionKit.h; sourceTree = "<group>"; };
+		183CCC4E1F8DB77F006020B6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		183CCC4F1F8DB77F006020B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		183CCC801F8DC90B006020B6 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		183CCCDB1F8DE9E9006020B6 /* YLLogicAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLLogicAPI.h; sourceTree = "<group>"; };
+		183CCCDD1F8DE9E9006020B6 /* YLLogicAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLLogicAPI.m; sourceTree = "<group>"; };
+		184558301F988031008D8D85 /* CallServerObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallServerObject.h; sourceTree = "<group>"; };
+		184558341F988139008D8D85 /* CallServerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallServerObject.m; sourceTree = "<group>"; };
+		1845583B1F9898D5008D8D85 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		184A10BD1FBC3F35003A3200 /* CallMeetingCellSourceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallMeetingCellSourceModel.swift; sourceTree = "<group>"; };
+		184A10BF1FBC5069003A3200 /* YLSDKMeetingSilenceORNotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKMeetingSilenceORNotModel.swift; sourceTree = "<group>"; };
+		184A10C11FBC5130003A3200 /* YLSDKMeetingMuteVideoOrNotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKMeetingMuteVideoOrNotModel.swift; sourceTree = "<group>"; };
+		184A10C31FBC5200003A3200 /* YLSDKMeetingRemoveOutUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKMeetingRemoveOutUsers.swift; sourceTree = "<group>"; };
+		184DB1011FCFAC0A0005183A /* YLSDKAnswerChannelCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKAnswerChannelCall.swift; sourceTree = "<group>"; };
+		184E9D321FB5A4ED00141888 /* YLSDKMeetingCancelInviteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKMeetingCancelInviteModel.swift; sourceTree = "<group>"; };
+		184E9D341FB5A7B100141888 /* YLSDKMeetingAllowSpeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKMeetingAllowSpeak.swift; sourceTree = "<group>"; };
+		184E9D361FB5A87600141888 /* YLSDKMeetingAbleOrDisableMemberSpeaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKMeetingAbleOrDisableMemberSpeaker.swift; sourceTree = "<group>"; };
+		184EB7E61F95FE0100D44445 /* libh323app.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libh323app.a; path = ../logicService/yllibs/h323/libh323app.a; sourceTree = "<group>"; };
+		184EB7E81F95FE1100D44445 /* libsipapp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsipapp.a; path = ../logicService/yllibs/sip/libsipapp.a; sourceTree = "<group>"; };
+		184EB7EA1F95FE1C00D44445 /* libVideo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVideo.a; path = ../logicService/yllibs/video/libVideo.a; sourceTree = "<group>"; };
+		184EB7EC1F95FE2A00D44445 /* libaudio_engine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libaudio_engine.a; path = ../logicService/yllibs/audio/libaudio_engine.a; sourceTree = "<group>"; };
+		184ED2741FB9872C00DB0296 /* YLBaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YLBaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		184ED2751FB989F600DB0296 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		184ED2771FB989FC00DB0296 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		1855267D1F8DFBB900357DF1 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		1855267F1F8DFBD200357DF1 /* CallStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallStateMachine.m; sourceTree = "<group>"; };
+		185526801F8DFBD200357DF1 /* CallStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallStateMachine.h; sourceTree = "<group>"; };
+		185ED5E61FD16FF000E432BA /* SDKTimeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKTimeManager.swift; sourceTree = "<group>"; };
+		185ED5E81FD1720100E432BA /* CallReasonCodeToText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallReasonCodeToText.swift; sourceTree = "<group>"; };
+		185ED5EC1FD3807E00E432BA /* YLCallServerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLCallServerDataSource.swift; sourceTree = "<group>"; };
+		185ED5EE1FD3817A00E432BA /* YLNotifyHandleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLNotifyHandleManager.swift; sourceTree = "<group>"; };
+		185ED5F01FD39EA800E432BA /* CallManagerUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManagerUIController.swift; sourceTree = "<group>"; };
+		185ED5F21FD3A6DA00E432BA /* CallManagerUIGusterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManagerUIGusterVC.swift; sourceTree = "<group>"; };
+		185ED5F41FD3AB7800E432BA /* CallManagerUIMethodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManagerUIMethodVC.swift; sourceTree = "<group>"; };
+		185ED5F61FD3C74800E432BA /* CallManagerUILayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManagerUILayout.swift; sourceTree = "<group>"; };
+		186418CE1F8F023800E15BF6 /* CallMoreCellDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallMoreCellDataModel.swift; sourceTree = "<group>"; };
+		186418D01F8F029300E15BF6 /* YLDailListSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLDailListSection.swift; sourceTree = "<group>"; };
+		186418D51F8F097800E15BF6 /* CallAngleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallAngleView.swift; sourceTree = "<group>"; };
+		186418D61F8F097800E15BF6 /* CallDtmfView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallDtmfView.swift; sourceTree = "<group>"; };
+		186418D71F8F097800E15BF6 /* CallMoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallMoreView.swift; sourceTree = "<group>"; };
+		186418DB1F8F09D500E15BF6 /* CallLocalVideoMuteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallLocalVideoMuteView.swift; sourceTree = "<group>"; };
+		186418DC1F8F09D500E15BF6 /* CallSmallVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallSmallVideoView.swift; sourceTree = "<group>"; };
+		186418DF1F8F0A2100E15BF6 /* CallOutGoingVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallOutGoingVideoView.swift; sourceTree = "<group>"; };
+		186418E11F8F0A6600E15BF6 /* CallOutGoingAudioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallOutGoingAudioView.swift; sourceTree = "<group>"; };
+		186418E31F8F0AC000E15BF6 /* CallInVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallInVideoView.swift; sourceTree = "<group>"; };
+		186418E51F8F0B1800E15BF6 /* CallInfoAndTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallInfoAndTimeView.swift; sourceTree = "<group>"; };
+		186418E71F8F0BA000E15BF6 /* CallMoreSelectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallMoreSelectCell.swift; sourceTree = "<group>"; };
+		186418EB1F8F0C7D00E15BF6 /* CallHoldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallHoldView.swift; sourceTree = "<group>"; };
+		186418ED1F8F0CCA00E15BF6 /* CallDtmfKeyContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallDtmfKeyContainerView.swift; sourceTree = "<group>"; };
+		186D89061FB586550000FC2D /* YLSDKJoinConfByConfIDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKJoinConfByConfIDModel.swift; sourceTree = "<group>"; };
+		186D890A1FB58B3D0000FC2D /* YLSDKMeetingMemberListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKMeetingMemberListModel.swift; sourceTree = "<group>"; };
+		1888BAE11FC2B4B0004D2015 /* YLSDKInterFaceNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKInterFaceNames.swift; sourceTree = "<group>"; };
+		188BD46E1F909F3800539984 /* CallServerInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallServerInterface.h; sourceTree = "<group>"; };
+		188BD46F1F909F3800539984 /* CallServerInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallServerInterface.m; sourceTree = "<group>"; };
+		18A6CAFC1FBBDD2C0026F8FC /* YLSDKInterFaceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKInterFaceManager.swift; sourceTree = "<group>"; };
+		18AADC8D1F8F3D5F0038FC53 /* YLCallServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLCallServerManager.swift; sourceTree = "<group>"; };
+		18C1E4CF1FAC582900BC4BA7 /* langconv.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = langconv.py; sourceTree = "<group>"; };
+		18C1E4D01FAC582900BC4BA7 /* langconv.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = langconv.pyc; sourceTree = "<group>"; };
+		18C1E4D11FAC582900BC4BA7 /* RunScript.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RunScript.sh; sourceTree = "<group>"; };
+		18C1E4D21FAC582900BC4BA7 /* swift_language.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = swift_language.py; sourceTree = "<group>"; };
+		18C1E4D31FAC582900BC4BA7 /* zh_wiki.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = zh_wiki.py; sourceTree = "<group>"; };
+		18C1E4D41FAC582900BC4BA7 /* zh_wiki.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = zh_wiki.pyc; sourceTree = "<group>"; };
+		18C1E62C1FAC71C700BC4BA7 /* YLSDKLanguage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YLSDKLanguage.bundle; sourceTree = "<group>"; };
+		18C1E7941FB134A600BC4BA7 /* YLSDKLanguage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YLSDKLanguage.bundle; sourceTree = "<group>"; };
+		18D2FCCB1FB16BD1004A18F2 /* YLSdkLogAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSdkLogAPI.h; sourceTree = "<group>"; };
+		18D2FCCC1FB16BD1004A18F2 /* YLSdkLogAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSdkLogAPI.m; sourceTree = "<group>"; };
+		18DCCFE31F96DB2E002CA0E6 /* YealinkAPIResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YealinkAPIResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DCCFE51F96DB2E002CA0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DCCFFA1F96DDA1002CA0E6 /* ScheduleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleManager.swift; sourceTree = "<group>"; };
+		18DCCFFB1F96DDA1002CA0E6 /* ScheduleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
+		18DCCFFC1F96DDA1002CA0E6 /* YLLocalPushManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLLocalPushManager.swift; sourceTree = "<group>"; };
+		18DCD0021F96DDA1002CA0E6 /* VoIPPushManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoIPPushManager.swift; sourceTree = "<group>"; };
+		18DD925E1FB44ABC00E63EAE /* YLSDKAutoTestIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSDKAutoTestIDs.swift; sourceTree = "<group>"; };
+		18DD92631FB5456700E63EAE /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E018051F974AE000C499F8 /* YLSDKLanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLSDKLanguageManager.swift; sourceTree = "<group>"; };
+		18E0180B1F9841B100C499F8 /* RegisterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterManager.swift; sourceTree = "<group>"; };
+		18FE9CB91F94B611002E0D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FE9CBA1F94B611002E0D6F /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		18FE9CBB1F94B611002E0D6F /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		482F54B11FB596BF0034EE5C /* YLSDKAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLSDKAlertView.swift; sourceTree = "<group>"; };
+		482F54B21FB596BF0034EE5C /* YLSDKTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLSDKTextView.swift; sourceTree = "<group>"; };
+		482F54B31FB596BF0034EE5C /* YLSDKCancelLongPressTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLSDKCancelLongPressTextView.swift; sourceTree = "<group>"; };
+		482F54B41FB596BF0034EE5C /* YLWhiteTitleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLWhiteTitleController.swift; sourceTree = "<group>"; };
+		482F54B51FB596BF0034EE5C /* YLSDKAlertNoButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLSDKAlertNoButtonView.swift; sourceTree = "<group>"; };
+		482F54B61FB596BF0034EE5C /* YLBlueCallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLBlueCallViewController.swift; sourceTree = "<group>"; };
+		482F54B71FB596BF0034EE5C /* YLSDKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLSDKTableViewCell.swift; sourceTree = "<group>"; };
+		482F54BF1FB5970A0034EE5C /* YLSDKDispatchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLSDKDispatchManager.swift; sourceTree = "<group>"; };
+		482F54C01FB5970A0034EE5C /* YLSDKOperationQueueDm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLSDKOperationQueueDm.swift; sourceTree = "<group>"; };
+		482F54C31FB597470034EE5C /* SDKNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKNetworkManager.swift; sourceTree = "<group>"; };
+		484729A51FB1C200005364B3 /* YLSDKLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLSDKLogger.swift; sourceTree = "<group>"; };
+		484729AB1FB1C553005364B3 /* CallMeetingControlController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallMeetingControlController.swift; sourceTree = "<group>"; };
+		484729AD1FB1C57B005364B3 /* CallMeetingCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallMeetingCellModel.swift; sourceTree = "<group>"; };
+		484729AF1FB1C5A0005364B3 /* CallMeetingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallMeetingCell.swift; sourceTree = "<group>"; };
+		484729B01FB1C5A1005364B3 /* CallMeetingSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallMeetingSectionHeader.swift; sourceTree = "<group>"; };
+		4874DA7B1F973777009E9D60 /* SettingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingManager.swift; sourceTree = "<group>"; };
+		4874DA7E1F973A75009E9D60 /* SettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
+		8F99CE671FCFF35A0099FC20 /* YLSDKLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLSDKLanguage.swift; sourceTree = "<group>"; };
+		8FADAFFA1FD0DB7700E198F0 /* MeetingMemberMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingMemberMessageController.swift; sourceTree = "<group>"; };
+		8FADAFFC1FD0DB7700E198F0 /* MeetingMemberMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingMemberMessage.swift; sourceTree = "<group>"; };
+		8FADAFFE1FD0DB7700E198F0 /* MeetingMemberMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingMemberMessageCell.swift; sourceTree = "<group>"; };
+		8FADAFFF1FD0DB7700E198F0 /* MeetingMemberMessageEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingMemberMessageEmptyView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1817EEF01F8D9F740088FA04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184ED2731FB9872C00DB0296 /* YLBaseFramework.framework in Frameworks */,
+				18DD92621FB5456700E63EAE /* HandyJSON.framework in Frameworks */,
+				184EB7ED1F95FE2A00D44445 /* libaudio_engine.a in Frameworks */,
+				184EB7EB1F95FE1D00D44445 /* libVideo.a in Frameworks */,
+				184EB7E91F95FE1100D44445 /* libsipapp.a in Frameworks */,
+				184EB7E71F95FE0100D44445 /* libh323app.a in Frameworks */,
+				183CCC0F1F8DA2F2006020B6 /* liblogicService.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DCCFE01F96DB2E002CA0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1817EEEA1F8D9F730088FA04 = {
+			isa = PBXGroup;
+			children = (
+				1817EEF51F8D9F740088FA04 /* CallServer */,
+				18DCCFE41F96DB2E002CA0E6 /* YealinkAPIResources */,
+				1817EEF41F8D9F740088FA04 /* Products */,
+				183CCC0E1F8DA2F2006020B6 /* Frameworks */,
+				18C1E78F1FB069DE00BC4BA7 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		1817EEF41F8D9F740088FA04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1817EEF31F8D9F740088FA04 /* libCallServer.a */,
+				18DCCFE31F96DB2E002CA0E6 /* YealinkAPIResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1817EEF51F8D9F740088FA04 /* CallServer */ = {
+			isa = PBXGroup;
+			children = (
+				18DCCFEE1F96DDA1002CA0E6 /* BaseView */,
+				18DCCFF51F96DDA1002CA0E6 /* TargetManager */,
+				183CCC5E1F8DBD12006020B6 /* Resource */,
+				183CCC5B1F8DBB01006020B6 /* Extensions */,
+				183CCC421F8DB77F006020B6 /* ThirdClass */,
+				183CCC201F8DAD6E006020B6 /* Modules */,
+				183CCC191F8DA99E006020B6 /* Configure */,
+				183CCC141F8DA7F7006020B6 /* API */,
+				1817EEF61F8D9F740088FA04 /* CallServer.h */,
+				1817EEF71F8D9F740088FA04 /* CallServer.m */,
+				184558301F988031008D8D85 /* CallServerObject.h */,
+				184558341F988139008D8D85 /* CallServerObject.m */,
+				183CCC131F8DA4E7006020B6 /* PrefixHeader.pch */,
+			);
+			path = CallServer;
+			sourceTree = "<group>";
+		};
+		181AED5B1F94AFC8003E9B1C /* TransparentNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				181AED5C1F94AFC8003E9B1C /* TransparentView.h */,
+				181AED5D1F94AFC8003E9B1C /* TransparentView.m */,
+				181AED5E1F94AFC8003E9B1C /* UINavigationBar+Transparent.h */,
+				181AED5F1F94AFC8003E9B1C /* UINavigationBar+Transparent.m */,
+			);
+			path = TransparentNavigationBar;
+			sourceTree = "<group>";
+		};
+		183CCC0E1F8DA2F2006020B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				184ED2741FB9872C00DB0296 /* YLBaseFramework.framework */,
+				18DD92631FB5456700E63EAE /* HandyJSON.framework */,
+				184EB7EC1F95FE2A00D44445 /* libaudio_engine.a */,
+				184EB7EA1F95FE1C00D44445 /* libVideo.a */,
+				184EB7E81F95FE1100D44445 /* libsipapp.a */,
+				184EB7E61F95FE0100D44445 /* libh323app.a */,
+				183CCC101F8DA2F2006020B6 /* liblogicService.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		183CCC141F8DA7F7006020B6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				18D2FCCB1FB16BD1004A18F2 /* YLSdkLogAPI.h */,
+				18D2FCCC1FB16BD1004A18F2 /* YLSdkLogAPI.m */,
+				180BBC201FA3103300DA2F57 /* YLServiceAPI.h */,
+				180BBC1F1FA3103300DA2F57 /* YLServiceAPI.m */,
+				180BBC181FA3102B00DA2F57 /* YLConfAPI.h */,
+				180BBC1A1FA3102B00DA2F57 /* YLConfAPI.m */,
+				180BBC191FA3102B00DA2F57 /* YLContactAPI.h */,
+				180BBC171FA3102B00DA2F57 /* YLContactAPI.m */,
+				183CCCDB1F8DE9E9006020B6 /* YLLogicAPI.h */,
+				183CCCDD1F8DE9E9006020B6 /* YLLogicAPI.m */,
+				183CCC161F8DA810006020B6 /* CallSwiftAPI.swift */,
+				183CCC151F8DA810006020B6 /* CallServer-Bridging-Header.h */,
+				188BD46E1F909F3800539984 /* CallServerInterface.h */,
+				188BD46F1F909F3800539984 /* CallServerInterface.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		183CCC191F8DA99E006020B6 /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				183CCC1A1F8DA9C4006020B6 /* CallWholeDefine.swift */,
+				183CCC1C1F8DA9D9006020B6 /* CallWholeEnum.swift */,
+				183CCC1E1F8DA9EC006020B6 /* CallNotificationNames.swift */,
+				18DD925E1FB44ABC00E63EAE /* YLSDKAutoTestIDs.swift */,
+				1888BAE11FC2B4B0004D2015 /* YLSDKInterFaceNames.swift */,
+			);
+			path = Configure;
+			sourceTree = "<group>";
+		};
+		183CCC201F8DAD6E006020B6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8FADAFF91FD0DB7700E198F0 /* MeetingMemberMessage */,
+				18E018091F98413200C499F8 /* Regester */,
+				183CCC211F8DAE08006020B6 /* CallModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		183CCC211F8DAE08006020B6 /* CallModule */ = {
+			isa = PBXGroup;
+			children = (
+				183CCC221F8DAEAA006020B6 /* Controller */,
+				183CCC231F8DAEAA006020B6 /* DataModel */,
+				183CCC241F8DAEAA006020B6 /* Server */,
+				183CCC251F8DAEAA006020B6 /* View */,
+				183CCC261F8DAEAA006020B6 /* ViewModel */,
+			);
+			path = CallModule;
+			sourceTree = "<group>";
+		};
+		183CCC221F8DAEAA006020B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				181AED531F94AB8B003E9B1C /* CallStatisticsController.swift */,
+				484729AB1FB1C553005364B3 /* CallMeetingControlController.swift */,
+				180805EF1F8E1E8000BF5275 /* CallManagerController.swift */,
+				185ED5F01FD39EA800E432BA /* CallManagerUIController.swift */,
+				185ED5F41FD3AB7800E432BA /* CallManagerUIMethodVC.swift */,
+				185ED5F21FD3A6DA00E432BA /* CallManagerUIGusterVC.swift */,
+				185ED5F61FD3C74800E432BA /* CallManagerUILayout.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		183CCC231F8DAEAA006020B6 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				180805EB1F8E1CFC00BF5275 /* CallInvitePersonDataModel.swift */,
+				484729AD1FB1C57B005364B3 /* CallMeetingCellModel.swift */,
+				186418CE1F8F023800E15BF6 /* CallMoreCellDataModel.swift */,
+				184A10BD1FBC3F35003A3200 /* CallMeetingCellSourceModel.swift */,
+				185ED5E81FD1720100E432BA /* CallReasonCodeToText.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		183CCC241F8DAEAA006020B6 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				18AADC8D1F8F3D5F0038FC53 /* YLCallServerManager.swift */,
+				185ED5EC1FD3807E00E432BA /* YLCallServerDataSource.swift */,
+				185ED5EE1FD3817A00E432BA /* YLNotifyHandleManager.swift */,
+				180805ED1F8E1D6200BF5275 /* CallInviteManager.swift */,
+				180805E71F8E1B3E00BF5275 /* CallServerDeviceSource.swift */,
+				180805C51F8E024D00BF5275 /* AudioRouteManager.swift */,
+				185526801F8DFBD200357DF1 /* CallStateMachine.h */,
+				1855267F1F8DFBD200357DF1 /* CallStateMachine.m */,
+				1855267D1F8DFBB900357DF1 /* SoundPlayer.swift */,
+				183CCC2F1F8DB1DE006020B6 /* CallTest.swift */,
+				180805C91F8E0DA100BF5275 /* RotationManager.swift */,
+				180805D41F8E159F00BF5275 /* CallServerDataSource.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		183CCC251F8DAEAA006020B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				181AED681F94B0D2003E9B1C /* SegementChangeView.swift */,
+				186418ED1F8F0CCA00E15BF6 /* CallDtmfKeyContainerView.swift */,
+				186418EB1F8F0C7D00E15BF6 /* CallHoldView.swift */,
+				186418E51F8F0B1800E15BF6 /* CallInfoAndTimeView.swift */,
+				186418E31F8F0AC000E15BF6 /* CallInVideoView.swift */,
+				186418E11F8F0A6600E15BF6 /* CallOutGoingAudioView.swift */,
+				186418DF1F8F0A2100E15BF6 /* CallOutGoingVideoView.swift */,
+				186418DB1F8F09D500E15BF6 /* CallLocalVideoMuteView.swift */,
+				186418DC1F8F09D500E15BF6 /* CallSmallVideoView.swift */,
+				186418D51F8F097800E15BF6 /* CallAngleView.swift */,
+				186418D61F8F097800E15BF6 /* CallDtmfView.swift */,
+				186418D71F8F097800E15BF6 /* CallMoreView.swift */,
+				180805E91F8E1B9B00BF5275 /* CallFinishGroundView.swift */,
+				186418D01F8F029300E15BF6 /* YLDailListSection.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		183CCC261F8DAEAA006020B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				181AED721F94B291003E9B1C /* CallStatisticsHorizontalHeader.swift */,
+				484729AF1FB1C5A0005364B3 /* CallMeetingCell.swift */,
+				484729B01FB1C5A1005364B3 /* CallMeetingSectionHeader.swift */,
+				181AED6C1F94B171003E9B1C /* CallStatisticsCell.swift */,
+				181AED6A1F94B171003E9B1C /* CallStatisticsHeaderCell.swift */,
+				181AED6B1F94B171003E9B1C /* CallStatisticsHoriCell.swift */,
+				186418E71F8F0BA000E15BF6 /* CallMoreSelectCell.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		183CCC421F8DB77F006020B6 /* ThirdClass */ = {
+			isa = PBXGroup;
+			children = (
+				181AED5B1F94AFC8003E9B1C /* TransparentNavigationBar */,
+				183CCC7F1F8DC90B006020B6 /* Reachability */,
+				183CCC731F8DC5B7006020B6 /* YLLogger */,
+				183CCC431F8DB77F006020B6 /* TransitionKit */,
+			);
+			path = ThirdClass;
+			sourceTree = "<group>";
+		};
+		183CCC431F8DB77F006020B6 /* TransitionKit */ = {
+			isa = PBXGroup;
+			children = (
+				183CCC441F8DB77F006020B6 /* Code */,
+				183CCC4E1F8DB77F006020B6 /* LICENSE */,
+				183CCC4F1F8DB77F006020B6 /* README.md */,
+			);
+			path = TransitionKit;
+			sourceTree = "<group>";
+		};
+		183CCC441F8DB77F006020B6 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				183CCC451F8DB77F006020B6 /* TKEvent.h */,
+				183CCC461F8DB77F006020B6 /* TKEvent.m */,
+				183CCC471F8DB77F006020B6 /* TKState.h */,
+				183CCC481F8DB77F006020B6 /* TKState.m */,
+				183CCC491F8DB77F006020B6 /* TKStateMachine.h */,
+				183CCC4A1F8DB77F006020B6 /* TKStateMachine.m */,
+				183CCC4B1F8DB77F006020B6 /* TKTransition.h */,
+				183CCC4C1F8DB77F006020B6 /* TKTransition.m */,
+				183CCC4D1F8DB77F006020B6 /* TransitionKit.h */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		183CCC5B1F8DBB01006020B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				184ED2771FB989FC00DB0296 /* UIFont+Extension.swift */,
+				184ED2751FB989F600DB0296 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		183CCC5E1F8DBD12006020B6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				18FE9CB81F94B611002E0D6F /* Image */,
+				183CCC5F1F8DBD12006020B6 /* Language */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		183CCC5F1F8DBD12006020B6 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				8F99CE671FCFF35A0099FC20 /* YLSDKLanguage.swift */,
+				18C1E7941FB134A600BC4BA7 /* YLSDKLanguage.bundle */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		183CCC731F8DC5B7006020B6 /* YLLogger */ = {
+			isa = PBXGroup;
+			children = (
+				484729A51FB1C200005364B3 /* YLSDKLogger.swift */,
+			);
+			path = YLLogger;
+			sourceTree = "<group>";
+		};
+		183CCC7F1F8DC90B006020B6 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				183CCC801F8DC90B006020B6 /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		18C1E78F1FB069DE00BC4BA7 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				18C1E62C1FAC71C700BC4BA7 /* YLSDKLanguage.bundle */,
+				18C1E4D31FAC582900BC4BA7 /* zh_wiki.py */,
+				18C1E4D41FAC582900BC4BA7 /* zh_wiki.pyc */,
+				18C1E4D01FAC582900BC4BA7 /* langconv.pyc */,
+				18C1E4D21FAC582900BC4BA7 /* swift_language.py */,
+				18C1E4CF1FAC582900BC4BA7 /* langconv.py */,
+				18C1E4D11FAC582900BC4BA7 /* RunScript.sh */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		18DCCFE41F96DB2E002CA0E6 /* YealinkAPIResources */ = {
+			isa = PBXGroup;
+			children = (
+				18DCCFE51F96DB2E002CA0E6 /* Info.plist */,
+			);
+			path = YealinkAPIResources;
+			sourceTree = "<group>";
+		};
+		18DCCFEE1F96DDA1002CA0E6 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				482F54B61FB596BF0034EE5C /* YLBlueCallViewController.swift */,
+				482F54B51FB596BF0034EE5C /* YLSDKAlertNoButtonView.swift */,
+				482F54B11FB596BF0034EE5C /* YLSDKAlertView.swift */,
+				482F54B31FB596BF0034EE5C /* YLSDKCancelLongPressTextView.swift */,
+				482F54B71FB596BF0034EE5C /* YLSDKTableViewCell.swift */,
+				482F54B21FB596BF0034EE5C /* YLSDKTextView.swift */,
+				482F54B41FB596BF0034EE5C /* YLWhiteTitleController.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		18DCCFF51F96DDA1002CA0E6 /* TargetManager */ = {
+			isa = PBXGroup;
+			children = (
+				18DD92641FB546F200E63EAE /* SDKInterfaceManager */,
+				18E018041F974AE000C499F8 /* LanguageManager */,
+				4874DA7A1F97375A009E9D60 /* SettingManager */,
+				18DCCFF61F96DDA1002CA0E6 /* DispatchManager */,
+				18DCCFF91F96DDA1002CA0E6 /* LocalPushManager */,
+				18DCCFFD1F96DDA1002CA0E6 /* NetworkManager */,
+				18DCCFFF1F96DDA1002CA0E6 /* TimerManager */,
+				18DCD0011F96DDA1002CA0E6 /* VoipPushManager */,
+			);
+			path = TargetManager;
+			sourceTree = "<group>";
+		};
+		18DCCFF61F96DDA1002CA0E6 /* DispatchManager */ = {
+			isa = PBXGroup;
+			children = (
+				482F54BF1FB5970A0034EE5C /* YLSDKDispatchManager.swift */,
+				482F54C01FB5970A0034EE5C /* YLSDKOperationQueueDm.swift */,
+			);
+			path = DispatchManager;
+			sourceTree = "<group>";
+		};
+		18DCCFF91F96DDA1002CA0E6 /* LocalPushManager */ = {
+			isa = PBXGroup;
+			children = (
+				18DCCFFA1F96DDA1002CA0E6 /* ScheduleManager.swift */,
+				18DCCFFB1F96DDA1002CA0E6 /* ScheduleModel.swift */,
+				18DCCFFC1F96DDA1002CA0E6 /* YLLocalPushManager.swift */,
+			);
+			path = LocalPushManager;
+			sourceTree = "<group>";
+		};
+		18DCCFFD1F96DDA1002CA0E6 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				482F54C31FB597470034EE5C /* SDKNetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		18DCCFFF1F96DDA1002CA0E6 /* TimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				185ED5E61FD16FF000E432BA /* SDKTimeManager.swift */,
+			);
+			path = TimerManager;
+			sourceTree = "<group>";
+		};
+		18DCD0011F96DDA1002CA0E6 /* VoipPushManager */ = {
+			isa = PBXGroup;
+			children = (
+				18DCD0021F96DDA1002CA0E6 /* VoIPPushManager.swift */,
+			);
+			path = VoipPushManager;
+			sourceTree = "<group>";
+		};
+		18DD92641FB546F200E63EAE /* SDKInterfaceManager */ = {
+			isa = PBXGroup;
+			children = (
+				18DD92691FB5479300E63EAE /* YLSDKIngerfaceModel */,
+			);
+			path = SDKInterfaceManager;
+			sourceTree = "<group>";
+		};
+		18DD92691FB5479300E63EAE /* YLSDKIngerfaceModel */ = {
+			isa = PBXGroup;
+			children = (
+				186D89061FB586550000FC2D /* YLSDKJoinConfByConfIDModel.swift */,
+				186D890A1FB58B3D0000FC2D /* YLSDKMeetingMemberListModel.swift */,
+				184E9D321FB5A4ED00141888 /* YLSDKMeetingCancelInviteModel.swift */,
+				184E9D341FB5A7B100141888 /* YLSDKMeetingAllowSpeak.swift */,
+				184E9D361FB5A87600141888 /* YLSDKMeetingAbleOrDisableMemberSpeaker.swift */,
+				184A10BF1FBC5069003A3200 /* YLSDKMeetingSilenceORNotModel.swift */,
+				180ED82E1FBB060E001B6A62 /* YLSDKMeetingLockMeetingModel.swift */,
+				180ED8301FBB070A001B6A62 /* YLSDKMeetingModifyConfRole.swift */,
+				180ED8321FBB081D001B6A62 /* YLSDKMeetingSetSpeaker.swift */,
+				184DB1011FCFAC0A0005183A /* YLSDKAnswerChannelCall.swift */,
+				184A10C11FBC5130003A3200 /* YLSDKMeetingMuteVideoOrNotModel.swift */,
+				184A10C31FBC5200003A3200 /* YLSDKMeetingRemoveOutUsers.swift */,
+				18A6CAFC1FBBDD2C0026F8FC /* YLSDKInterFaceManager.swift */,
+			);
+			path = YLSDKIngerfaceModel;
+			sourceTree = "<group>";
+		};
+		18E018041F974AE000C499F8 /* LanguageManager */ = {
+			isa = PBXGroup;
+			children = (
+				18E018051F974AE000C499F8 /* YLSDKLanguageManager.swift */,
+			);
+			path = LanguageManager;
+			sourceTree = "<group>";
+		};
+		18E018091F98413200C499F8 /* Regester */ = {
+			isa = PBXGroup;
+			children = (
+				18E0180A1F98413200C499F8 /* Server */,
+			);
+			path = Regester;
+			sourceTree = "<group>";
+		};
+		18E0180A1F98413200C499F8 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				18E0180B1F9841B100C499F8 /* RegisterManager.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		18FE9CB81F94B611002E0D6F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				18FE9CB91F94B611002E0D6F /* Assets.xcassets */,
+				18FE9CBA1F94B611002E0D6F /* Image.xcassets */,
+				18FE9CBB1F94B611002E0D6F /* iTunesArtwork */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		4874DA7A1F97375A009E9D60 /* SettingManager */ = {
+			isa = PBXGroup;
+			children = (
+				1845583B1F9898D5008D8D85 /* NSObject+Extension.swift */,
+				4874DA7B1F973777009E9D60 /* SettingManager.swift */,
+				4874DA7E1F973A75009E9D60 /* SettingModel.swift */,
+			);
+			path = SettingManager;
+			sourceTree = "<group>";
+		};
+		8FADAFF91FD0DB7700E198F0 /* MeetingMemberMessage */ = {
+			isa = PBXGroup;
+			children = (
+				8FADAFFA1FD0DB7700E198F0 /* MeetingMemberMessageController.swift */,
+				8FADAFFB1FD0DB7700E198F0 /* Model */,
+				8FADAFFD1FD0DB7700E198F0 /* View */,
+			);
+			path = MeetingMemberMessage;
+			sourceTree = "<group>";
+		};
+		8FADAFFB1FD0DB7700E198F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FADAFFC1FD0DB7700E198F0 /* MeetingMemberMessage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FADAFFD1FD0DB7700E198F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FADAFFE1FD0DB7700E198F0 /* MeetingMemberMessageCell.swift */,
+				8FADAFFF1FD0DB7700E198F0 /* MeetingMemberMessageEmptyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		183CCC2C1F8DB11E006020B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188BD4701F909F3800539984 /* CallServerInterface.h in Headers */,
+				18AADC8F1F8F50E60038FC53 /* YLCallServerManager.swift in Headers */,
+				18AADC901F8F50EF0038FC53 /* CallServerDataSource.swift in Headers */,
+				181AED511F90AE1A003E9B1C /* CallServer.h in Headers */,
+				183CCC311F8DB2A1006020B6 /* CallTest.swift in Headers */,
+				180805CB1F8E0EC000BF5275 /* RotationManager.swift in Headers */,
+				181AED621F94AFC8003E9B1C /* TransparentView.h in Headers */,
+				180BBC221FA3103300DA2F57 /* YLServiceAPI.h in Headers */,
+				183CCC581F8DB780006020B6 /* TransitionKit.h in Headers */,
+				184558321F988031008D8D85 /* CallServerObject.h in Headers */,
+				18D2FCCD1FB16BD1004A18F2 /* YLSdkLogAPI.h in Headers */,
+				181AED641F94AFC8003E9B1C /* UINavigationBar+Transparent.h in Headers */,
+				180BBC1C1FA3102C00DA2F57 /* YLConfAPI.h in Headers */,
+				183CCCE31F8DE9EA006020B6 /* YLLogicAPI.h in Headers */,
+				183CCC501F8DB780006020B6 /* TKEvent.h in Headers */,
+				185526821F8DFBD300357DF1 /* CallStateMachine.h in Headers */,
+				183CCC561F8DB780006020B6 /* TKTransition.h in Headers */,
+				183CCC541F8DB780006020B6 /* TKStateMachine.h in Headers */,
+				180BBC1D1FA3102C00DA2F57 /* YLContactAPI.h in Headers */,
+				183CCC521F8DB780006020B6 /* TKState.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1817EEF21F8D9F740088FA04 /* CallServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1817EEFC1F8D9F740088FA04 /* Build configuration list for PBXNativeTarget "CallServer" */;
+			buildPhases = (
+				1817EEEF1F8D9F740088FA04 /* Sources */,
+				1817EEF01F8D9F740088FA04 /* Frameworks */,
+				1817EEF11F8D9F740088FA04 /* Copy Files */,
+				183CCC2C1F8DB11E006020B6 /* Headers */,
+				1845583D1F989B06008D8D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallServer;
+			productName = CallServer;
+			productReference = 1817EEF31F8D9F740088FA04 /* libCallServer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		18DCCFE21F96DB2E002CA0E6 /* YealinkAPIResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DCCFE81F96DB2E002CA0E6 /* Build configuration list for PBXNativeTarget "YealinkAPIResources" */;
+			buildPhases = (
+				18DCCFDF1F96DB2E002CA0E6 /* Sources */,
+				18DCCFE01F96DB2E002CA0E6 /* Frameworks */,
+				18DCCFE11F96DB2E002CA0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YealinkAPIResources;
+			productName = YealinkAPIResources;
+			productReference = 18DCCFE31F96DB2E002CA0E6 /* YealinkAPIResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1817EEEB1F8D9F730088FA04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = yealink;
+				TargetAttributes = {
+					1817EEF21F8D9F740088FA04 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					18DCCFE21F96DB2E002CA0E6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1817EEEE1F8D9F730088FA04 /* Build configuration list for PBXProject "CallServer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 1817EEEA1F8D9F730088FA04;
+			productRefGroup = 1817EEF41F8D9F740088FA04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1817EEF21F8D9F740088FA04 /* CallServer */,
+				18DCCFE21F96DB2E002CA0E6 /* YealinkAPIResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1845583D1F989B06008D8D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C1E62D1FAC71C800BC4BA7 /* YLSDKLanguage.bundle in Resources */,
+				18C1E4DE1FAC582900BC4BA7 /* zh_wiki.py in Resources */,
+				18C1E4DF1FAC582900BC4BA7 /* zh_wiki.pyc in Resources */,
+				18C1E4DB1FAC582900BC4BA7 /* langconv.pyc in Resources */,
+				18C1E4DD1FAC582900BC4BA7 /* swift_language.py in Resources */,
+				18C1E4DA1FAC582900BC4BA7 /* langconv.py in Resources */,
+				18C1E4DC1FAC582900BC4BA7 /* RunScript.sh in Resources */,
+				18C1E7951FB134A700BC4BA7 /* YLSDKLanguage.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DCCFE11F96DB2E002CA0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1817EEEF1F8D9F740088FA04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484729B21FB1C5A1005364B3 /* CallMeetingSectionHeader.swift in Sources */,
+				186418E01F8F0A2100E15BF6 /* CallOutGoingVideoView.swift in Sources */,
+				186418CF1F8F023800E15BF6 /* CallMoreCellDataModel.swift in Sources */,
+				183CCC1B1F8DA9C4006020B6 /* CallWholeDefine.swift in Sources */,
+				18DD925F1FB44ABC00E63EAE /* YLSDKAutoTestIDs.swift in Sources */,
+				183CCC811F8DC90B006020B6 /* Reachability.swift in Sources */,
+				482F54C41FB597470034EE5C /* SDKNetworkManager.swift in Sources */,
+				185ED5E71FD16FF000E432BA /* SDKTimeManager.swift in Sources */,
+				482F54BE1FB596BF0034EE5C /* YLSDKTableViewCell.swift in Sources */,
+				18DCD00B1F96DDA1002CA0E6 /* ScheduleManager.swift in Sources */,
+				8FADB0031FD0DB7800E198F0 /* MeetingMemberMessageEmptyView.swift in Sources */,
+				4874DA7F1F973A75009E9D60 /* SettingModel.swift in Sources */,
+				181AED6D1F94B171003E9B1C /* CallStatisticsHeaderCell.swift in Sources */,
+				482F54BC1FB596BF0034EE5C /* YLSDKAlertNoButtonView.swift in Sources */,
+				186418DA1F8F097800E15BF6 /* CallMoreView.swift in Sources */,
+				18DCD00C1F96DDA1002CA0E6 /* ScheduleModel.swift in Sources */,
+				180805CA1F8E0DA100BF5275 /* RotationManager.swift in Sources */,
+				184ED2761FB989F600DB0296 /* UIColor+Extension.swift in Sources */,
+				185ED5ED1FD3807E00E432BA /* YLCallServerDataSource.swift in Sources */,
+				184558351F98813A008D8D85 /* CallServerObject.m in Sources */,
+				18D2FCCE1FB16BD1004A18F2 /* YLSdkLogAPI.m in Sources */,
+				184A10C41FBC5200003A3200 /* YLSDKMeetingRemoveOutUsers.swift in Sources */,
+				8FADB0001FD0DB7800E198F0 /* MeetingMemberMessageController.swift in Sources */,
+				18E0180C1F9841B100C499F8 /* RegisterManager.swift in Sources */,
+				186418E61F8F0B1800E15BF6 /* CallInfoAndTimeView.swift in Sources */,
+				180ED8311FBB070A001B6A62 /* YLSDKMeetingModifyConfRole.swift in Sources */,
+				183CCC301F8DB1DE006020B6 /* CallTest.swift in Sources */,
+				180ED82F1FBB060E001B6A62 /* YLSDKMeetingLockMeetingModel.swift in Sources */,
+				183CCC531F8DB780006020B6 /* TKState.m in Sources */,
+				184DB1021FCFAC0A0005183A /* YLSDKAnswerChannelCall.swift in Sources */,
+				1845583C1F9898D5008D8D85 /* NSObject+Extension.swift in Sources */,
+				183CCC551F8DB780006020B6 /* TKStateMachine.m in Sources */,
+				183CCC171F8DA810006020B6 /* CallSwiftAPI.swift in Sources */,
+				181AED731F94B292003E9B1C /* CallStatisticsHorizontalHeader.swift in Sources */,
+				8F99CE681FCFF35A0099FC20 /* YLSDKLanguage.swift in Sources */,
+				183CCC1D1F8DA9D9006020B6 /* CallWholeEnum.swift in Sources */,
+				186418E41F8F0AC000E15BF6 /* CallInVideoView.swift in Sources */,
+				180805EA1F8E1B9B00BF5275 /* CallFinishGroundView.swift in Sources */,
+				8FADB0021FD0DB7800E198F0 /* MeetingMemberMessageCell.swift in Sources */,
+				180805EC1F8E1CFC00BF5275 /* CallInvitePersonDataModel.swift in Sources */,
+				186D89071FB586550000FC2D /* YLSDKJoinConfByConfIDModel.swift in Sources */,
+				484729B11FB1C5A1005364B3 /* CallMeetingCell.swift in Sources */,
+				181AED6F1F94B171003E9B1C /* CallStatisticsCell.swift in Sources */,
+				482F54C21FB5970A0034EE5C /* YLSDKOperationQueueDm.swift in Sources */,
+				180ED8331FBB081D001B6A62 /* YLSDKMeetingSetSpeaker.swift in Sources */,
+				181AED691F94B0D2003E9B1C /* SegementChangeView.swift in Sources */,
+				482F54C11FB5970A0034EE5C /* YLSDKDispatchManager.swift in Sources */,
+				482F54BA1FB596BF0034EE5C /* YLSDKCancelLongPressTextView.swift in Sources */,
+				184E9D371FB5A87600141888 /* YLSDKMeetingAbleOrDisableMemberSpeaker.swift in Sources */,
+				186418E21F8F0A6600E15BF6 /* CallOutGoingAudioView.swift in Sources */,
+				186418DD1F8F09D500E15BF6 /* CallLocalVideoMuteView.swift in Sources */,
+				482F54BB1FB596BF0034EE5C /* YLWhiteTitleController.swift in Sources */,
+				18DCD00D1F96DDA1002CA0E6 /* YLLocalPushManager.swift in Sources */,
+				180805E81F8E1B3E00BF5275 /* CallServerDeviceSource.swift in Sources */,
+				180805EE1F8E1D6200BF5275 /* CallInviteManager.swift in Sources */,
+				185526811F8DFBD300357DF1 /* CallStateMachine.m in Sources */,
+				184A10C21FBC5130003A3200 /* YLSDKMeetingMuteVideoOrNotModel.swift in Sources */,
+				184E9D351FB5A7B100141888 /* YLSDKMeetingAllowSpeak.swift in Sources */,
+				183CCC511F8DB780006020B6 /* TKEvent.m in Sources */,
+				180BBC1E1FA3102C00DA2F57 /* YLConfAPI.m in Sources */,
+				186418D11F8F029300E15BF6 /* YLDailListSection.swift in Sources */,
+				186418D91F8F097800E15BF6 /* CallDtmfView.swift in Sources */,
+				183CCCE51F8DE9EA006020B6 /* YLLogicAPI.m in Sources */,
+				1855267E1F8DFBBA00357DF1 /* SoundPlayer.swift in Sources */,
+				186418D81F8F097800E15BF6 /* CallAngleView.swift in Sources */,
+				8FADB0011FD0DB7800E198F0 /* MeetingMemberMessage.swift in Sources */,
+				185ED5F11FD39EA800E432BA /* CallManagerUIController.swift in Sources */,
+				180805C61F8E024D00BF5275 /* AudioRouteManager.swift in Sources */,
+				4874DA7C1F973777009E9D60 /* SettingManager.swift in Sources */,
+				184A10BE1FBC3F35003A3200 /* CallMeetingCellSourceModel.swift in Sources */,
+				185ED5F31FD3A6DA00E432BA /* CallManagerUIGusterVC.swift in Sources */,
+				184ED2781FB989FC00DB0296 /* UIFont+Extension.swift in Sources */,
+				183CCC1F1F8DA9EC006020B6 /* CallNotificationNames.swift in Sources */,
+				184A10C01FBC5069003A3200 /* YLSDKMeetingSilenceORNotModel.swift in Sources */,
+				181AED6E1F94B171003E9B1C /* CallStatisticsHoriCell.swift in Sources */,
+				185ED5E91FD1720100E432BA /* CallReasonCodeToText.swift in Sources */,
+				180BBC1B1FA3102C00DA2F57 /* YLContactAPI.m in Sources */,
+				185ED5EF1FD3817A00E432BA /* YLNotifyHandleManager.swift in Sources */,
+				18AADC8E1F8F3D600038FC53 /* YLCallServerManager.swift in Sources */,
+				181AED541F94AB8C003E9B1C /* CallStatisticsController.swift in Sources */,
+				482F54B91FB596BF0034EE5C /* YLSDKTextView.swift in Sources */,
+				482F54BD1FB596BF0034EE5C /* YLBlueCallViewController.swift in Sources */,
+				185ED5F51FD3AB7800E432BA /* CallManagerUIMethodVC.swift in Sources */,
+				180805F01F8E1E8000BF5275 /* CallManagerController.swift in Sources */,
+				186D890B1FB58B3D0000FC2D /* YLSDKMeetingMemberListModel.swift in Sources */,
+				1888BAE21FC2B4B0004D2015 /* YLSDKInterFaceNames.swift in Sources */,
+				18A6CAFD1FBBDD2C0026F8FC /* YLSDKInterFaceManager.swift in Sources */,
+				186418EE1F8F0CCA00E15BF6 /* CallDtmfKeyContainerView.swift in Sources */,
+				184E9D331FB5A4ED00141888 /* YLSDKMeetingCancelInviteModel.swift in Sources */,
+				18DCD0101F96DDA1002CA0E6 /* VoIPPushManager.swift in Sources */,
+				482F54B81FB596BF0034EE5C /* YLSDKAlertView.swift in Sources */,
+				180805D51F8E159F00BF5275 /* CallServerDataSource.swift in Sources */,
+				180BBC211FA3103300DA2F57 /* YLServiceAPI.m in Sources */,
+				18E018061F974AE000C499F8 /* YLSDKLanguageManager.swift in Sources */,
+				186418E81F8F0BA000E15BF6 /* CallMoreSelectCell.swift in Sources */,
+				1817EEF81F8D9F740088FA04 /* CallServer.m in Sources */,
+				484729AE1FB1C57B005364B3 /* CallMeetingCellModel.swift in Sources */,
+				185ED5F71FD3C74800E432BA /* CallManagerUILayout.swift in Sources */,
+				484729A61FB1C200005364B3 /* YLSDKLogger.swift in Sources */,
+				188BD4711F909F3800539984 /* CallServerInterface.m in Sources */,
+				181AED631F94AFC8003E9B1C /* TransparentView.m in Sources */,
+				484729AC1FB1C553005364B3 /* CallMeetingControlController.swift in Sources */,
+				186418DE1F8F09D500E15BF6 /* CallSmallVideoView.swift in Sources */,
+				183CCC571F8DB780006020B6 /* TKTransition.m in Sources */,
+				181AED651F94AFC8003E9B1C /* UINavigationBar+Transparent.m in Sources */,
+				186418EC1F8F0C7E00E15BF6 /* CallHoldView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DCCFDF1F96DB2E002CA0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1817EEFA1F8D9F740088FA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1817EEFB1F8D9F740088FA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1817EEFD1F8D9F740088FA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LB6734HPWJ;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CallServer/PrefixHeader.pch";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../logicService/build/Debug",
+					"$(PROJECT_DIR)/../logicService/yllibs/audio",
+					"$(PROJECT_DIR)/../logicService/yllibs/h323",
+					"$(PROJECT_DIR)/../logicService/yllibs/sip",
+					"$(PROJECT_DIR)/../logicService/yllibs/video",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CallServer/API/CallServer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../logicService/logicService $(PROJECT_DIR)/../logicService/base/extern/engine";
+			};
+			name = Debug;
+		};
+		1817EEFE1F8D9F740088FA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LB6734HPWJ;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CallServer/PrefixHeader.pch";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../logicService/build/Debug",
+					"$(PROJECT_DIR)/../logicService/yllibs/audio",
+					"$(PROJECT_DIR)/../logicService/yllibs/h323",
+					"$(PROJECT_DIR)/../logicService/yllibs/sip",
+					"$(PROJECT_DIR)/../logicService/yllibs/video",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CallServer/API/CallServer-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../logicService/logicService $(PROJECT_DIR)/../logicService/base/extern/engine";
+			};
+			name = Release;
+		};
+		18DCCFE61F96DB2E002CA0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = LB6734HPWJ;
+				INFOPLIST_FILE = YealinkAPIResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yealink.Odin-UC.YealinkAPIResources";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.0;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		18DCCFE71F96DB2E002CA0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = LB6734HPWJ;
+				INFOPLIST_FILE = YealinkAPIResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yealink.Odin-UC.YealinkAPIResources";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.0;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1817EEEE1F8D9F730088FA04 /* Build configuration list for PBXProject "CallServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1817EEFA1F8D9F740088FA04 /* Debug */,
+				1817EEFB1F8D9F740088FA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1817EEFC1F8D9F740088FA04 /* Build configuration list for PBXNativeTarget "CallServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1817EEFD1F8D9F740088FA04 /* Debug */,
+				1817EEFE1F8D9F740088FA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DCCFE81F96DB2E002CA0E6 /* Build configuration list for PBXNativeTarget "YealinkAPIResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DCCFE61F96DB2E002CA0E6 /* Debug */,
+				18DCCFE71F96DB2E002CA0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1817EEEB1F8D9F730088FA04 /* Project object */;
+}

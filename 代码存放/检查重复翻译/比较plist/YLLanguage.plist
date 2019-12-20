@@ -1,0 +1,5036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Language</key>
+	<dict>
+		<key>%d day</key>
+		<dict>
+			<key>en</key>
+			<string> %d day</string>
+			<key>es</key>
+			<string> %d day</string>
+			<key>zh-Hans</key>
+			<string>%d天</string>
+			<key>zh-Hant</key>
+			<string>%d天</string>
+		</dict>
+		<key>%d hour</key>
+		<dict>
+			<key>en</key>
+			<string> %d hour</string>
+			<key>es</key>
+			<string> %d hour</string>
+			<key>zh-Hans</key>
+			<string>%d小时</string>
+			<key>zh-Hant</key>
+			<string>%d小時</string>
+		</dict>
+		<key>%d minute</key>
+		<dict>
+			<key>en</key>
+			<string> %d minute </string>
+			<key>es</key>
+			<string> %d minute </string>
+			<key>zh-Hans</key>
+			<string>%d分钟</string>
+			<key>zh-Hant</key>
+			<string>%d分鐘</string>
+		</dict>
+		<key>%d numbers</key>
+		<dict>
+			<key>en</key>
+			<string>%d numbers</string>
+			<key>es</key>
+			<string>%d números</string>
+			<key>zh-Hans</key>
+			<string>%d个号码</string>
+			<key>zh-Hant</key>
+			<string>%d個號碼</string>
+		</dict>
+		<key>'s Ad-hoc meeting</key>
+		<dict>
+			<key>en</key>
+			<string>'s video conference</string>
+			<key>es</key>
+			<string>Conferencia de video</string>
+			<key>zh-Hans</key>
+			<string>的视频会议</string>
+			<key>zh-Hant</key>
+			<string>的視頻會議</string>
+		</dict>
+		<key>... Join the meeting</key>
+		<dict>
+			<key>en</key>
+			<string>... Join the meeting</string>
+			<key>es</key>
+			<string>… Unete a la reunión</string>
+			<key>zh-Hans</key>
+			<string>等加入会议</string>
+			<key>zh-Hant</key>
+			<string>等加入會議</string>
+		</dict>
+		<key>1. Turn on the phone " Settings "and turn on the" Wi-Fi "light on.</key>
+		<dict>
+			<key>en</key>
+			<string>1. Turn on the phone " Settings "and turn on the" Wi-Fi "light on.</string>
+			<key>es</key>
+			<string>1. Encender el teléfono" Configuraciónes " encender el " Wi-Fi " luz encendida</string>
+			<key>zh-Hans</key>
+			<string>1.打开手机"设置"并把"Wi-Fi"开关保持开启状态。</string>
+			<key>zh-Hant</key>
+			<string>1.打開手機"設置"並把"Wi-Fi"開關保持開啟狀態。</string>
+		</dict>
+		<key>2. Turn on the phone " Settings "- " Universal "- " Cellular mobile network "and keep the cellular mobile network switch on</key>
+		<dict>
+			<key>en</key>
+			<string>2. Turn on " Settings "- " Universal "- " Cellular mobile network "and turn on the cellular mobile network switch</string>
+			<key>es</key>
+			<string>2. Encender " Configuraciones " - " Universal " - " Red móvil celular " y encender el switch de red móvil celular</string>
+			<key>zh-Hans</key>
+			<string>2.打开手机"设置"-"通用"-"蜂窝移动网络"，并把"蜂窝移动网络"开关保持开启状态 </string>
+			<key>zh-Hant</key>
+			<string>2.打開手機"設置"-"通用"-"蜂窩移動網絡"，並把"蜂窩移動網絡"開關保持開啟狀態 </string>
+		</dict>
+		<key>3. If you can not connect to the network, please check the phone access " Wi-Fi "has access to the Internet or consult the network operator</key>
+		<dict>
+			<key>en</key>
+			<string>3. If you can not connect to the network, please check the " Wi-Fi " if could access to the Internet, or you can try to contact the network provider</string>
+			<key>es</key>
+			<string>3. Si no te puedes conectar a la red celular, por favor revisa el " Wi-Fi " si puedes accesar a internet, o puedes contactar a tu provedor de red</string>
+			<key>zh-Hans</key>
+			<string>3.如果任无法连接网络，请检查手机接入的"Wi-Fi"是否已接入互联网或者咨询网络运营商</string>
+			<key>zh-Hant</key>
+			<string>3.如果任無法連接網絡，請檢查手機接入的"Wi-Fi"是否已接入互聯網或者咨詢網絡運營商</string>
+		</dict>
+		<key>323 Account</key>
+		<dict>
+			<key>en</key>
+			<string>H.323 Account</string>
+			<key>es</key>
+			<string>Cuenta H.323</string>
+			<key>zh-Hans</key>
+			<string>H.323</string>
+			<key>zh-Hant</key>
+			<string>H.323</string>
+		</dict>
+		<key>About</key>
+		<dict>
+			<key>en</key>
+			<string>About</string>
+			<key>es</key>
+			<string>Acerca de</string>
+			<key>zh-Hans</key>
+			<string>关于</string>
+			<key>zh-Hant</key>
+			<string>關於</string>
+		</dict>
+		<key>Account</key>
+		<dict>
+			<key>en</key>
+			<string>Account</string>
+			<key>es</key>
+			<string>Cuenta</string>
+			<key>zh-Hans</key>
+			<string>用户名</string>
+			<key>zh-Hant</key>
+			<string>用戶名</string>
+		</dict>
+		<key>Account Type</key>
+		<dict>
+			<key>en</key>
+			<string>Account Type</string>
+			<key>es</key>
+			<string>Tipo de cuenta</string>
+			<key>zh-Hans</key>
+			<string>账号类型</string>
+			<key>zh-Hant</key>
+			<string>賬號類型</string>
+		</dict>
+		<key>Account login</key>
+		<dict>
+			<key>en</key>
+			<string>Account Login</string>
+			<key>es</key>
+			<string>Cuenta de inicio de sesión</string>
+			<key>zh-Hans</key>
+			<string>账号登录</string>
+			<key>zh-Hant</key>
+			<string>賬號登錄</string>
+		</dict>
+		<key>Account you entered does not exist, please enter again</key>
+		<dict>
+			<key>en</key>
+			<string>The account you entered does not exist, please try again</string>
+			<key>es</key>
+			<string>La cuenta que has ingresado no existe, por favor intente más tarde</string>
+			<key>zh-Hans</key>
+			<string>您输入的账号不存在，请重新输入</string>
+			<key>zh-Hant</key>
+			<string>您輸入的賬號不存在，請重新輸入</string>
+		</dict>
+		<key>Add contact</key>
+		<dict>
+			<key>en</key>
+			<string>Add contact</string>
+			<key>es</key>
+			<string>Añadir contacto</string>
+			<key>zh-Hans</key>
+			<string>添加为联系人</string>
+			<key>zh-Hant</key>
+			<string>添加為聯繫人</string>
+		</dict>
+		<key>Add fail,contact volume is full!</key>
+		<dict>
+			<key>en</key>
+			<string>Failed to add, contact book is full</string>
+			<key>es</key>
+			<string>Error al añadir, directorio de contactos lleno.</string>
+			<key>zh-Hans</key>
+			<string>添加失败, 地址簿已满!</string>
+			<key>zh-Hant</key>
+			<string>添加失敗, 地址簿已滿!</string>
+		</dict>
+		<key>Add fail,the contact is exsit!</key>
+		<dict>
+			<key>en</key>
+			<string>Failed to add, the contact already exsits.</string>
+			<key>es</key>
+			<string>Error al añadir, el contacto ya existe</string>
+			<key>zh-Hans</key>
+			<string>添加失败!该联系人已存在!</string>
+			<key>zh-Hant</key>
+			<string>添加失敗!該聯繫人已存在!</string>
+		</dict>
+		<key>Address</key>
+		<dict>
+			<key>en</key>
+			<string>Address</string>
+			<key>es</key>
+			<string>Address</string>
+			<key>zh-Hans</key>
+			<string>地点</string>
+			<key>zh-Hant</key>
+			<string>地點</string>
+		</dict>
+		<key>Advance Settings</key>
+		<dict>
+			<key>en</key>
+			<string>Advanced</string>
+			<key>es</key>
+			<string>Configuraciónes avanzadas</string>
+			<key>zh-Hans</key>
+			<string>高级设置</string>
+			<key>zh-Hant</key>
+			<string>高級設置</string>
+		</dict>
+		<key>Already Over</key>
+		<dict>
+			<key>en</key>
+			<string>Already Over</string>
+			<key>es</key>
+			<string>Already Over</string>
+			<key>zh-Hans</key>
+			<string>已结束</string>
+			<key>zh-Hant</key>
+			<string>已結束</string>
+		</dict>
+		<key>App icon shows unread messages count</key>
+		<dict>
+			<key>en</key>
+			<string>App icon display unread messages number</string>
+			<key>es</key>
+			<string>El ícono de la app muestra el número de mensajes no leídos</string>
+			<key>zh-Hans</key>
+			<string>桌面图标显示未读消息数</string>
+			<key>zh-Hant</key>
+			<string>桌面圖標顯示未讀消息數</string>
+		</dict>
+		<key>At least one codec is enabled!</key>
+		<dict>
+			<key>en</key>
+			<string>At least one codec is enabled!</string>
+			<key>es</key>
+			<string>Al menos un codec está habilitado</string>
+			<key>zh-Hans</key>
+			<string>至少启用一个codec!</string>
+			<key>zh-Hant</key>
+			<string>至少啟用一個codec!</string>
+		</dict>
+		<key>Audio</key>
+		<dict>
+			<key>en</key>
+			<string>Audio</string>
+			<key>es</key>
+			<string>Audio</string>
+			<key>zh-Hans</key>
+			<string>音频</string>
+			<key>zh-Hant</key>
+			<string>音頻</string>
+		</dict>
+		<key>Audio Codec</key>
+		<dict>
+			<key>en</key>
+			<string>Audio Codec</string>
+			<key>es</key>
+			<string>Codec de audio</string>
+			<key>zh-Hans</key>
+			<string>音频编解码</string>
+			<key>zh-Hant</key>
+			<string>音頻編解碼</string>
+		</dict>
+		<key>Audio Settings</key>
+		<dict>
+			<key>en</key>
+			<string>Audio Settings</string>
+			<key>es</key>
+			<string>Audio Settings</string>
+			<key>zh-Hans</key>
+			<string>音频设置</string>
+			<key>zh-Hant</key>
+			<string>音頻設置</string>
+		</dict>
+		<key>Audio call</key>
+		<dict>
+			<key>en</key>
+			<string>Audio Call</string>
+			<key>es</key>
+			<string>Llamada de audio</string>
+			<key>zh-Hans</key>
+			<string>音频呼叫</string>
+			<key>zh-Hant</key>
+			<string>音頻呼叫</string>
+		</dict>
+		<key>Authentication failed</key>
+		<dict>
+			<key>en</key>
+			<string>Authentication failed</string>
+			<key>es</key>
+			<string>Error de autenticación</string>
+			<key>zh-Hans</key>
+			<string>鉴权失败</string>
+			<key>zh-Hant</key>
+			<string>鑒權失敗</string>
+		</dict>
+		<key>Auto</key>
+		<dict>
+			<key>en</key>
+			<string>Auto</string>
+			<key>es</key>
+			<string>Auto</string>
+			<key>zh-Hans</key>
+			<string>自动</string>
+			<key>zh-Hant</key>
+			<string>自動</string>
+		</dict>
+		<key>Auxiliary flow</key>
+		<dict>
+			<key>en</key>
+			<string>Auxiliary flow</string>
+			<key>es</key>
+			<string>Flujo auxiliar</string>
+			<key>zh-Hans</key>
+			<string>辅流</string>
+			<key>zh-Hant</key>
+			<string>輔流</string>
+		</dict>
+		<key>Bad event</key>
+		<dict>
+			<key>en</key>
+			<string>Wrong event</string>
+			<key>es</key>
+			<string>Evento equivocado</string>
+			<key>zh-Hans</key>
+			<string>错误事件</string>
+			<key>zh-Hant</key>
+			<string>錯誤事件</string>
+		</dict>
+		<key>Bad extension</key>
+		<dict>
+			<key>en</key>
+			<string>Wrong extension</string>
+			<key>es</key>
+			<string>Extensión equivocada</string>
+			<key>zh-Hans</key>
+			<string>错误的分机</string>
+			<key>zh-Hant</key>
+			<string>錯誤的分機</string>
+		</dict>
+		<key>Balancing system fluency and quality effect, suitable for most scenarios</key>
+		<dict>
+			<key>en</key>
+			<string>A Balance between video quality and system usage.</string>
+			<key>es</key>
+			<string>A Balance between video quality and system usage.</string>
+			<key>zh-Hans</key>
+			<string>平衡系统流畅度和画质效果,适用于大多数场景</string>
+			<key>zh-Hant</key>
+			<string>平衡系統流暢度和畫質效果,適用於大多數場景</string>
+		</dict>
+		<key>Bandwidth</key>
+		<dict>
+			<key>en</key>
+			<string>Bandwidth</string>
+			<key>es</key>
+			<string>Ancho de banda</string>
+			<key>zh-Hans</key>
+			<string>带宽</string>
+			<key>zh-Hant</key>
+			<string>帶寬</string>
+		</dict>
+		<key>Bandwidth Settings</key>
+		<dict>
+			<key>en</key>
+			<string>Bandwidth and Video Quality</string>
+			<key>es</key>
+			<string>Ancho de banda y calidad de video</string>
+			<key>zh-Hans</key>
+			<string>带宽与视频画质</string>
+			<key>zh-Hant</key>
+			<string>帶寬與視頻畫質</string>
+		</dict>
+		<key>Busy here</key>
+		<dict>
+			<key>en</key>
+			<string>Local busy</string>
+			<key>es</key>
+			<string>Ocupado localmente</string>
+			<key>zh-Hans</key>
+			<string>本地忙</string>
+			<key>zh-Hant</key>
+			<string>本地忙</string>
+		</dict>
+		<key>Calendar</key>
+		<dict>
+			<key>en</key>
+			<string>Calendar</string>
+			<key>es</key>
+			<string>Calendario</string>
+			<key>zh-Hans</key>
+			<string>日程</string>
+			<key>zh-Hant</key>
+			<string>日程</string>
+		</dict>
+		<key>Call Features</key>
+		<dict>
+			<key>en</key>
+			<string>Call Features</string>
+			<key>es</key>
+			<string>Funciones de llamada</string>
+			<key>zh-Hans</key>
+			<string>呼叫功能</string>
+			<key>zh-Hant</key>
+			<string>呼叫功能</string>
+		</dict>
+		<key>Call Type</key>
+		<dict>
+			<key>en</key>
+			<string>Call Type</string>
+			<key>es</key>
+			<string>Tipo de llamada</string>
+			<key>zh-Hans</key>
+			<string>通话类型</string>
+			<key>zh-Hant</key>
+			<string>通話類型</string>
+		</dict>
+		<key>Call cleared due to an enforced duration limit</key>
+		<dict>
+			<key>en</key>
+			<string>Call cleared due to an enforced duration limit</string>
+			<key>es</key>
+			<string>Call cleared due to an enforced duration limit</string>
+			<key>zh-Hans</key>
+			<string>执行时间限制，通话被清除</string>
+			<key>zh-Hant</key>
+			<string>執行時間限制，通話被清除</string>
+		</dict>
+		<key>Call conference</key>
+		<dict>
+			<key>en</key>
+			<string>Call conference</string>
+			<key>es</key>
+			<string>Conferencia de llamada</string>
+			<key>zh-Hans</key>
+			<string>电话会议</string>
+			<key>zh-Hant</key>
+			<string>電話會議</string>
+		</dict>
+		<key>Calling ...</key>
+		<dict>
+			<key>en</key>
+			<string>Calling ...</string>
+			<key>es</key>
+			<string>Llamando …</string>
+			<key>zh-Hans</key>
+			<string>正在呼叫...</string>
+			<key>zh-Hant</key>
+			<string>正在呼叫...</string>
+		</dict>
+		<key>Camear Mute  *Not sure if you meant camera and how to translate mute camera?*</key>
+		<dict>
+			<key>en</key>
+			<string></string>
+			<key>es</key>
+			<string>Deshabilitar cámara *Not sure if you meant camera and how to translate mute camera?*</string>
+			<key>zh-Hans</key>
+			<string></string>
+			<key>zh-Hant</key>
+			<string></string>
+		</dict>
+		<key>Camear Unmute  *Not sure if you meant camera and how to translate mute camera?*</key>
+		<dict>
+			<key>en</key>
+			<string></string>
+			<key>es</key>
+			<string>Deshabilitar cámara *Not sure if you meant camera and how to translate mute camera?*</string>
+			<key>zh-Hans</key>
+			<string></string>
+			<key>zh-Hant</key>
+			<string></string>
+		</dict>
+		<key>Camera Mute</key>
+		<dict>
+			<key>en</key>
+			<string>Camera on</string>
+			<key>es</key>
+			<string>Camera on</string>
+			<key>zh-Hans</key>
+			<string>摄像头关闭</string>
+			<key>zh-Hant</key>
+			<string>攝像頭關閉</string>
+		</dict>
+		<key>Camera Unmute</key>
+		<dict>
+			<key>en</key>
+			<string>Camera off</string>
+			<key>es</key>
+			<string>Camera off</string>
+			<key>zh-Hans</key>
+			<string>摄像头打开</string>
+			<key>zh-Hant</key>
+			<string>攝像頭打開</string>
+		</dict>
+		<key>Can't call me</key>
+		<dict>
+			<key>en</key>
+			<string>Can't call me</string>
+			<key>es</key>
+			<string>Can't call me</string>
+			<key>zh-Hans</key>
+			<string>不能呼叫自己</string>
+			<key>zh-Hant</key>
+			<string>不能呼叫自己</string>
+		</dict>
+		<key>Cancel</key>
+		<dict>
+			<key>en</key>
+			<string>Cancel</string>
+			<key>es</key>
+			<string>Cancelar</string>
+			<key>zh-Hans</key>
+			<string>取消</string>
+			<key>zh-Hant</key>
+			<string>取消</string>
+		</dict>
+		<key>Cancel Login</key>
+		<dict>
+			<key>en</key>
+			<string>Cancel Login</string>
+			<key>es</key>
+			<string>Cancelar inicio de sesión</string>
+			<key>zh-Hans</key>
+			<string>取消登录</string>
+			<key>zh-Hant</key>
+			<string>取消登錄</string>
+		</dict>
+		<key>Canceling</key>
+		<dict>
+			<key>en</key>
+			<string>Canceling</string>
+			<key>es</key>
+			<string>Cancelando</string>
+			<key>zh-Hans</key>
+			<string>正在注销</string>
+			<key>zh-Hant</key>
+			<string>正在註銷</string>
+		</dict>
+		<key>Clean history</key>
+		<dict>
+			<key>en</key>
+			<string>Clean history</string>
+			<key>es</key>
+			<string>Borrar historial</string>
+			<key>zh-Hans</key>
+			<string>清空历史</string>
+			<key>zh-Hant</key>
+			<string>清空歷史</string>
+		</dict>
+		<key>ClickToInvite</key>
+		<dict>
+			<key>en</key>
+			<string>click to invite participants</string>
+			<key>es</key>
+			<string>click to invite participants</string>
+			<key>zh-Hans</key>
+			<string>点击邀请</string>
+			<key>zh-Hant</key>
+			<string>點擊邀請</string>
+		</dict>
+		<key>Close</key>
+		<dict>
+			<key>en</key>
+			<string>Close</string>
+			<key>es</key>
+			<string>Close</string>
+			<key>zh-Hans</key>
+			<string>关闭</string>
+			<key>zh-Hant</key>
+			<string>關閉</string>
+		</dict>
+		<key>Cloud</key>
+		<dict>
+			<key>en</key>
+			<string>Cloud</string>
+			<key>es</key>
+			<string>Cloud</string>
+			<key>zh-Hans</key>
+			<string>云</string>
+			<key>zh-Hant</key>
+			<string>雲</string>
+		</dict>
+		<key>Cloud Account</key>
+		<dict>
+			<key>en</key>
+			<string>Cloud Account</string>
+			<key>es</key>
+			<string>Cuenta cloud</string>
+			<key>zh-Hans</key>
+			<string>云账号</string>
+			<key>zh-Hant</key>
+			<string>雲賬號</string>
+		</dict>
+		<key>Cloud Server</key>
+		<dict>
+			<key>en</key>
+			<string>Cloud Server</string>
+			<key>es</key>
+			<string>Cloud Server</string>
+			<key>zh-Hans</key>
+			<string>Cloud服务器</string>
+			<key>zh-Hant</key>
+			<string>Cloud服務器</string>
+		</dict>
+		<key>Codec</key>
+		<dict>
+			<key>en</key>
+			<string>Codec</string>
+			<key>es</key>
+			<string>Codec</string>
+			<key>zh-Hans</key>
+			<string>编解码</string>
+			<key>zh-Hant</key>
+			<string>編解碼</string>
+		</dict>
+		<key>Conference ID:</key>
+		<dict>
+			<key>en</key>
+			<string>Conference ID:</string>
+			<key>es</key>
+			<string>ID de conferencia:</string>
+			<key>zh-Hans</key>
+			<string>会议号码:</string>
+			<key>zh-Hant</key>
+			<string>會議號碼:</string>
+		</dict>
+		<key>Confirm</key>
+		<dict>
+			<key>en</key>
+			<string>Confirm</string>
+			<key>es</key>
+			<string>Confirmar</string>
+			<key>zh-Hans</key>
+			<string>确定</string>
+			<key>zh-Hant</key>
+			<string>確定</string>
+		</dict>
+		<key>Contact detail</key>
+		<dict>
+			<key>en</key>
+			<string>Contact Detail</string>
+			<key>es</key>
+			<string>Detalles del contacto</string>
+			<key>zh-Hans</key>
+			<string>联系人详情</string>
+			<key>zh-Hant</key>
+			<string>聯繫人詳情</string>
+		</dict>
+		<key>Contacts</key>
+		<dict>
+			<key>en</key>
+			<string>Contacts</string>
+			<key>es</key>
+			<string>Contactos</string>
+			<key>zh-Hans</key>
+			<string>联系人</string>
+			<key>zh-Hant</key>
+			<string>聯繫人</string>
+		</dict>
+		<key>Continue</key>
+		<dict>
+			<key>en</key>
+			<string>Continue</string>
+			<key>es</key>
+			<string>Continuar</string>
+			<key>zh-Hans</key>
+			<string>继续</string>
+			<key>zh-Hant</key>
+			<string>繼續</string>
+		</dict>
+		<key>Copy</key>
+		<dict>
+			<key>en</key>
+			<string>Copy</string>
+			<key>es</key>
+			<string>Copy</string>
+			<key>zh-Hans</key>
+			<string>复制</string>
+			<key>zh-Hant</key>
+			<string>複製</string>
+		</dict>
+		<key>Copyright</key>
+		<dict>
+			<key>en</key>
+			<string>Copyright@2017Yealink inc</string>
+			<key>es</key>
+			<string>Copyright@2017Yealink inc</string>
+			<key>zh-Hans</key>
+			<string>Copyright@2017Yealink inc</string>
+			<key>zh-Hant</key>
+			<string>Copyright@2017Yealink inc</string>
+		</dict>
+		<key>Currently no disabled items</key>
+		<dict>
+			<key>en</key>
+			<string>Currently no disabled items</string>
+			<key>es</key>
+			<string>Items actualmente no deshabilitados</string>
+			<key>zh-Hans</key>
+			<string>当前无禁用项</string>
+			<key>zh-Hant</key>
+			<string>當前無禁用項</string>
+		</dict>
+		<key>Currently no enabled items</key>
+		<dict>
+			<key>en</key>
+			<string>Currently no enabled items</string>
+			<key>es</key>
+			<string>Items actualmente no habilitados</string>
+			<key>zh-Hans</key>
+			<string>当前无启用项</string>
+			<key>zh-Hant</key>
+			<string>當前無啟用項</string>
+		</dict>
+		<key>Custom Mode</key>
+		<dict>
+			<key>en</key>
+			<string>Custom Mode</string>
+			<key>es</key>
+			<string>Modo personalizado</string>
+			<key>zh-Hans</key>
+			<string>自定义模式</string>
+			<key>zh-Hant</key>
+			<string>自定義模式</string>
+		</dict>
+		<key>Customize setting for advanced uses</key>
+		<dict>
+			<key>en</key>
+			<string>Customize setting for advanced uses.</string>
+			<key>es</key>
+			<string>Personalizar configuraciones para usuarios avanzados</string>
+			<key>zh-Hans</key>
+			<string>自定义你的带宽设置</string>
+			<key>zh-Hant</key>
+			<string>自定義你的帶寬設置</string>
+		</dict>
+		<key>DNS parse failure</key>
+		<dict>
+			<key>en</key>
+			<string>DNS parse failure</string>
+			<key>es</key>
+			<string>Errror al analizar gramaticamente el DNS.</string>
+			<key>zh-Hans</key>
+			<string>DNS解析失败</string>
+			<key>zh-Hant</key>
+			<string>DNS解析失敗</string>
+		</dict>
+		<key>DTMF Info Type</key>
+		<dict>
+			<key>en</key>
+			<string>DTMF Info Type</string>
+			<key>es</key>
+			<string>Tipo de información DTMF</string>
+			<key>zh-Hans</key>
+			<string>DTMF内容类型</string>
+			<key>zh-Hant</key>
+			<string>DTMF內容類型</string>
+		</dict>
+		<key>DTMF Payload Type</key>
+		<dict>
+			<key>en</key>
+			<string>DTMF Payload</string>
+			<key>es</key>
+			<string>Carga DTMF</string>
+			<key>zh-Hans</key>
+			<string>DTMF负载</string>
+			<key>zh-Hant</key>
+			<string>DTMF負載</string>
+		</dict>
+		<key>DTMF Type</key>
+		<dict>
+			<key>en</key>
+			<string>DTMF Type</string>
+			<key>es</key>
+			<string>Tipo de DTMF</string>
+			<key>zh-Hans</key>
+			<string>DTMF类型</string>
+			<key>zh-Hant</key>
+			<string>DTMF類型</string>
+		</dict>
+		<key>Delete</key>
+		<dict>
+			<key>en</key>
+			<string>Delete</string>
+			<key>es</key>
+			<string>Eliminar</string>
+			<key>zh-Hans</key>
+			<string>删除</string>
+			<key>zh-Hant</key>
+			<string>刪除</string>
+		</dict>
+		<key>Delete Contact</key>
+		<dict>
+			<key>en</key>
+			<string>Delete Contact</string>
+			<key>es</key>
+			<string>Eliminar contacto</string>
+			<key>zh-Hans</key>
+			<string>删除联系人</string>
+			<key>zh-Hant</key>
+			<string>刪除聯繫人</string>
+		</dict>
+		<key>Detail</key>
+		<dict>
+			<key>en</key>
+			<string>Detail</string>
+			<key>es</key>
+			<string>Detalles</string>
+			<key>zh-Hans</key>
+			<string>详情</string>
+			<key>zh-Hant</key>
+			<string>詳情</string>
+		</dict>
+		<key>Diagnoses</key>
+		<dict>
+			<key>en</key>
+			<string>Diagnosis</string>
+			<key>es</key>
+			<string>Diagnóstico</string>
+			<key>zh-Hans</key>
+			<string>诊断</string>
+			<key>zh-Hant</key>
+			<string>診斷</string>
+		</dict>
+		<key>Dial</key>
+		<dict>
+			<key>en</key>
+			<string>Dial</string>
+			<key>es</key>
+			<string>Marcar</string>
+			<key>zh-Hans</key>
+			<string>拨号</string>
+			<key>zh-Hant</key>
+			<string>撥號</string>
+		</dict>
+		<key>Dial Detail</key>
+		<dict>
+			<key>en</key>
+			<string>Dial Detail</string>
+			<key>es</key>
+			<string>Detalles de marcación</string>
+			<key>zh-Hans</key>
+			<string>通话详情</string>
+			<key>zh-Hant</key>
+			<string>通話詳情</string>
+		</dict>
+		<key>Dial H.323 or SIP Room System</key>
+		<dict>
+			<key>en</key>
+			<string>Dial H.323 or SIP Room System Or RTMP Address</string>
+			<key>es</key>
+			<string>Marcar sistea de sala H.323 o SIP o RTMP</string>
+			<key>zh-Hans</key>
+			<string>呼叫第三方H.323/SIP视频会议终端或RTMP地址</string>
+			<key>zh-Hant</key>
+			<string>呼叫第三方H.323/SIP視頻會議終端或RTMP地址</string>
+		</dict>
+		<key>Disable</key>
+		<dict>
+			<key>en</key>
+			<string>Disable</string>
+			<key>es</key>
+			<string>Deshabilitar</string>
+			<key>zh-Hans</key>
+			<string>未启用</string>
+			<key>zh-Hant</key>
+			<string>未啟用</string>
+		</dict>
+		<key>Disable The Item</key>
+		<dict>
+			<key>en</key>
+			<string>Disable The Item</string>
+			<key>es</key>
+			<string>Deshabilitar el item</string>
+			<key>zh-Hans</key>
+			<string>禁用项</string>
+			<key>zh-Hant</key>
+			<string>禁用項</string>
+		</dict>
+		<key>Disabled</key>
+		<dict>
+			<key>en</key>
+			<string>Disabled</string>
+			<key>es</key>
+			<string>Deshabilitar</string>
+			<key>zh-Hans</key>
+			<string>已禁用</string>
+			<key>zh-Hant</key>
+			<string>已禁用</string>
+		</dict>
+		<key>Downlink Bandwidth</key>
+		<dict>
+			<key>en</key>
+			<string>Downlink Bandwidth</string>
+			<key>es</key>
+			<string>Ancho de banda de descarga</string>
+			<key>zh-Hans</key>
+			<string>下行带宽</string>
+			<key>zh-Hant</key>
+			<string>下行帶寬</string>
+		</dict>
+		<key>DualSteam</key>
+		<dict>
+			<key>en</key>
+			<string>  Dual Steam</string>
+			<key>es</key>
+			<string>  Dual Steam</string>
+			<key>zh-Hans</key>
+			<string>  Dual Steam</string>
+			<key>zh-Hant</key>
+			<string>  Dual Steam</string>
+		</dict>
+		<key>Edit</key>
+		<dict>
+			<key>en</key>
+			<string>Edit</string>
+			<key>es</key>
+			<string>Editar</string>
+			<key>zh-Hans</key>
+			<string>编辑</string>
+			<key>zh-Hant</key>
+			<string>編輯</string>
+		</dict>
+		<key>Edit Contact</key>
+		<dict>
+			<key>en</key>
+			<string>Edit Contact</string>
+			<key>es</key>
+			<string>Editar contacto</string>
+			<key>zh-Hans</key>
+			<string>编辑联系人</string>
+			<key>zh-Hant</key>
+			<string>編輯聯繫人</string>
+		</dict>
+		<key>Edit fail, the contact is exsit!</key>
+		<dict>
+			<key>en</key>
+			<string>Failed to edit, the contact already exsits</string>
+			<key>es</key>
+			<string>Error al editar, el contacto ya existe</string>
+			<key>zh-Hans</key>
+			<string>编辑联系人失败，该联系人已存在!</string>
+			<key>zh-Hant</key>
+			<string>編輯聯繫人失敗，該聯繫人已存在!</string>
+		</dict>
+		<key>Enable</key>
+		<dict>
+			<key>en</key>
+			<string>Enable</string>
+			<key>es</key>
+			<string>Habilitar</string>
+			<key>zh-Hans</key>
+			<string>已启用</string>
+			<key>zh-Hant</key>
+			<string>已啟用</string>
+		</dict>
+		<key>Enable The Item</key>
+		<dict>
+			<key>en</key>
+			<string>Enable The Item</string>
+			<key>es</key>
+			<string>Habilitar el item</string>
+			<key>zh-Hans</key>
+			<string>启用项</string>
+			<key>zh-Hant</key>
+			<string>啟用項</string>
+		</dict>
+		<key>Enabled</key>
+		<dict>
+			<key>en</key>
+			<string>Enabled</string>
+			<key>es</key>
+			<string>Habilitada</string>
+			<key>zh-Hans</key>
+			<string>启用</string>
+			<key>zh-Hant</key>
+			<string>啟用</string>
+		</dict>
+		<key>EndedByTimerExpiry T301</key>
+		<dict>
+			<key>en</key>
+			<string>EndedByTimerExpiry T301</string>
+			<key>es</key>
+			<string>EndedByTimerExpiry T301</string>
+			<key>zh-Hans</key>
+			<string>利用计时器期满T301结束</string>
+			<key>zh-Hant</key>
+			<string>利用計時器期滿T301結束</string>
+		</dict>
+		<key>Enter the 9 PIN Code</key>
+		<dict>
+			<key>en</key>
+			<string>Enter the 9 PIN Code</string>
+			<key>es</key>
+			<string>Ingresar PIN Code de 9 dígitos</string>
+			<key>zh-Hans</key>
+			<string>请输入9位数PIN码</string>
+			<key>zh-Hant</key>
+			<string>請輸入9位數PIN碼</string>
+		</dict>
+		<key>Exit</key>
+		<dict>
+			<key>en</key>
+			<string>Exit</string>
+			<key>es</key>
+			<string>Salir</string>
+			<key>zh-Hans</key>
+			<string>退出</string>
+			<key>zh-Hant</key>
+			<string>退出</string>
+		</dict>
+		<key>Exit to receive a message notification</key>
+		<dict>
+			<key>en</key>
+			<string>Receive message notification after exit</string>
+			<key>es</key>
+			<string>Recibir mensaje de notificación al salir</string>
+			<key>zh-Hans</key>
+			<string>退出后接收消息通知</string>
+			<key>zh-Hant</key>
+			<string>退出後接收消息通知</string>
+		</dict>
+		<key>Extension Name contains illegal characters !&amp;:;&lt;&gt;[]?%</key>
+		<dict>
+			<key>en</key>
+			<string>Extension Name contains illegal characters !&amp;:;&lt;&gt;[]?%</string>
+			<key>es</key>
+			<string>El nombre de la extensión contiene caracteres ilegales !&amp;:;&lt;&gt;[]?%</string>
+			<key>zh-Hans</key>
+			<string>分机号包含非法字符 !&amp;:;&lt;&gt;[]?%</string>
+			<key>zh-Hant</key>
+			<string>分機號包含非法字符 !&amp;:;&lt;&gt;[]?%</string>
+		</dict>
+		<key>Extension Number</key>
+		<dict>
+			<key>en</key>
+			<string>Extension Number</string>
+			<key>es</key>
+			<string>Número de extensión</string>
+			<key>zh-Hans</key>
+			<string>分机号</string>
+			<key>zh-Hant</key>
+			<string>分機號</string>
+		</dict>
+		<key>FeedBack</key>
+		<dict>
+			<key>en</key>
+			<string>Feedback</string>
+			<key>es</key>
+			<string>Feedback</string>
+			<key>zh-Hans</key>
+			<string>意见反馈</string>
+			<key>zh-Hant</key>
+			<string>意見反饋</string>
+		</dict>
+		<key>FeedBackBugReport</key>
+		<dict>
+			<key>en</key>
+			<string>Software BUG</string>
+			<key>es</key>
+			<string>Software BUG</string>
+			<key>zh-Hans</key>
+			<string>程序问题</string>
+			<key>zh-Hant</key>
+			<string>程序問題</string>
+		</dict>
+		<key>FeedBackCheckNeedReportBug</key>
+		<dict>
+			<key>en</key>
+			<string>A crash error from last run is detected, upload the system log will help us to solve this problem.</string>
+			<key>es</key>
+			<string>A crash error from last run is detected, upload the system log will help us to solve this problem.</string>
+			<key>zh-Hans</key>
+			<string>检测到程序上次运行有错误情况，是否进行错误日志上传帮助我们解决问题？</string>
+			<key>zh-Hant</key>
+			<string>檢測到程序上次運行有錯誤情況，是否進行錯誤日誌上傳幫助我們解決問題？</string>
+		</dict>
+		<key>FeedBackCheckNeedReportBugOK</key>
+		<dict>
+			<key>en</key>
+			<string>Upload Logs</string>
+			<key>es</key>
+			<string>Upload Logs</string>
+			<key>zh-Hans</key>
+			<string>上传日志</string>
+			<key>zh-Hant</key>
+			<string>上傳日誌</string>
+		</dict>
+		<key>FeedBackCheckNeedSuggestion</key>
+		<dict>
+			<key>en</key>
+			<string>Thank you for choosing Yealink VC Mobile, we are eager to receive your feedback about our products as your feedback and comments will help us to improve our service.</string>
+			<key>es</key>
+			<string>Thank you for choosing Yealink VC Mobile, we are eager to receive your feedback about our products as your feedback and comments will help us to improve our service.</string>
+			<key>zh-Hans</key>
+			<string>感谢使用Yealink手机客户端，Yealink希望收到您在使用过程遇到的问题或对产品的改善意见，您的反馈会帮助我们把客户端做得更好</string>
+			<key>zh-Hant</key>
+			<string>感謝使用Yealink手機客戶端，Yealink希望收到您在使用過程遇到的問題或對產品的改善意見，您的反饋會幫助我們把客戶端做得更好</string>
+		</dict>
+		<key>FeedBackCheckNeedSuggestionOK</key>
+		<dict>
+			<key>en</key>
+			<string>Feedback</string>
+			<key>es</key>
+			<string>Feedback</string>
+			<key>zh-Hans</key>
+			<string>我要反馈</string>
+			<key>zh-Hant</key>
+			<string>我要反饋</string>
+		</dict>
+		<key>FeedBackCheckNeedSuggestionReject</key>
+		<dict>
+			<key>en</key>
+			<string>Reject</string>
+			<key>es</key>
+			<string>Reject</string>
+			<key>zh-Hans</key>
+			<string>高冷拒绝</string>
+			<key>zh-Hant</key>
+			<string>高冷拒絕</string>
+		</dict>
+		<key>FeedBackIncompleteDescriptionEmptyBugReport</key>
+		<dict>
+			<key>en</key>
+			<string>Please input the time when the problem occurred, and detailed description of the problem.</string>
+			<key>es</key>
+			<string>Please input the time when the problem occurred, and detailed description of the problem.</string>
+			<key>zh-Hans</key>
+			<string>请输入您的问题描述</string>
+			<key>zh-Hant</key>
+			<string>請輸入您的問題描述</string>
+		</dict>
+		<key>FeedBackIncompleteDescriptionEmptySuggestion</key>
+		<dict>
+			<key>en</key>
+			<string>Please input your suggestion for our products.</string>
+			<key>es</key>
+			<string>Please input your suggestion for our products.</string>
+			<key>zh-Hans</key>
+			<string>请输入您对我们产品的改善建议</string>
+			<key>zh-Hant</key>
+			<string>請輸入您對我們產品的改善建議</string>
+		</dict>
+		<key>FeedBackPictureContact</key>
+		<dict>
+			<key>en</key>
+			<string>Contact Information</string>
+			<key>es</key>
+			<string>Contact Information</string>
+			<key>zh-Hans</key>
+			<string>联系方式</string>
+			<key>zh-Hant</key>
+			<string>聯繫方式</string>
+		</dict>
+		<key>FeedBackPictureContactPlaceholder</key>
+		<dict>
+			<key>en</key>
+			<string>E-mail Address or Skype account (optional, we may contact you to get more problem information)</string>
+			<key>es</key>
+			<string>E-mail Address or Skype account (optional, we may contact you to get more problem information)</string>
+			<key>zh-Hans</key>
+			<string>邮箱/QQ/微信或者手机号（选填，方便我们联系你）</string>
+			<key>zh-Hant</key>
+			<string>郵箱/QQ/微信或者手機號（選填，方便我們聯繫你）</string>
+		</dict>
+		<key>FeedBackPictureDescription</key>
+		<dict>
+			<key>en</key>
+			<string>Select up to 3 images</string>
+			<key>es</key>
+			<string>Select up to 3 images</string>
+			<key>zh-Hans</key>
+			<string>最多勾选3张图片</string>
+			<key>zh-Hant</key>
+			<string>最多勾選3張圖片</string>
+		</dict>
+		<key>FeedBackPictureTitle</key>
+		<dict>
+			<key>en</key>
+			<string>Upload pictures will help us to better define the problem (optional).</string>
+			<key>es</key>
+			<string>Upload pictures will help us to better define the problem (optional).</string>
+			<key>zh-Hans</key>
+			<string>上传图片可帮助我们更快定位问题（可选）</string>
+			<key>zh-Hant</key>
+			<string>上傳圖片可幫助我們更快定位問題（可選）</string>
+		</dict>
+		<key>FeedBackSubmit</key>
+		<dict>
+			<key>en</key>
+			<string>Submit</string>
+			<key>es</key>
+			<string>Submit</string>
+			<key>zh-Hans</key>
+			<string>提交</string>
+			<key>zh-Hant</key>
+			<string>提交</string>
+		</dict>
+		<key>FeedBackSuggestion</key>
+		<dict>
+			<key>en</key>
+			<string>Suggestions</string>
+			<key>es</key>
+			<string>Suggestions</string>
+			<key>zh-Hans</key>
+			<string>改善建议</string>
+			<key>zh-Hant</key>
+			<string>改善建議</string>
+		</dict>
+		<key>FeedBackTakeImageFromCamera</key>
+		<dict>
+			<key>en</key>
+			<string>Camera</string>
+			<key>es</key>
+			<string>Camera</string>
+			<key>zh-Hans</key>
+			<string>拍照</string>
+			<key>zh-Hant</key>
+			<string>拍照</string>
+		</dict>
+		<key>FeedBackTakeImageFromPhotoPicer</key>
+		<dict>
+			<key>en</key>
+			<string>Select from album</string>
+			<key>es</key>
+			<string>Select from album</string>
+			<key>zh-Hans</key>
+			<string>从相册中选择</string>
+			<key>zh-Hant</key>
+			<string>從相冊中選擇</string>
+		</dict>
+		<key>FeedBackTextPlaceholderBugReport</key>
+		<dict>
+			<key>en</key>
+			<string>Please input the time when the problem occurred, and detailed description of the problem.</string>
+			<key>es</key>
+			<string>Please input the time when the problem occurred, and detailed description of the problem.</string>
+			<key>zh-Hans</key>
+			<string>请输入您的问题发生时间，以及详细的问题描述</string>
+			<key>zh-Hant</key>
+			<string>請輸入您的問題發生時間，以及詳細的問題描述</string>
+		</dict>
+		<key>FeedBackTextPlaceholderSuggestion</key>
+		<dict>
+			<key>en</key>
+			<string>Please input your suggestion for our products.</string>
+			<key>es</key>
+			<string>Please input your suggestion for our products.</string>
+			<key>zh-Hans</key>
+			<string>请输入您对我们产品的改善建议...</string>
+			<key>zh-Hant</key>
+			<string>請輸入您對我們產品的改善建議...</string>
+		</dict>
+		<key>FeedBackTextTitle</key>
+		<dict>
+			<key>en</key>
+			<string>Problem Description</string>
+			<key>es</key>
+			<string>Problem Description</string>
+			<key>zh-Hans</key>
+			<string>问题描述</string>
+			<key>zh-Hant</key>
+			<string>問題描述</string>
+		</dict>
+		<key>FeedBackUploadFail</key>
+		<dict>
+			<key>en</key>
+			<string>Unknown error, please try again.</string>
+			<key>es</key>
+			<string>Unknown error, please try again.</string>
+			<key>zh-Hans</key>
+			<string>提交失败，请尝试重新提交</string>
+			<key>zh-Hant</key>
+			<string>提交失敗，請嘗試重新提交</string>
+		</dict>
+		<key>FeedBackUploadFailOK</key>
+		<dict>
+			<key>en</key>
+			<string>Confirm</string>
+			<key>es</key>
+			<string>Confirm</string>
+			<key>zh-Hans</key>
+			<string>知道了</string>
+			<key>zh-Hant</key>
+			<string>知道了</string>
+		</dict>
+		<key>FeedBackUploadSuccessBugReport</key>
+		<dict>
+			<key>en</key>
+			<string>Thank you for your feedback.</string>
+			<key>es</key>
+			<string>Thank you for your feedback.</string>
+			<key>zh-Hans</key>
+			<string>感谢您给我们提出的宝贵建议</string>
+			<key>zh-Hant</key>
+			<string>感謝您給我們提出的寶貴建議</string>
+		</dict>
+		<key>FeedBackUploadSuccessDetail</key>
+		<dict>
+			<key>en</key>
+			<string>3 Seconds later to back to Settings Page.</string>
+			<key>es</key>
+			<string>3 Seconds later to back to Settings Page.</string>
+			<key>zh-Hans</key>
+			<string>3秒后返回设置界面</string>
+			<key>zh-Hant</key>
+			<string>3秒後返回設置界面</string>
+		</dict>
+		<key>FeedBackUploadSuccessSuggestion</key>
+		<dict>
+			<key>en</key>
+			<string>Thank you for your feedback.</string>
+			<key>es</key>
+			<string>Thank you for your feedback.</string>
+			<key>zh-Hans</key>
+			<string>感谢您给我们提出的宝贵建议</string>
+			<key>zh-Hant</key>
+			<string>感謝您給我們提出的寶貴建議</string>
+		</dict>
+		<key>FeedBackUploading</key>
+		<dict>
+			<key>en</key>
+			<string>Submitting</string>
+			<key>es</key>
+			<string>Submitting</string>
+			<key>zh-Hans</key>
+			<string>正在提交</string>
+			<key>zh-Hant</key>
+			<string>正在提交</string>
+		</dict>
+		<key>FeedBackWithLog</key>
+		<dict>
+			<key>en</key>
+			<string>Upload system logs, to help us better define the problem.</string>
+			<key>es</key>
+			<string>Upload system logs, to help us better define the problem.</string>
+			<key>zh-Hans</key>
+			<string>上传错误日志，帮助我们更快解决问题</string>
+			<key>zh-Hant</key>
+			<string>上傳錯誤日誌，幫助我們更快解決問題</string>
+		</dict>
+		<key>Fluid Model</key>
+		<dict>
+			<key>en</key>
+			<string>Fluid Mode</string>
+			<key>es</key>
+			<string>Fluid Mode</string>
+			<key>zh-Hans</key>
+			<string>流畅模式</string>
+			<key>zh-Hant</key>
+			<string>流暢模式</string>
+		</dict>
+		<key>Frame Rate</key>
+		<dict>
+			<key>en</key>
+			<string>Frame Rate</string>
+			<key>es</key>
+			<string>Cuadros por segundo</string>
+			<key>zh-Hans</key>
+			<string>帧率</string>
+			<key>zh-Hant</key>
+			<string>幀率</string>
+		</dict>
+		<key>GK Authentication</key>
+		<dict>
+			<key>en</key>
+			<string>GK Authentication</string>
+			<key>es</key>
+			<string>Autenticación GK</string>
+			<key>zh-Hans</key>
+			<string>网守</string>
+			<key>zh-Hant</key>
+			<string>網守</string>
+		</dict>
+		<key>GK Password</key>
+		<dict>
+			<key>en</key>
+			<string>GK Password</string>
+			<key>es</key>
+			<string>Contraseña de GK</string>
+			<key>zh-Hans</key>
+			<string>网守密码</string>
+			<key>zh-Hant</key>
+			<string>網守密碼</string>
+		</dict>
+		<key>GK Server</key>
+		<dict>
+			<key>en</key>
+			<string>GK Server</string>
+			<key>es</key>
+			<string>Servidor GK</string>
+			<key>zh-Hans</key>
+			<string>网守服务器</string>
+			<key>zh-Hant</key>
+			<string>網守服務器</string>
+		</dict>
+		<key>GK User Name</key>
+		<dict>
+			<key>en</key>
+			<string>GK User Name</string>
+			<key>es</key>
+			<string>Nombre de usuario de GK</string>
+			<key>zh-Hans</key>
+			<string>网守用户名</string>
+			<key>zh-Hant</key>
+			<string>網守用戶名</string>
+		</dict>
+		<key>General Setting</key>
+		<dict>
+			<key>en</key>
+			<string>Basic Setting</string>
+			<key>es</key>
+			<string>Configuración básica</string>
+			<key>zh-Hans</key>
+			<string>常规设置</string>
+			<key>zh-Hant</key>
+			<string>常規設置</string>
+		</dict>
+		<key>Group call No.</key>
+		<dict>
+			<key>en</key>
+			<string>Group call No.</string>
+			<key>es</key>
+			<string>Llamada grupal número</string>
+			<key>zh-Hans</key>
+			<string>群呼数量:</string>
+			<key>zh-Hant</key>
+			<string>群呼數量:</string>
+		</dict>
+		<key>H.235 Encryption</key>
+		<dict>
+			<key>en</key>
+			<string>H.235 Encryption</string>
+			<key>es</key>
+			<string>Encriptación H.235</string>
+			<key>zh-Hans</key>
+			<string>H.235加密</string>
+			<key>zh-Hant</key>
+			<string>H.235加密</string>
+		</dict>
+		<key>H.264 High Profile and H.264 Base Profile must enable synchronously!</key>
+		<dict>
+			<key>en</key>
+			<string>H.264 High Profile and H.264 Base Profile must enable synchronously</string>
+			<key>es</key>
+			<string>El alto perfil H.264 y el perfil básico H.264 deben habilitarse sincronizadamente</string>
+			<key>zh-Hans</key>
+			<string>当H.264 High Profile启用时必须同步启用H.264 Base Profile!</string>
+			<key>zh-Hant</key>
+			<string>當H.264 High Profile啟用時必須同步啟用H.264 Base Profile!</string>
+		</dict>
+		<key>H.323 Account</key>
+		<dict>
+			<key>en</key>
+			<string>H.323 Account</string>
+			<key>es</key>
+			<string>Cuenta H.323</string>
+			<key>zh-Hans</key>
+			<string>H.323账号</string>
+			<key>zh-Hant</key>
+			<string>H.323賬號</string>
+		</dict>
+		<key>H.460 Switch</key>
+		<dict>
+			<key>en</key>
+			<string>H.460 Switch</string>
+			<key>es</key>
+			<string>Switch H.460</string>
+			<key>zh-Hans</key>
+			<string>H.460开关</string>
+			<key>zh-Hant</key>
+			<string>H.460開關</string>
+		</dict>
+		<key>HD Model</key>
+		<dict>
+			<key>en</key>
+			<string>Full HD Mode</string>
+			<key>es</key>
+			<string>Modo full HD</string>
+			<key>zh-Hans</key>
+			<string>高清模式</string>
+			<key>zh-Hant</key>
+			<string>高清模式</string>
+		</dict>
+		<key>Help</key>
+		<dict>
+			<key>en</key>
+			<string>Help</string>
+			<key>es</key>
+			<string>Ayudar</string>
+			<key>zh-Hans</key>
+			<string>帮助</string>
+			<key>zh-Hant</key>
+			<string>幫助</string>
+		</dict>
+		<key>I know</key>
+		<dict>
+			<key>en</key>
+			<string>I know</string>
+			<key>es</key>
+			<string>Lo se</string>
+			<key>zh-Hans</key>
+			<string>我知道了</string>
+			<key>zh-Hant</key>
+			<string>我知道了</string>
+		</dict>
+		<key>IP Address Model</key>
+		<dict>
+			<key>en</key>
+			<string>IP Address Model</string>
+			<key>es</key>
+			<string>Modelo de dirección IP</string>
+			<key>zh-Hans</key>
+			<string>IP地址模式</string>
+			<key>zh-Hant</key>
+			<string>IP地址模式</string>
+		</dict>
+		<key>Ignore</key>
+		<dict>
+			<key>en</key>
+			<string>Ignore</string>
+			<key>es</key>
+			<string>Ignorar</string>
+			<key>zh-Hans</key>
+			<string>忽略</string>
+			<key>zh-Hant</key>
+			<string>忽略</string>
+		</dict>
+		<key>Immediately Began</key>
+		<dict>
+			<key>en</key>
+			<string>Immediately Began</string>
+			<key>es</key>
+			<string>Immediately Began</string>
+			<key>zh-Hans</key>
+			<string>即将开始</string>
+			<key>zh-Hant</key>
+			<string>即將開始</string>
+		</dict>
+		<key>In Progress</key>
+		<dict>
+			<key>en</key>
+			<string>In Progress</string>
+			<key>es</key>
+			<string>In Progress</string>
+			<key>zh-Hans</key>
+			<string>进行中</string>
+			<key>zh-Hant</key>
+			<string>進行中</string>
+		</dict>
+		<key>In progress</key>
+		<dict>
+			<key>en</key>
+			<string>In progress</string>
+			<key>es</key>
+			<string>In progress</string>
+			<key>zh-Hans</key>
+			<string>进行中</string>
+			<key>zh-Hant</key>
+			<string>進行中</string>
+		</dict>
+		<key>Incoming call</key>
+		<dict>
+			<key>en</key>
+			<string>Incoming call</string>
+			<key>es</key>
+			<string>Llamada de entrada</string>
+			<key>zh-Hans</key>
+			<string>呼入电话</string>
+			<key>zh-Hant</key>
+			<string>呼入電話</string>
+		</dict>
+		<key>Internal system error</key>
+		<dict>
+			<key>en</key>
+			<string>Internal system error</string>
+			<key>es</key>
+			<string>Error de sistema interno</string>
+			<key>zh-Hans</key>
+			<string>系统内部错误</string>
+			<key>zh-Hant</key>
+			<string>系統內部錯誤</string>
+		</dict>
+		<key>Internet Protocol</key>
+		<dict>
+			<key>en</key>
+			<string>Internet Protocol</string>
+			<key>es</key>
+			<string>Protocolo de internet</string>
+			<key>zh-Hans</key>
+			<string>网络协议</string>
+			<key>zh-Hant</key>
+			<string>網絡協議</string>
+		</dict>
+		<key>Invite </key>
+		<dict>
+			<key>en</key>
+			<string>Invite </string>
+			<key>es</key>
+			<string>Invite </string>
+			<key>zh-Hans</key>
+			<string>邀请:</string>
+			<key>zh-Hant</key>
+			<string>邀請:</string>
+		</dict>
+		<key>Invite H.323/SIP</key>
+		<dict>
+			<key>en</key>
+			<string>Invite H.323/SIP</string>
+			<key>es</key>
+			<string>Invitar H.323/SIP</string>
+			<key>zh-Hans</key>
+			<string>邀请H.323/SIP</string>
+			<key>zh-Hant</key>
+			<string>邀請H.323/SIP</string>
+		</dict>
+		<key>Invite join</key>
+		<dict>
+			<key>en</key>
+			<string>Invite members</string>
+			<key>es</key>
+			<string>Invitar miembros</string>
+			<key>zh-Hans</key>
+			<string>邀请成员</string>
+			<key>zh-Hant</key>
+			<string>邀請成員</string>
+		</dict>
+		<key>InviteThirdParties</key>
+		<dict>
+			<key>en</key>
+			<string>Invite third parties</string>
+			<key>es</key>
+			<string>Invite third parties</string>
+			<key>zh-Hans</key>
+			<string>邀请第三方</string>
+			<key>zh-Hant</key>
+			<string>邀請第三方</string>
+		</dict>
+		<key>It is recommended to check the network as follows</key>
+		<dict>
+			<key>en</key>
+			<string>It is recommended to check the network as follows</string>
+			<key>es</key>
+			<string>Es recomendado revisar la red así</string>
+			<key>zh-Hans</key>
+			<string>建议按照以下方法检查网络</string>
+			<key>zh-Hant</key>
+			<string>建議按照以下方法檢查網絡</string>
+		</dict>
+		<key>Jitter</key>
+		<dict>
+			<key>en</key>
+			<string>Jitter</string>
+			<key>es</key>
+			<string>Jitter</string>
+			<key>zh-Hans</key>
+			<string>抖动</string>
+			<key>zh-Hant</key>
+			<string>抖動</string>
+		</dict>
+		<key>Join</key>
+		<dict>
+			<key>en</key>
+			<string>Join</string>
+			<key>es</key>
+			<string>Unirse</string>
+			<key>zh-Hans</key>
+			<string>加入</string>
+			<key>zh-Hant</key>
+			<string>加入</string>
+		</dict>
+		<key>Join The Meeting</key>
+		<dict>
+			<key>en</key>
+			<string>Join The Meeting</string>
+			<key>es</key>
+			<string>Join The Meeting</string>
+			<key>zh-Hans</key>
+			<string>加入会议</string>
+			<key>zh-Hant</key>
+			<string>加入會議</string>
+		</dict>
+		<key>Join immediately</key>
+		<dict>
+			<key>en</key>
+			<string>Join immediately</string>
+			<key>es</key>
+			<string>Join immediately</string>
+			<key>zh-Hans</key>
+			<string>立即加入</string>
+			<key>zh-Hant</key>
+			<string>立即加入</string>
+		</dict>
+		<key>Keep Port</key>
+		<dict>
+			<key>en</key>
+			<string>Keep Port</string>
+			<key>es</key>
+			<string>Mantener puerto</string>
+			<key>zh-Hans</key>
+			<string>保留端口</string>
+			<key>zh-Hant</key>
+			<string>保留端口</string>
+		</dict>
+		<key>Latest</key>
+		<dict>
+			<key>en</key>
+			<string>Latest</string>
+			<key>es</key>
+			<string>Último</string>
+			<key>zh-Hans</key>
+			<string>最近</string>
+			<key>zh-Hant</key>
+			<string>最近</string>
+		</dict>
+		<key>Less than %s related content search</key>
+		<dict>
+			<key>en</key>
+			<string>Less than %s related content search</string>
+			<key>es</key>
+			<string>Menos del %s de contenido relacionado</string>
+			<key>zh-Hans</key>
+			<string>搜索不到%s相关内容</string>
+			<key>zh-Hant</key>
+			<string>搜索不到%s相關內容</string>
+		</dict>
+		<key>Limit</key>
+		<dict>
+			<key>en</key>
+			<string>Limit</string>
+			<key>es</key>
+			<string>Limite</string>
+			<key>zh-Hans</key>
+			<string>强制</string>
+			<key>zh-Hant</key>
+			<string>強制</string>
+		</dict>
+		<key>Local endpoint application cleared call</key>
+		<dict>
+			<key>en</key>
+			<string>Local endpoint application cleared call</string>
+			<key>es</key>
+			<string>Local endpoint application cleared call</string>
+			<key>zh-Hans</key>
+			<string>本地端点应用结束通话</string>
+			<key>zh-Hant</key>
+			<string>本地端點應用結束通話</string>
+		</dict>
+		<key>Local endpoint declined to answer call</key>
+		<dict>
+			<key>en</key>
+			<string>Local endpoint declined to answer call</string>
+			<key>es</key>
+			<string>Local endpoint declined to answer call</string>
+			<key>zh-Hans</key>
+			<string>本地端点拒绝来电</string>
+			<key>zh-Hant</key>
+			<string>本地端點拒絕來電</string>
+		</dict>
+		<key>Local endpoint did not accept call</key>
+		<dict>
+			<key>en</key>
+			<string>Local endpoint did not accept call</string>
+			<key>es</key>
+			<string>Local endpoint did not accept call</string>
+			<key>zh-Hans</key>
+			<string>本地端点不接受通话</string>
+			<key>zh-Hant</key>
+			<string>本地端點不接受通話</string>
+		</dict>
+		<key>Lock screen display message notice</key>
+		<dict>
+			<key>en</key>
+			<string>Message notification after screen locked</string>
+			<key>es</key>
+			<string>Mensaje de notificación despues de bloqueo de pantalla</string>
+			<key>zh-Hans</key>
+			<string>锁屏显示消息弹窗</string>
+			<key>zh-Hant</key>
+			<string>鎖屏顯示消息彈窗</string>
+		</dict>
+		<key>Log In</key>
+		<dict>
+			<key>en</key>
+			<string>Logged in</string>
+			<key>es</key>
+			<string>Registrado</string>
+			<key>zh-Hans</key>
+			<string>已登录</string>
+			<key>zh-Hant</key>
+			<string>已登錄</string>
+		</dict>
+		<key>Log Out</key>
+		<dict>
+			<key>en</key>
+			<string>Logged out</string>
+			<key>es</key>
+			<string>No registrado</string>
+			<key>zh-Hans</key>
+			<string>未登录</string>
+			<key>zh-Hant</key>
+			<string>未登錄</string>
+		</dict>
+		<key>Login Type</key>
+		<dict>
+			<key>en</key>
+			<string>Login Type</string>
+			<key>es</key>
+			<string>Tipo de inicio de sesión</string>
+			<key>zh-Hans</key>
+			<string>登录方式</string>
+			<key>zh-Hant</key>
+			<string>登錄方式</string>
+		</dict>
+		<key>Login failed</key>
+		<dict>
+			<key>en</key>
+			<string>Login failed</string>
+			<key>es</key>
+			<string>Login failed</string>
+			<key>zh-Hans</key>
+			<string>登录失败</string>
+			<key>zh-Hant</key>
+			<string>登錄失敗</string>
+		</dict>
+		<key>Login is limited number of terminals</key>
+		<dict>
+			<key>en</key>
+			<string>Already reached the limit of maximum users</string>
+			<key>es</key>
+			<string>Ya ha llegado al limite de usuarios máximos</string>
+			<key>zh-Hans</key>
+			<string>登录的终端数受限</string>
+			<key>zh-Hant</key>
+			<string>登錄的終端數受限</string>
+		</dict>
+		<key>Logining</key>
+		<dict>
+			<key>en</key>
+			<string>Logining</string>
+			<key>es</key>
+			<string>Registrando</string>
+			<key>zh-Hans</key>
+			<string>登录中</string>
+			<key>zh-Hant</key>
+			<string>登錄中</string>
+		</dict>
+		<key>Lost Percent</key>
+		<dict>
+			<key>en</key>
+			<string>Lost Percent</string>
+			<key>es</key>
+			<string>Porcentaje perdido</string>
+			<key>zh-Hans</key>
+			<string>丢包率</string>
+			<key>zh-Hant</key>
+			<string>丟包率</string>
+		</dict>
+		<key>Lower bandwidth and reduce the video image quality, and improve the system of fluency</key>
+		<dict>
+			<key>en</key>
+			<string>Lower down system &amp; bandwidth usage, with video quality reduced.</string>
+			<key>es</key>
+			<string>Disminuir uso de sistema y ancho de banda, con calidad de video reducida.</string>
+			<key>zh-Hans</key>
+			<string>调低带宽并降低视频画质,提高系统流畅度</string>
+			<key>zh-Hant</key>
+			<string>調低帶寬並降低視頻畫質,提高系統流暢度</string>
+		</dict>
+		<key>Manual Settings</key>
+		<dict>
+			<key>en</key>
+			<string>Manual Settings</string>
+			<key>es</key>
+			<string>Configuraciones manuales</string>
+			<key>zh-Hans</key>
+			<string>手动设置</string>
+			<key>zh-Hant</key>
+			<string>手動設置</string>
+		</dict>
+		<key>Meeting</key>
+		<dict>
+			<key>en</key>
+			<string>Meeting</string>
+			<key>es</key>
+			<string>Meeting</string>
+			<key>zh-Hans</key>
+			<string>会议</string>
+			<key>zh-Hant</key>
+			<string>會議</string>
+		</dict>
+		<key>Meeting Now</key>
+		<dict>
+			<key>en</key>
+			<string>Meet Now</string>
+			<key>es</key>
+			<string>Meet Now</string>
+			<key>zh-Hans</key>
+			<string>立即会议</string>
+			<key>zh-Hant</key>
+			<string>立即會議</string>
+		</dict>
+		<key>MeetingCycle</key>
+		<dict>
+			<key>en</key>
+			<string>Recurrence:</string>
+			<key>es</key>
+			<string>Recurrence:</string>
+			<key>zh-Hans</key>
+			<string>周期:</string>
+			<key>zh-Hant</key>
+			<string>周期:</string>
+		</dict>
+		<key>MeetingCycleDateEndNever</key>
+		<dict>
+			<key>en</key>
+			<string>From %@</string>
+			<key>es</key>
+			<string>From %@</string>
+			<key>zh-Hans</key>
+			<string>从%@</string>
+			<key>zh-Hant</key>
+			<string>從%@</string>
+		</dict>
+		<key>MeetingCycleDateEndRepeatFewTimes</key>
+		<dict>
+			<key>en</key>
+			<string>From %@, %@ occurrences</string>
+			<key>es</key>
+			<string>From %@, %@ occurrences</string>
+			<key>zh-Hans</key>
+			<string>从%@，重复%@次</string>
+			<key>zh-Hant</key>
+			<string>從%@，重覆%@次</string>
+		</dict>
+		<key>MeetingCycleDateEndWithEndDate</key>
+		<dict>
+			<key>en</key>
+			<string>From %@ To %@</string>
+			<key>es</key>
+			<string>From %@ To %@</string>
+			<key>zh-Hans</key>
+			<string>从%@到%@</string>
+			<key>zh-Hant</key>
+			<string>從%@到%@</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekDay</key>
+		<dict>
+			<key>en</key>
+			<string>Day</string>
+			<key>es</key>
+			<string>Day</string>
+			<key>zh-Hans</key>
+			<string>日子</string>
+			<key>zh-Hant</key>
+			<string>日子</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekFriday</key>
+		<dict>
+			<key>en</key>
+			<string>Fri</string>
+			<key>es</key>
+			<string>Fri</string>
+			<key>zh-Hans</key>
+			<string>星期五</string>
+			<key>zh-Hant</key>
+			<string>星期五</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekIndexFirst</key>
+		<dict>
+			<key>en</key>
+			<string>first</string>
+			<key>es</key>
+			<string>first</string>
+			<key>zh-Hans</key>
+			<string>第一个</string>
+			<key>zh-Hant</key>
+			<string>第一個</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekIndexFourth</key>
+		<dict>
+			<key>en</key>
+			<string>forth</string>
+			<key>es</key>
+			<string>forth</string>
+			<key>zh-Hans</key>
+			<string>第四个</string>
+			<key>zh-Hant</key>
+			<string>第四個</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekIndexLast</key>
+		<dict>
+			<key>en</key>
+			<string>last</string>
+			<key>es</key>
+			<string>last</string>
+			<key>zh-Hans</key>
+			<string>最后一个</string>
+			<key>zh-Hant</key>
+			<string>最後一個</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekIndexSecond</key>
+		<dict>
+			<key>en</key>
+			<string>second</string>
+			<key>es</key>
+			<string>second</string>
+			<key>zh-Hans</key>
+			<string>第二个</string>
+			<key>zh-Hant</key>
+			<string>第二個</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekIndexThird</key>
+		<dict>
+			<key>en</key>
+			<string>third</string>
+			<key>es</key>
+			<string>third</string>
+			<key>zh-Hans</key>
+			<string>第三个</string>
+			<key>zh-Hant</key>
+			<string>第三個</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekMonday</key>
+		<dict>
+			<key>en</key>
+			<string>Mon</string>
+			<key>es</key>
+			<string>Mon</string>
+			<key>zh-Hans</key>
+			<string>星期一</string>
+			<key>zh-Hant</key>
+			<string>星期一</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekSaturday</key>
+		<dict>
+			<key>en</key>
+			<string>Sat</string>
+			<key>es</key>
+			<string>Sat</string>
+			<key>zh-Hans</key>
+			<string>星期六</string>
+			<key>zh-Hant</key>
+			<string>星期六</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekSunday</key>
+		<dict>
+			<key>en</key>
+			<string>Sun</string>
+			<key>es</key>
+			<string>Sun</string>
+			<key>zh-Hans</key>
+			<string>星期日</string>
+			<key>zh-Hant</key>
+			<string>星期日</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekThursday</key>
+		<dict>
+			<key>en</key>
+			<string>Thu</string>
+			<key>es</key>
+			<string>Thu</string>
+			<key>zh-Hans</key>
+			<string>星期四</string>
+			<key>zh-Hant</key>
+			<string>星期四</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekTuesday</key>
+		<dict>
+			<key>en</key>
+			<string>Tue</string>
+			<key>es</key>
+			<string>Tue</string>
+			<key>zh-Hans</key>
+			<string>星期二</string>
+			<key>zh-Hant</key>
+			<string>星期二</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekWednesday</key>
+		<dict>
+			<key>en</key>
+			<string>Wed</string>
+			<key>es</key>
+			<string>Wed</string>
+			<key>zh-Hans</key>
+			<string>星期三</string>
+			<key>zh-Hant</key>
+			<string>星期三</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekWeekend</key>
+		<dict>
+			<key>en</key>
+			<string>Weekend day</string>
+			<key>es</key>
+			<string>Weekend day</string>
+			<key>zh-Hans</key>
+			<string>周末</string>
+			<key>zh-Hant</key>
+			<string>周末</string>
+		</dict>
+		<key>MeetingCycleDayOfWeekWorkDay</key>
+		<dict>
+			<key>en</key>
+			<string>Weekday</string>
+			<key>es</key>
+			<string>Weekday</string>
+			<key>zh-Hans</key>
+			<string>工作日</string>
+			<key>zh-Hant</key>
+			<string>工作日</string>
+		</dict>
+		<key>MeetingCycleMonthOfYearApr</key>
+		<dict>
+			<key>en</key>
+			<string>Apr</string>
+			<key>es</key>
+			<string>Apr</string>
+			<key>zh-Hans</key>
+			<string>四月</string>
+			<key>zh-Hant</key>
+			<string>四月</string>
+		</dict>
+		<key>MeetingCycleMonthOfYearAug</key>
+		<dict>
+			<key>en</key>
+			<string>Aug</string>
+			<key>es</key>
+			<string>Aug</string>
+			<key>zh-Hans</key>
+			<string>八月</string>
+			<key>zh-Hant</key>
+			<string>八月</string>
+		</dict>
+		<key>MeetingCycleMonthOfYearDec</key>
+		<dict>
+			<key>en</key>
+			<string>Dec</string>
+			<key>es</key>
+			<string>Dec</string>
+			<key>zh-Hans</key>
+			<string>十二月</string>
+			<key>zh-Hant</key>
+			<string>十二月</string>
+		</dict>
+		<key>MeetingCycleMonthOfYearFeb</key>
+		<dict>
+			<key>en</key>
+			<string>Feb</string>
+			<key>es</key>
+			<string>Feb</string>
+			<key>zh-Hans</key>
+			<string>二月</string>
+			<key>zh-Hant</key>
+			<string>二月</string>
+		</dict>
+		<key>MeetingCycleMonthOfYearJan</key>
+		<dict>
+			<key>en</key>
+			<string>Jan</string>
+			<key>es</key>
+			<string>Jan</string>
+			<key>zh-Hans</key>
+			<string>一月</string>
+			<key>zh-Hant</key>
+			<string>一月</string>
+		</dict>
+		<key>MeetingCycleMonthOfYearJul</key>
+		<dict>
+			<key>en</key>
+			<string>Jul</string>
+			<key>es</key>
+			<string>Jul</string>
+			<key>zh-Hans</key>
+			<string>七月</string>
+			<key>zh-Hant</key>
+			<string>七月</string>
+		</dict>
+		<key>MeetingCycleMonthOfYearJun</key>
+		<dict>
+			<key>en</key>
+			<string>Jun</string>
+			<key>es</key>
+			<string>Jun</string>
+			<key>zh-Hans</key>
+			<string>六月</string>
+			<key>zh-Hant</key>
+			<string>六月</string>
+		</dict>
+		<key>MeetingCycleMonthOfYearMar</key>
+		<dict>
+			<key>en</key>
+			<string>Mar</string>
+			<key>es</key>
+			<string>Mar</string>
+			<key>zh-Hans</key>
+			<string>三月</string>
+			<key>zh-Hant</key>
+			<string>三月</string>
+		</dict>
+		<key>MeetingCycleMonthOfYearMay</key>
+		<dict>
+			<key>en</key>
+			<string>May</string>
+			<key>es</key>
+			<string>May</string>
+			<key>zh-Hans</key>
+			<string>五月</string>
+			<key>zh-Hant</key>
+			<string>五月</string>
+		</dict>
+		<key>MeetingCycleMonthOfYearNov</key>
+		<dict>
+			<key>en</key>
+			<string>Nov</string>
+			<key>es</key>
+			<string>Nov</string>
+			<key>zh-Hans</key>
+			<string>十一月</string>
+			<key>zh-Hant</key>
+			<string>十一月</string>
+		</dict>
+		<key>MeetingCycleMonthOfYearOct</key>
+		<dict>
+			<key>en</key>
+			<string>Oct</string>
+			<key>es</key>
+			<string>Oct</string>
+			<key>zh-Hans</key>
+			<string>十月</string>
+			<key>zh-Hant</key>
+			<string>十月</string>
+		</dict>
+		<key>MeetingCycleMonthOfYearSep</key>
+		<dict>
+			<key>en</key>
+			<string>Sep</string>
+			<key>es</key>
+			<string>Sep</string>
+			<key>zh-Hans</key>
+			<string>九月</string>
+			<key>zh-Hant</key>
+			<string>九月</string>
+		</dict>
+		<key>MeetingCyclePatternDailyEveryDay</key>
+		<dict>
+			<key>en</key>
+			<string>Every $Day$day(s)</string>
+			<key>es</key>
+			<string>Every $Day$day(s)</string>
+			<key>zh-Hans</key>
+			<string>每$Day$天发生</string>
+			<key>zh-Hant</key>
+			<string>每$Day$天發生</string>
+		</dict>
+		<key>MeetingCyclePatternDailyEveryDayDay</key>
+		<dict>
+			<key>en</key>
+			<string>%@ </string>
+			<key>es</key>
+			<string>%@ </string>
+			<key>zh-Hans</key>
+			<string>%@</string>
+			<key>zh-Hant</key>
+			<string>%@</string>
+		</dict>
+		<key>MeetingCyclePatternDailyEveryWorkDay</key>
+		<dict>
+			<key>en</key>
+			<string>Every weekday</string>
+			<key>es</key>
+			<string>Every weekday</string>
+			<key>zh-Hans</key>
+			<string>每个工作日发生</string>
+			<key>zh-Hant</key>
+			<string>每個工作日發生</string>
+		</dict>
+		<key>MeetingCyclePatternMonthly</key>
+		<dict>
+			<key>en</key>
+			<string>Day $DayOfMonth$ of every $Month$month(s)</string>
+			<key>es</key>
+			<string>Day $DayOfMonth$ of every $Month$month(s)</string>
+			<key>zh-Hans</key>
+			<string>每$Month$月的第$DayOfMonth$天发生</string>
+			<key>zh-Hant</key>
+			<string>每$Month$月的第$DayOfMonth$天發生</string>
+		</dict>
+		<key>MeetingCyclePatternMonthly2</key>
+		<dict>
+			<key>en</key>
+			<string>The $DayOfWeekIndex$ $DayOfWeek$ of every $Month$month(s)</string>
+			<key>es</key>
+			<string>The $DayOfWeekIndex$ $DayOfWeek$ of every $Month$month(s)</string>
+			<key>zh-Hans</key>
+			<string>每$Month$月的$DayOfWeekIndex$$DayOfWeek$发生</string>
+			<key>zh-Hant</key>
+			<string>每$Month$月的$DayOfWeekIndex$$DayOfWeek$發生</string>
+		</dict>
+		<key>MeetingCyclePatternMonthly2DayOfWeek</key>
+		<dict>
+			<key>en</key>
+			<string>%@</string>
+			<key>es</key>
+			<string>%@</string>
+			<key>zh-Hans</key>
+			<string>%@</string>
+			<key>zh-Hant</key>
+			<string>%@</string>
+		</dict>
+		<key>MeetingCyclePatternMonthly2DayOfWeekIndex</key>
+		<dict>
+			<key>en</key>
+			<string>%@</string>
+			<key>es</key>
+			<string>%@</string>
+			<key>zh-Hans</key>
+			<string>%@</string>
+			<key>zh-Hant</key>
+			<string>%@</string>
+		</dict>
+		<key>MeetingCyclePatternMonthly2Month</key>
+		<dict>
+			<key>en</key>
+			<string>%@ </string>
+			<key>es</key>
+			<string>%@ </string>
+			<key>zh-Hans</key>
+			<string>%@个</string>
+			<key>zh-Hant</key>
+			<string>%@個</string>
+		</dict>
+		<key>MeetingCyclePatternMonthlyDayOfMonth</key>
+		<dict>
+			<key>en</key>
+			<string>%@</string>
+			<key>es</key>
+			<string>%@</string>
+			<key>zh-Hans</key>
+			<string>%@</string>
+			<key>zh-Hant</key>
+			<string>%@</string>
+		</dict>
+		<key>MeetingCyclePatternMonthlyMonth</key>
+		<dict>
+			<key>en</key>
+			<string>%@ </string>
+			<key>es</key>
+			<string>%@ </string>
+			<key>zh-Hans</key>
+			<string>%@个</string>
+			<key>zh-Hant</key>
+			<string>%@個</string>
+		</dict>
+		<key>MeetingCyclePatternWeekly</key>
+		<dict>
+			<key>en</key>
+			<string>Recur every $Week$week(s) on : $DayOfWeek$ </string>
+			<key>es</key>
+			<string>Recur every $Week$week(s) on : $DayOfWeek$ </string>
+			<key>zh-Hans</key>
+			<string>每$Week$周的$DayOfWeek$发生</string>
+			<key>zh-Hant</key>
+			<string>每$Week$周的$DayOfWeek$發生</string>
+		</dict>
+		<key>MeetingCyclePatternWeeklyDayOfWeek</key>
+		<dict>
+			<key>en</key>
+			<string>%@</string>
+			<key>es</key>
+			<string>%@</string>
+			<key>zh-Hans</key>
+			<string>%@</string>
+			<key>zh-Hant</key>
+			<string>%@</string>
+		</dict>
+		<key>MeetingCyclePatternWeeklyWeek</key>
+		<dict>
+			<key>en</key>
+			<string>%@ </string>
+			<key>es</key>
+			<string>%@ </string>
+			<key>zh-Hans</key>
+			<string>%@</string>
+			<key>zh-Hant</key>
+			<string>%@</string>
+		</dict>
+		<key>MeetingCyclePatternYearly</key>
+		<dict>
+			<key>en</key>
+			<string>Recur every $Year$year(s) on : $MonthOfYear$ $DayOfMonth$</string>
+			<key>es</key>
+			<string>Recur every $Year$year(s) on : $MonthOfYear$ $DayOfMonth$</string>
+			<key>zh-Hans</key>
+			<string>每$Year$年的$MonthOfYear$的第$DayOfMonth$天发生</string>
+			<key>zh-Hant</key>
+			<string>每$Year$年的$MonthOfYear$的第$DayOfMonth$天發生</string>
+		</dict>
+		<key>MeetingCyclePatternYearly2</key>
+		<dict>
+			<key>en</key>
+			<string>Recur every $Year$year(s) on : $MonthOfYear$ of $DayOfWeekIndex$ $DayOfWeek$</string>
+			<key>es</key>
+			<string>Recur every $Year$year(s) on : $MonthOfYear$ of $DayOfWeekIndex$ $DayOfWeek$</string>
+			<key>zh-Hans</key>
+			<string>每$Year$年的$MonthOfYear$的$DayOfWeekIndex$$DayOfWeek$发生</string>
+			<key>zh-Hant</key>
+			<string>每$Year$年的$MonthOfYear$的$DayOfWeekIndex$$DayOfWeek$發生</string>
+		</dict>
+		<key>MeetingCyclePatternYearly2DayOfWeek</key>
+		<dict>
+			<key>en</key>
+			<string>%@</string>
+			<key>es</key>
+			<string>%@</string>
+			<key>zh-Hans</key>
+			<string>%@</string>
+			<key>zh-Hant</key>
+			<string>%@</string>
+		</dict>
+		<key>MeetingCyclePatternYearly2DayOfWeekIndex</key>
+		<dict>
+			<key>en</key>
+			<string>%@</string>
+			<key>es</key>
+			<string>%@</string>
+			<key>zh-Hans</key>
+			<string>%@</string>
+			<key>zh-Hant</key>
+			<string>%@</string>
+		</dict>
+		<key>MeetingCyclePatternYearly2MonthOfYear</key>
+		<dict>
+			<key>en</key>
+			<string>%@</string>
+			<key>es</key>
+			<string>%@</string>
+			<key>zh-Hans</key>
+			<string>%@</string>
+			<key>zh-Hant</key>
+			<string>%@</string>
+		</dict>
+		<key>MeetingCyclePatternYearly2Year</key>
+		<dict>
+			<key>en</key>
+			<string>%@ </string>
+			<key>es</key>
+			<string>%@ </string>
+			<key>zh-Hans</key>
+			<string>%@</string>
+			<key>zh-Hant</key>
+			<string>%@</string>
+		</dict>
+		<key>MeetingCyclePatternYearlyDayOfMonth</key>
+		<dict>
+			<key>en</key>
+			<string>%@</string>
+			<key>es</key>
+			<string>%@</string>
+			<key>zh-Hans</key>
+			<string>%@</string>
+			<key>zh-Hant</key>
+			<string>%@</string>
+		</dict>
+		<key>MeetingCyclePatternYearlyMonthOfYear</key>
+		<dict>
+			<key>en</key>
+			<string>%@</string>
+			<key>es</key>
+			<string>%@</string>
+			<key>zh-Hans</key>
+			<string>%@</string>
+			<key>zh-Hant</key>
+			<string>%@</string>
+		</dict>
+		<key>MeetingCyclePatternYearlyYear</key>
+		<dict>
+			<key>en</key>
+			<string>%@ </string>
+			<key>es</key>
+			<string>%@ </string>
+			<key>zh-Hans</key>
+			<string>%@</string>
+			<key>zh-Hant</key>
+			<string>%@</string>
+		</dict>
+		<key>MeetingDetailNote</key>
+		<dict>
+			<key>en</key>
+			<string>Note:</string>
+			<key>es</key>
+			<string>Note:</string>
+			<key>zh-Hans</key>
+			<string>说明:</string>
+			<key>zh-Hant</key>
+			<string>說明:</string>
+		</dict>
+		<key>MeetingMemberAllBlockModerator</key>
+		<dict>
+			<key>en</key>
+			<string>全员闭音</string>
+			<key>es</key>
+			<string>全员闭音</string>
+			<key>zh-Hans</key>
+			<string>全员闭音</string>
+			<key>zh-Hant</key>
+			<string>全員閉音</string>
+		</dict>
+		<key>MeetingMemberAllMuteModerator</key>
+		<dict>
+			<key>en</key>
+			<string>全员禁言</string>
+			<key>es</key>
+			<string>全员禁言</string>
+			<key>zh-Hans</key>
+			<string>全员禁言</string>
+			<key>zh-Hant</key>
+			<string>全員禁言</string>
+		</dict>
+		<key>MeetingMemberAllowSpeaking</key>
+		<dict>
+			<key>en</key>
+			<string>允许发言</string>
+			<key>es</key>
+			<string>允许发言</string>
+			<key>zh-Hans</key>
+			<string>允许发言</string>
+			<key>zh-Hant</key>
+			<string>允許發言</string>
+		</dict>
+		<key>MeetingMemberCancelAllBlockModerator</key>
+		<dict>
+			<key>en</key>
+			<string>解除全员闭音</string>
+			<key>es</key>
+			<string>解除全员闭音</string>
+			<key>zh-Hans</key>
+			<string>解除全员闭音</string>
+			<key>zh-Hant</key>
+			<string>解除全員閉音</string>
+		</dict>
+		<key>MeetingMemberCancelAllMuteModerator</key>
+		<dict>
+			<key>en</key>
+			<string>解除全员禁言</string>
+			<key>es</key>
+			<string>解除全员禁言</string>
+			<key>zh-Hans</key>
+			<string>解除全员禁言</string>
+			<key>zh-Hant</key>
+			<string>解除全員禁言</string>
+		</dict>
+		<key>MeetingMemberHostCountFormat</key>
+		<dict>
+			<key>en</key>
+			<string>主持人(%@)</string>
+			<key>es</key>
+			<string>主持人(%@)</string>
+			<key>zh-Hans</key>
+			<string>主持人(%@)</string>
+			<key>zh-Hant</key>
+			<string>主持人(%@)</string>
+		</dict>
+		<key>MeetingMemberIgnore</key>
+		<dict>
+			<key>en</key>
+			<string>忽略</string>
+			<key>es</key>
+			<string>忽略</string>
+			<key>zh-Hans</key>
+			<string>忽略</string>
+			<key>zh-Hant</key>
+			<string>忽略</string>
+		</dict>
+		<key>MeetingMemberLockMeeting</key>
+		<dict>
+			<key>en</key>
+			<string>锁定会议</string>
+			<key>es</key>
+			<string>锁定会议</string>
+			<key>zh-Hans</key>
+			<string>锁定会议</string>
+			<key>zh-Hant</key>
+			<string>鎖定會議</string>
+		</dict>
+		<key>MeetingMemberMessageBeHost</key>
+		<dict>
+			<key>en</key>
+			<string>You are set as a moderator</string>
+			<key>es</key>
+			<string>You are set as a moderator</string>
+			<key>zh-Hans</key>
+			<string>您被设置为主持人</string>
+			<key>zh-Hant</key>
+			<string>您被設置為主持人</string>
+		</dict>
+		<key>MeetingMemberMessageBeSpeaker</key>
+		<dict>
+			<key>en</key>
+			<string>You are set as a lecturer</string>
+			<key>es</key>
+			<string>You are set as a lecturer</string>
+			<key>zh-Hans</key>
+			<string>您被设置为演讲者</string>
+			<key>zh-Hant</key>
+			<string>您被設置為演講者</string>
+		</dict>
+		<key>MeetingMemberMessageBeVisitor</key>
+		<dict>
+			<key>en</key>
+			<string>You are set as a guest</string>
+			<key>es</key>
+			<string>You are set as a guest</string>
+			<key>zh-Hans</key>
+			<string>您被设置为访客</string>
+			<key>zh-Hant</key>
+			<string>您被設置為訪客</string>
+		</dict>
+		<key>MeetingMemberMessageBlockModeratorByHost</key>
+		<dict>
+			<key>en</key>
+			<string>You are block</string>
+			<key>es</key>
+			<string>You are block</string>
+			<key>zh-Hans</key>
+			<string>您被主持人闭音</string>
+			<key>zh-Hant</key>
+			<string>您被主持人閉音</string>
+		</dict>
+		<key>MeetingMemberMessageCancelBlockModeratorByHost</key>
+		<dict>
+			<key>en</key>
+			<string>You are unblock</string>
+			<key>es</key>
+			<string>You are unblock</string>
+			<key>zh-Hans</key>
+			<string>您被主持人解除闭音</string>
+			<key>zh-Hant</key>
+			<string>您被主持人解除閉音</string>
+		</dict>
+		<key>MeetingMemberMessageCancelMuteModeratorByHost</key>
+		<dict>
+			<key>en</key>
+			<string>You are unmute</string>
+			<key>es</key>
+			<string>You are unmute</string>
+			<key>zh-Hans</key>
+			<string>您被主持人解除禁言</string>
+			<key>zh-Hant</key>
+			<string>您被主持人解除禁言</string>
+		</dict>
+		<key>MeetingMemberMessageInviteRejectedByAccountNotExistedFormat</key>
+		<dict>
+			<key>en</key>
+			<string>%@ not exist</string>
+			<key>es</key>
+			<string>%@ not exist</string>
+			<key>zh-Hans</key>
+			<string>%@账号不存在</string>
+			<key>zh-Hant</key>
+			<string>%@賬號不存在</string>
+		</dict>
+		<key>MeetingMemberMessageInviteRejectedByDND1Format</key>
+		<dict>
+			<key>en</key>
+			<string>%@ DND</string>
+			<key>es</key>
+			<string>%@ DND</string>
+			<key>zh-Hans</key>
+			<string>%@因为开启了DND</string>
+			<key>zh-Hant</key>
+			<string>%@因為開啟了DND</string>
+		</dict>
+		<key>MeetingMemberMessageInviteRejectedByDND2Format</key>
+		<dict>
+			<key>en</key>
+			<string>%@ DND</string>
+			<key>es</key>
+			<string>%@ DND</string>
+			<key>zh-Hans</key>
+			<string>%@开启了DND而无法邀请</string>
+			<key>zh-Hant</key>
+			<string>%@開啟了DND而無法邀請</string>
+		</dict>
+		<key>MeetingMemberMessageInviteRejectedByTimeoutFormat</key>
+		<dict>
+			<key>en</key>
+			<string>inviting %@ timeout</string>
+			<key>es</key>
+			<string>inviting %@ timeout</string>
+			<key>zh-Hans</key>
+			<string>%@邀请超时</string>
+			<key>zh-Hant</key>
+			<string>%@邀請超時</string>
+		</dict>
+		<key>MeetingMemberMessageInviteRejectedByUserBusyFormat</key>
+		<dict>
+			<key>en</key>
+			<string>%@ busy</string>
+			<key>es</key>
+			<string>%@ busy</string>
+			<key>zh-Hans</key>
+			<string>%@用户忙</string>
+			<key>zh-Hant</key>
+			<string>%@用戶忙</string>
+		</dict>
+		<key>MeetingMemberMessageInviteRejectedByUserOfflineFormat</key>
+		<dict>
+			<key>en</key>
+			<string>%@ offline</string>
+			<key>es</key>
+			<string>%@ offline</string>
+			<key>zh-Hans</key>
+			<string>%@用户离线无法呼叫</string>
+			<key>zh-Hant</key>
+			<string>%@用戶離線無法呼叫</string>
+		</dict>
+		<key>MeetingMemberMessageInviteRejectedCallLimitFormat</key>
+		<dict>
+			<key>en</key>
+			<string>%@ reject inviting</string>
+			<key>es</key>
+			<string>%@ reject inviting</string>
+			<key>zh-Hans</key>
+			<string>%@邀请因为通话上限被拒</string>
+			<key>zh-Hant</key>
+			<string>%@邀請因為通話上限被拒</string>
+		</dict>
+		<key>MeetingMemberMessageInviteRejectedFormat</key>
+		<dict>
+			<key>en</key>
+			<string>%@ reject inviting</string>
+			<key>es</key>
+			<string>%@ reject inviting</string>
+			<key>zh-Hans</key>
+			<string>%@拒绝了您的邀请</string>
+			<key>zh-Hant</key>
+			<string>%@拒絕了您的邀請</string>
+		</dict>
+		<key>MeetingMemberMessageMuteModeratorByHost</key>
+		<dict>
+			<key>en</key>
+			<string>You are mute</string>
+			<key>es</key>
+			<string>You are mute</string>
+			<key>zh-Hans</key>
+			<string>您被主持人禁言</string>
+			<key>zh-Hant</key>
+			<string>您被主持人禁言</string>
+		</dict>
+		<key>MeetingMemberMessageNotBeSpeaker</key>
+		<dict>
+			<key>en</key>
+			<string>You are canceled lecturer</string>
+			<key>es</key>
+			<string>You are canceled lecturer</string>
+			<key>zh-Hans</key>
+			<string>您被取消演讲权限</string>
+			<key>zh-Hant</key>
+			<string>您被取消演講權限</string>
+		</dict>
+		<key>MeetingMemberRejectSpeaking</key>
+		<dict>
+			<key>en</key>
+			<string>拒绝发言</string>
+			<key>es</key>
+			<string>拒绝发言</string>
+			<key>zh-Hans</key>
+			<string>拒绝发言</string>
+			<key>zh-Hant</key>
+			<string>拒絕發言</string>
+		</dict>
+		<key>MeetingMemberTitle</key>
+		<dict>
+			<key>en</key>
+			<string>成员列表</string>
+			<key>es</key>
+			<string>成员列表</string>
+			<key>zh-Hans</key>
+			<string>成员列表</string>
+			<key>zh-Hant</key>
+			<string>成員列表</string>
+		</dict>
+		<key>MeetingMemberUnlockMeeting</key>
+		<dict>
+			<key>en</key>
+			<string>解锁会议</string>
+			<key>es</key>
+			<string>解锁会议</string>
+			<key>zh-Hans</key>
+			<string>解锁会议</string>
+			<key>zh-Hant</key>
+			<string>解鎖會議</string>
+		</dict>
+		<key>MeetingMemberVisitorCountFormat</key>
+		<dict>
+			<key>en</key>
+			<string>访客(%@)</string>
+			<key>es</key>
+			<string>访客(%@)</string>
+			<key>zh-Hans</key>
+			<string>访客(%@)</string>
+			<key>zh-Hant</key>
+			<string>訪客(%@)</string>
+		</dict>
+		<key>Message</key>
+		<dict>
+			<key>en</key>
+			<string>Message</string>
+			<key>es</key>
+			<string>Mensaje</string>
+			<key>zh-Hans</key>
+			<string>消息</string>
+			<key>zh-Hant</key>
+			<string>消息</string>
+		</dict>
+		<key>Message notice</key>
+		<dict>
+			<key>en</key>
+			<string>Message notification</string>
+			<key>es</key>
+			<string>Mensaje de notificación</string>
+			<key>zh-Hans</key>
+			<string>消息通知</string>
+			<key>zh-Hant</key>
+			<string>消息通知</string>
+		</dict>
+		<key>Missed call</key>
+		<dict>
+			<key>en</key>
+			<string>Missed call</string>
+			<key>es</key>
+			<string>Llamada perdida</string>
+			<key>zh-Hans</key>
+			<string>未接电话</string>
+			<key>zh-Hant</key>
+			<string>未接電話</string>
+		</dict>
+		<key>Mobile Net Warning</key>
+		<dict>
+			<key>en</key>
+			<string>Mobile Net Warning</string>
+			<key>es</key>
+			<string>Advertencia de red móvil</string>
+			<key>zh-Hans</key>
+			<string>移动流量提醒</string>
+			<key>zh-Hant</key>
+			<string>移動流量提醒</string>
+		</dict>
+		<key>More</key>
+		<dict>
+			<key>en</key>
+			<string>More</string>
+			<key>es</key>
+			<string>Más</string>
+			<key>zh-Hans</key>
+			<string>更多</string>
+			<key>zh-Hant</key>
+			<string>更多</string>
+		</dict>
+		<key>Multi-device notifications</key>
+		<dict>
+			<key>en</key>
+			<string>Notifications sync on multi-devices</string>
+			<key>es</key>
+			<string>Sincronización de notificaciones en multiples dispositivos</string>
+			<key>zh-Hans</key>
+			<string>多设备通知同步提醒</string>
+			<key>zh-Hant</key>
+			<string>多設備通知同步提醒</string>
+		</dict>
+		<key>NAT Configuration</key>
+		<dict>
+			<key>en</key>
+			<string>NAT Configuration</string>
+			<key>es</key>
+			<string>Configuración NAT</string>
+			<key>zh-Hans</key>
+			<string>NAT配置</string>
+			<key>zh-Hant</key>
+			<string>NAT配置</string>
+		</dict>
+		<key>NAT IP Address</key>
+		<dict>
+			<key>en</key>
+			<string>NAT IP Address</string>
+			<key>es</key>
+			<string>Dirección IP NAT</string>
+			<key>zh-Hans</key>
+			<string>NAT IP 地址</string>
+			<key>zh-Hant</key>
+			<string>NAT IP 地址</string>
+		</dict>
+		<key>NAT Type</key>
+		<dict>
+			<key>en</key>
+			<string>NAT Type</string>
+			<key>es</key>
+			<string>Tipo de NAT</string>
+			<key>zh-Hans</key>
+			<string>NAT类型</string>
+			<key>zh-Hant</key>
+			<string>NAT類型</string>
+		</dict>
+		<key>NO</key>
+		<dict>
+			<key>en</key>
+			<string>NO</string>
+			<key>es</key>
+			<string>NO</string>
+			<key>zh-Hans</key>
+			<string>无</string>
+			<key>zh-Hant</key>
+			<string>無</string>
+		</dict>
+		<key>Name cannot empty!</key>
+		<dict>
+			<key>en</key>
+			<string>Name cannot be null.</string>
+			<key>es</key>
+			<string>El nombre no puede ser nulo.</string>
+			<key>zh-Hans</key>
+			<string>姓名不能为空!</string>
+			<key>zh-Hant</key>
+			<string>姓名不能為空!</string>
+		</dict>
+		<key>Name:</key>
+		<dict>
+			<key>en</key>
+			<string>Name:</string>
+			<key>es</key>
+			<string>Nombre:</string>
+			<key>zh-Hans</key>
+			<string>姓名:</string>
+			<key>zh-Hant</key>
+			<string>姓名:</string>
+		</dict>
+		<key>Network</key>
+		<dict>
+			<key>en</key>
+			<string>Network</string>
+			<key>es</key>
+			<string>Red</string>
+			<key>zh-Hans</key>
+			<string>网络</string>
+			<key>zh-Hant</key>
+			<string>網絡</string>
+		</dict>
+		<key>Network Error</key>
+		<dict>
+			<key>en</key>
+			<string>Network error</string>
+			<key>es</key>
+			<string>Error de red</string>
+			<key>zh-Hans</key>
+			<string>网络错误</string>
+			<key>zh-Hant</key>
+			<string>網絡錯誤</string>
+		</dict>
+		<key>Network is not available, please check settings</key>
+		<dict>
+			<key>en</key>
+			<string>network is not available, please check settings</string>
+			<key>es</key>
+			<string>La red no está disponible, por favor revise configuraciones.</string>
+			<key>zh-Hans</key>
+			<string>网络不可用，请检查您的网络设置</string>
+			<key>zh-Hant</key>
+			<string>網絡不可用，請檢查您的網絡設置</string>
+		</dict>
+		<key>New Contact</key>
+		<dict>
+			<key>en</key>
+			<string>New Contact</string>
+			<key>es</key>
+			<string>Nuevo contacto</string>
+			<key>zh-Hans</key>
+			<string>添加联系人</string>
+			<key>zh-Hant</key>
+			<string>添加聯繫人</string>
+		</dict>
+		<key>New message notice</key>
+		<dict>
+			<key>en</key>
+			<string>New message notification</string>
+			<key>es</key>
+			<string>Nuevo mensaje de notificación</string>
+			<key>zh-Hans</key>
+			<string>新消息提示</string>
+			<key>zh-Hant</key>
+			<string>新消息提示</string>
+		</dict>
+		<key>No Data</key>
+		<dict>
+			<key>en</key>
+			<string>No Data</string>
+			<key>es</key>
+			<string>No Data</string>
+			<key>zh-Hans</key>
+			<string>暂无数据</string>
+			<key>zh-Hant</key>
+			<string>暫無數據</string>
+		</dict>
+		<key>No Records</key>
+		<dict>
+			<key>en</key>
+			<string>No Records</string>
+			<key>es</key>
+			<string>No hay registros</string>
+			<key>zh-Hans</key>
+			<string>无记录</string>
+			<key>zh-Hant</key>
+			<string>無記錄</string>
+		</dict>
+		<key>No Schedule Records</key>
+		<dict>
+			<key>en</key>
+			<string>No Schedule Records</string>
+			<key>es</key>
+			<string>No hay registros de horarios</string>
+			<key>zh-Hans</key>
+			<string>无会议日程记录</string>
+			<key>zh-Hant</key>
+			<string>無會議日程記錄</string>
+		</dict>
+		<key>Noise elimination</key>
+		<dict>
+			<key>en</key>
+			<string>Smart Noise Block</string>
+			<key>es</key>
+			<string>Smart Noise Block</string>
+			<key>zh-Hans</key>
+			<string>噪声消除</string>
+			<key>zh-Hant</key>
+			<string>噪聲消除</string>
+		</dict>
+		<key>Not Available</key>
+		<dict>
+			<key>en</key>
+			<string>Not Available</string>
+			<key>es</key>
+			<string>No disponible</string>
+			<key>zh-Hans</key>
+			<string>不可用</string>
+			<key>zh-Hant</key>
+			<string>不可用</string>
+		</dict>
+		<key>Not Began</key>
+		<dict>
+			<key>en</key>
+			<string>Not Began</string>
+			<key>es</key>
+			<string>Not Began</string>
+			<key>zh-Hans</key>
+			<string>未开始</string>
+			<key>zh-Hant</key>
+			<string>未開始</string>
+		</dict>
+		<key>Not acceptable here</key>
+		<dict>
+			<key>en</key>
+			<string>Local not acceptable</string>
+			<key>es</key>
+			<string>Localmente no aceptado</string>
+			<key>zh-Hans</key>
+			<string>本地不支持</string>
+			<key>zh-Hant</key>
+			<string>本地不支持</string>
+		</dict>
+		<key>Notification bar displays message contents</key>
+		<dict>
+			<key>en</key>
+			<string>Notification bar displays message contents</string>
+			<key>es</key>
+			<string>La barra de notificaciones desplega el contenido del mensaje</string>
+			<key>zh-Hans</key>
+			<string>通知栏显示消息内容</string>
+			<key>zh-Hant</key>
+			<string>通知欄顯示消息內容</string>
+		</dict>
+		<key>Notification of vibration</key>
+		<dict>
+			<key>en</key>
+			<string>Notification vibration</string>
+			<key>es</key>
+			<string>Vibración de notificación</string>
+			<key>zh-Hans</key>
+			<string>通知时振动</string>
+			<key>zh-Hant</key>
+			<string>通知時振動</string>
+		</dict>
+		<key>Notification tone</key>
+		<dict>
+			<key>en</key>
+			<string>Notification tone</string>
+			<key>es</key>
+			<string>Tono de notificación</string>
+			<key>zh-Hans</key>
+			<string>通知时提示音</string>
+			<key>zh-Hant</key>
+			<string>通知時提示音</string>
+		</dict>
+		<key>Number</key>
+		<dict>
+			<key>en</key>
+			<string>Number</string>
+			<key>es</key>
+			<string>Número</string>
+			<key>zh-Hans</key>
+			<string>号码</string>
+			<key>zh-Hant</key>
+			<string>號碼</string>
+		</dict>
+		<key>Number cannot empty!</key>
+		<dict>
+			<key>en</key>
+			<string>Number cannot be null.</string>
+			<key>es</key>
+			<string>El número no puede ser nulo.</string>
+			<key>zh-Hans</key>
+			<string>号码不能为空!</string>
+			<key>zh-Hant</key>
+			<string>號碼不能為空!</string>
+		</dict>
+		<key>Number%ld:</key>
+		<dict>
+			<key>en</key>
+			<string>Number %ld:</string>
+			<key>es</key>
+			<string>Número %Id:</string>
+			<key>zh-Hans</key>
+			<string>号码%ld:</string>
+			<key>zh-Hant</key>
+			<string>號碼%ld:</string>
+		</dict>
+		<key>On call</key>
+		<dict>
+			<key>en</key>
+			<string>On call</string>
+			<key>es</key>
+			<string>En llamada</string>
+			<key>zh-Hans</key>
+			<string>正在通话中</string>
+			<key>zh-Hant</key>
+			<string>正在通話中</string>
+		</dict>
+		<key>On call:</key>
+		<dict>
+			<key>en</key>
+			<string>On call:</string>
+			<key>es</key>
+			<string>en llamada:</string>
+			<key>zh-Hans</key>
+			<string>正在通话:</string>
+			<key>zh-Hant</key>
+			<string>正在通話:</string>
+		</dict>
+		<key>Ongoing</key>
+		<dict>
+			<key>en</key>
+			<string>Ongoing</string>
+			<key>es</key>
+			<string>En curso</string>
+			<key>zh-Hans</key>
+			<string>正在进行</string>
+			<key>zh-Hant</key>
+			<string>正在進行</string>
+		</dict>
+		<key>Open the camera</key>
+		<dict>
+			<key>en</key>
+			<string>Open the camera</string>
+			<key>es</key>
+			<string>Open the camera</string>
+			<key>zh-Hans</key>
+			<string>开启摄像头</string>
+			<key>zh-Hant</key>
+			<string>開啟攝像頭</string>
+		</dict>
+		<key>Open the microphone</key>
+		<dict>
+			<key>en</key>
+			<string>Open the microphone</string>
+			<key>es</key>
+			<string>Open the microphone</string>
+			<key>zh-Hans</key>
+			<string>开启麦克风</string>
+			<key>zh-Hant</key>
+			<string>開啟麥克風</string>
+		</dict>
+		<key>OrganizationSearchEmpty</key>
+		<dict>
+			<key>en</key>
+			<string>No Results</string>
+			<key>es</key>
+			<string>No Results</string>
+			<key>zh-Hans</key>
+			<string>无搜索结果</string>
+			<key>zh-Hant</key>
+			<string>無搜索結果</string>
+		</dict>
+		<key>Organizer:</key>
+		<dict>
+			<key>en</key>
+			<string>Organizer:</string>
+			<key>es</key>
+			<string>Organizador:</string>
+			<key>zh-Hans</key>
+			<string>组织者:</string>
+			<key>zh-Hant</key>
+			<string>組織者:</string>
+		</dict>
+		<key>Outbound</key>
+		<dict>
+			<key>en</key>
+			<string>Outbound</string>
+			<key>es</key>
+			<string>Salientes</string>
+			<key>zh-Hans</key>
+			<string>代理服务器</string>
+			<key>zh-Hant</key>
+			<string>代理服務器</string>
+		</dict>
+		<key>Outgoing call</key>
+		<dict>
+			<key>en</key>
+			<string>Outgoing call</string>
+			<key>es</key>
+			<string>Llamada de salida</string>
+			<key>zh-Hans</key>
+			<string>呼出电话</string>
+			<key>zh-Hant</key>
+			<string>呼出電話</string>
+		</dict>
+		<key>PIN Code</key>
+		<dict>
+			<key>en</key>
+			<string>PIN Code</string>
+			<key>es</key>
+			<string>PIN Code</string>
+			<key>zh-Hans</key>
+			<string>PIN码登录</string>
+			<key>zh-Hant</key>
+			<string>PIN碼登錄</string>
+		</dict>
+		<key>Participants:</key>
+		<dict>
+			<key>en</key>
+			<string>Participants:</string>
+			<key>es</key>
+			<string>Participantes:</string>
+			<key>zh-Hans</key>
+			<string>参会人:</string>
+			<key>zh-Hant</key>
+			<string>參會人:</string>
+		</dict>
+		<key>Password</key>
+		<dict>
+			<key>en</key>
+			<string>Password</string>
+			<key>es</key>
+			<string>Contraseña</string>
+			<key>zh-Hans</key>
+			<string>密码</string>
+			<key>zh-Hant</key>
+			<string>密碼</string>
+		</dict>
+		<key>Password is not allowed to be empty</key>
+		<dict>
+			<key>en</key>
+			<string>Password is not allowed to be null</string>
+			<key>es</key>
+			<string>La contraseña no puede ser nula</string>
+			<key>zh-Hans</key>
+			<string>密码不允许为空</string>
+			<key>zh-Hant</key>
+			<string>密碼不允許為空</string>
+		</dict>
+		<key>Password:</key>
+		<dict>
+			<key>en</key>
+			<string>Password:</string>
+			<key>es</key>
+			<string>Contraseña:</string>
+			<key>zh-Hans</key>
+			<string>密码:</string>
+			<key>zh-Hant</key>
+			<string>密碼:</string>
+		</dict>
+		<key>PhotoPickerAlbumCount</key>
+		<dict>
+			<key>en</key>
+			<string>%@</string>
+			<key>es</key>
+			<string>%@</string>
+			<key>zh-Hans</key>
+			<string>%@张</string>
+			<key>zh-Hant</key>
+			<string>%@張</string>
+		</dict>
+		<key>PhotoPickerAlbumListTitle</key>
+		<dict>
+			<key>en</key>
+			<string>Photo</string>
+			<key>es</key>
+			<string>Photo</string>
+			<key>zh-Hans</key>
+			<string>照片</string>
+			<key>zh-Hant</key>
+			<string>照片</string>
+		</dict>
+		<key>PhotoPickerAlbumOfAllTitle</key>
+		<dict>
+			<key>en</key>
+			<string>All Photos</string>
+			<key>es</key>
+			<string>All Photos</string>
+			<key>zh-Hans</key>
+			<string>所有照片</string>
+			<key>zh-Hant</key>
+			<string>所有照片</string>
+		</dict>
+		<key>PhotoPickerDoneCount</key>
+		<dict>
+			<key>en</key>
+			<string>Confirm(%@)</string>
+			<key>es</key>
+			<string>Confirm(%@)</string>
+			<key>zh-Hans</key>
+			<string>确定(%@)</string>
+			<key>zh-Hant</key>
+			<string>確定(%@)</string>
+		</dict>
+		<key>PhotoPickerOriginalImage</key>
+		<dict>
+			<key>en</key>
+			<string>Full image</string>
+			<key>es</key>
+			<string>Full image</string>
+			<key>zh-Hans</key>
+			<string>原图</string>
+			<key>zh-Hant</key>
+			<string>原圖</string>
+		</dict>
+		<key>PhotoPickerOriginalImageSize</key>
+		<dict>
+			<key>en</key>
+			<string>Full image(%@)</string>
+			<key>es</key>
+			<string>Full image(%@)</string>
+			<key>zh-Hans</key>
+			<string>原图(共%@)</string>
+			<key>zh-Hant</key>
+			<string>原圖(共%@)</string>
+		</dict>
+		<key>PhotoPickerPreview</key>
+		<dict>
+			<key>en</key>
+			<string>Preview</string>
+			<key>es</key>
+			<string>Preview</string>
+			<key>zh-Hans</key>
+			<string>预览</string>
+			<key>zh-Hant</key>
+			<string>預覽</string>
+		</dict>
+		<key>PhotoPickerSelectedLimit</key>
+		<dict>
+			<key>en</key>
+			<string>Select up to %@ images</string>
+			<key>es</key>
+			<string>Select up to %@ images</string>
+			<key>zh-Hans</key>
+			<string>最多勾选%@张图片</string>
+			<key>zh-Hant</key>
+			<string>最多勾選%@張圖片</string>
+		</dict>
+		<key>Photograph</key>
+		<dict>
+			<key>en</key>
+			<string>Photograph</string>
+			<key>es</key>
+			<string>Photograph</string>
+			<key>zh-Hans</key>
+			<string>拍照</string>
+			<key>zh-Hant</key>
+			<string>拍照</string>
+		</dict>
+		<key>Picture</key>
+		<dict>
+			<key>en</key>
+			<string>Picture</string>
+			<key>es</key>
+			<string>Picture</string>
+			<key>zh-Hans</key>
+			<string>图片</string>
+			<key>zh-Hant</key>
+			<string>圖片</string>
+		</dict>
+		<key>Pin can not be null</key>
+		<dict>
+			<key>en</key>
+			<string>PIN can not be null</string>
+			<key>es</key>
+			<string>El PIN no puede estar vació</string>
+			<key>zh-Hans</key>
+			<string>Pin码不能为空</string>
+			<key>zh-Hant</key>
+			<string>Pin碼不能為空</string>
+		</dict>
+		<key>Pin can only be 9 bits</key>
+		<dict>
+			<key>en</key>
+			<string>PIN can only be 9 bits</string>
+			<key>es</key>
+			<string>El PIN puede ser solo de 9 dígitos</string>
+			<key>zh-Hans</key>
+			<string>Pin码只能是9位数</string>
+			<key>zh-Hant</key>
+			<string>Pin碼只能是9位數</string>
+		</dict>
+		<key>Pin can only be number</key>
+		<dict>
+			<key>en</key>
+			<string>PIN can only be number</string>
+			<key>es</key>
+			<string>El PIN solo puede tener números</string>
+			<key>zh-Hans</key>
+			<string>Pin码只能是数字</string>
+			<key>zh-Hant</key>
+			<string>Pin碼只能是數字</string>
+		</dict>
+		<key>Please enter</key>
+		<dict>
+			<key>en</key>
+			<string>Please enter</string>
+			<key>es</key>
+			<string> Por favor ingrese</string>
+			<key>zh-Hans</key>
+			<string>请输入</string>
+			<key>zh-Hant</key>
+			<string>請輸入</string>
+		</dict>
+		<key>Please enter IP address or H.323 number</key>
+		<dict>
+			<key>en</key>
+			<string>Please enter IP address or H.323 number</string>
+			<key>es</key>
+			<string>Porfavor ingrese la dirección IP o número H.323</string>
+			<key>zh-Hans</key>
+			<string>请输入IP地址或H.323号码</string>
+			<key>zh-Hant</key>
+			<string>請輸入IP地址或H.323號碼</string>
+		</dict>
+		<key>Please enter IP address or URL</key>
+		<dict>
+			<key>en</key>
+			<string>Please enter IP address or URI</string>
+			<key>es</key>
+			<string>Porfavor ingrese la dirección IP o URI</string>
+			<key>zh-Hans</key>
+			<string>请输入IP地址或URI</string>
+			<key>zh-Hant</key>
+			<string>請輸入IP地址或URI</string>
+		</dict>
+		<key>Please enter the address of the server</key>
+		<dict>
+			<key>en</key>
+			<string>Please enter the address of the server</string>
+			<key>es</key>
+			<string>Por favor ingrese la dirección del servidor</string>
+			<key>zh-Hans</key>
+			<string>请输入服务器地址</string>
+			<key>zh-Hant</key>
+			<string>請輸入服務器地址</string>
+		</dict>
+		<key>Please enter the meeting ID</key>
+		<dict>
+			<key>en</key>
+			<string>Please enter the meeting ID</string>
+			<key>es</key>
+			<string>Please enter the meeting ID</string>
+			<key>zh-Hans</key>
+			<string>请输入会议ID</string>
+			<key>zh-Hant</key>
+			<string>請輸入會議ID</string>
+		</dict>
+		<key>Please enter the meeting password (optional)</key>
+		<dict>
+			<key>en</key>
+			<string>Please enter the meeting password (optional)</string>
+			<key>es</key>
+			<string>Please enter the meeting password (optional)</string>
+			<key>zh-Hans</key>
+			<string>请输入会议密码(选填)</string>
+			<key>zh-Hant</key>
+			<string>請輸入會議密碼(選填)</string>
+		</dict>
+		<key>Please enter your name in the meeting</key>
+		<dict>
+			<key>en</key>
+			<string>Please enter your name in the meeting</string>
+			<key>es</key>
+			<string>Please enter your name in the meeting</string>
+			<key>zh-Hans</key>
+			<string>请输入您在会议中的名称</string>
+			<key>zh-Hant</key>
+			<string>請輸入您在會議中的名稱</string>
+		</dict>
+		<key>Please fill in the correct IP address</key>
+		<dict>
+			<key>en</key>
+			<string>Please fill in the correct IP address</string>
+			<key>es</key>
+			<string>Por favor ingrese una dirección IP correcta</string>
+			<key>zh-Hans</key>
+			<string>请填写正确的IP地址</string>
+			<key>zh-Hant</key>
+			<string>請填寫正確的IP地址</string>
+		</dict>
+		<key>Please login system email APP</key>
+		<dict>
+			<key>en</key>
+			<string>Please login system email APP</string>
+			<key>es</key>
+			<string>Porfavor inicie sesión en la aplicación del correco electrónico del sistema</string>
+			<key>zh-Hans</key>
+			<string>请登录系统邮箱APP</string>
+			<key>zh-Hant</key>
+			<string>請登錄系統郵箱APP</string>
+		</dict>
+		<key>Please select cloud account types</key>
+		<dict>
+			<key>en</key>
+			<string>Please select cloud account type</string>
+			<key>es</key>
+			<string>Por favor seleccione el tipo de cuenta cloud</string>
+			<key>zh-Hans</key>
+			<string>请选择云账号类型</string>
+			<key>zh-Hant</key>
+			<string>請選擇雲賬號類型</string>
+		</dict>
+		<key>PleaseEnterTheSecondVideoAddress</key>
+		<dict>
+			<key>en</key>
+			<string>Please enter the second video address</string>
+			<key>es</key>
+			<string>Please enter the second video address</string>
+			<key>zh-Hans</key>
+			<string>请输入第二路视频地址</string>
+			<key>zh-Hant</key>
+			<string>請輸入第二路視頻地址</string>
+		</dict>
+		<key>Port</key>
+		<dict>
+			<key>en</key>
+			<string>Port</string>
+			<key>es</key>
+			<string>Puerto</string>
+			<key>zh-Hans</key>
+			<string>端口</string>
+			<key>zh-Hant</key>
+			<string>端口</string>
+		</dict>
+		<key>Port is in use, please clear background apps to open again!</key>
+		<dict>
+			<key>en</key>
+			<string>Port is in use, please clear background apps to open again!</string>
+			<key>es</key>
+			<string>El puerto está en uso, por favor cierre las aplicaciones de fondo para abrir de nuevo.</string>
+			<key>zh-Hans</key>
+			<string>端口被占用，请先关闭类似应用再打开!</string>
+			<key>zh-Hant</key>
+			<string>端口被占用，請先關閉類似應用再打開!</string>
+		</dict>
+		<key>PrivacyPolicy</key>
+		<dict>
+			<key>en</key>
+			<string>Privacy Policy</string>
+			<key>es</key>
+			<string>Privacy Policy</string>
+			<key>zh-Hans</key>
+			<string>隐私政策</string>
+			<key>zh-Hant</key>
+			<string>隱私政策</string>
+		</dict>
+		<key>PrivacyPolicyUrl</key>
+		<dict>
+			<key>en</key>
+			<string>http://yealink.com.cn/onepage_66.html</string>
+			<key>es</key>
+			<string>http://yealink.com.cn/onepage_66.html</string>
+			<key>zh-Hans</key>
+			<string>http://yealink.com.cn/onepage_24.html</string>
+			<key>zh-Hant</key>
+			<string>http://yealink.com.cn/onepage_24.html</string>
+		</dict>
+		<key>Problem Description:</key>
+		<dict>
+			<key>en</key>
+			<string>Problem Description:</string>
+			<key>es</key>
+			<string>Descripción de problema:</string>
+			<key>zh-Hans</key>
+			<string>问题描述:</string>
+			<key>zh-Hant</key>
+			<string>問題描述:</string>
+		</dict>
+		<key>Proxy Port</key>
+		<dict>
+			<key>en</key>
+			<string>Proxy Port</string>
+			<key>es</key>
+			<string>Puerto proxy</string>
+			<key>zh-Hans</key>
+			<string>代理服务器端口</string>
+			<key>zh-Hant</key>
+			<string>代理服務器端口</string>
+		</dict>
+		<key>Proxy Server</key>
+		<dict>
+			<key>en</key>
+			<string>Proxy Server</string>
+			<key>es</key>
+			<string>Servidor proxy</string>
+			<key>zh-Hans</key>
+			<string>代理服务器</string>
+			<key>zh-Hant</key>
+			<string>代理服務器</string>
+		</dict>
+		<key>Proxy Server Enabled</key>
+		<dict>
+			<key>en</key>
+			<string>Proxy Server Enabled</string>
+			<key>es</key>
+			<string>Servidor proxy habilitado</string>
+			<key>zh-Hans</key>
+			<string>代理服务器启用</string>
+			<key>zh-Hant</key>
+			<string>代理服務器啟用</string>
+		</dict>
+		<key>Put away</key>
+		<dict>
+			<key>en</key>
+			<string>Fold</string>
+			<key>es</key>
+			<string>Plegar</string>
+			<key>zh-Hans</key>
+			<string>收起</string>
+			<key>zh-Hant</key>
+			<string>收起</string>
+		</dict>
+		<key>Range should be set between %d~%d</key>
+		<dict>
+			<key>en</key>
+			<string>Range should be set between %d~%d</string>
+			<key>es</key>
+			<string>El rango debería estar entre %d~%d</string>
+			<key>zh-Hans</key>
+			<string>范围应设置在%d~%d之间</string>
+			<key>zh-Hant</key>
+			<string>範圍應設置在%d~%d之間</string>
+		</dict>
+		<key>Recent search</key>
+		<dict>
+			<key>en</key>
+			<string>Recent search</string>
+			<key>es</key>
+			<string>Busquedas recientes</string>
+			<key>zh-Hans</key>
+			<string>最近搜索</string>
+			<key>zh-Hant</key>
+			<string>最近搜索</string>
+		</dict>
+		<key>Record empty</key>
+		<dict>
+			<key>en</key>
+			<string>Record empty</string>
+			<key>es</key>
+			<string>Record empty</string>
+			<key>zh-Hans</key>
+			<string>暂无通话</string>
+			<key>zh-Hant</key>
+			<string>暫無通話</string>
+		</dict>
+		<key>Register Name</key>
+		<dict>
+			<key>en</key>
+			<string>Register Name</string>
+			<key>es</key>
+			<string>Nombre de registro</string>
+			<key>zh-Hans</key>
+			<string>注册名</string>
+			<key>zh-Hant</key>
+			<string>註冊名</string>
+		</dict>
+		<key>Register Name contains illegal characters !&amp;:;&lt;&gt;[]?%</key>
+		<dict>
+			<key>en</key>
+			<string>Register Name contains illegal characters !&amp;:;&lt;&gt;[]?%</string>
+			<key>es</key>
+			<string>El nombre de registro contiene caracteres ilegales !&amp;:;&lt;&gt;[]?%</string>
+			<key>zh-Hans</key>
+			<string>注册名包含非法字符 !&amp;:;&lt;&gt;[]?%</string>
+			<key>zh-Hant</key>
+			<string>註冊名包含非法字符 !&amp;:;&lt;&gt;[]?%</string>
+		</dict>
+		<key>Register Status</key>
+		<dict>
+			<key>en</key>
+			<string>Register Status</string>
+			<key>es</key>
+			<string>Estado de registro</string>
+			<key>zh-Hans</key>
+			<string>注册状态</string>
+			<key>zh-Hant</key>
+			<string>註冊狀態</string>
+		</dict>
+		<key>Register Status(Canceling)</key>
+		<dict>
+			<key>en</key>
+			<string>Register Status(Canceling)</string>
+			<key>es</key>
+			<string>Estado de registro (Cancelando)</string>
+			<key>zh-Hans</key>
+			<string>注册状态(正在注销)</string>
+			<key>zh-Hant</key>
+			<string>註冊狀態(正在註銷)</string>
+		</dict>
+		<key>Register Status(Disabled)</key>
+		<dict>
+			<key>en</key>
+			<string>Register Status(Disabled)</string>
+			<key>es</key>
+			<string>Estado de registro (Deshabilitado)</string>
+			<key>zh-Hans</key>
+			<string>注册状态(禁用)</string>
+			<key>zh-Hant</key>
+			<string>註冊狀態(禁用)</string>
+		</dict>
+		<key>Register Status(Registered)</key>
+		<dict>
+			<key>en</key>
+			<string>Register Status(Registered)</string>
+			<key>es</key>
+			<string>Estado de registro (Registrado)</string>
+			<key>zh-Hans</key>
+			<string>注册状态(已注册)</string>
+			<key>zh-Hant</key>
+			<string>註冊狀態(已註冊)</string>
+		</dict>
+		<key>Register Status(Registering)</key>
+		<dict>
+			<key>en</key>
+			<string>Register Status(Registering)</string>
+			<key>es</key>
+			<string>Estado de registro (Registrando)</string>
+			<key>zh-Hans</key>
+			<string>注册状态(注册中)</string>
+			<key>zh-Hant</key>
+			<string>註冊狀態(註冊中)</string>
+		</dict>
+		<key>Register Status(Registration Failed)</key>
+		<dict>
+			<key>en</key>
+			<string>Register Status(Registration Failed)</string>
+			<key>es</key>
+			<string>Estado de registro (Error de registro)</string>
+			<key>zh-Hans</key>
+			<string>注册状态(注册失败)</string>
+			<key>zh-Hant</key>
+			<string>註冊狀態(註冊失敗)</string>
+		</dict>
+		<key>Register Status(Unregistered)</key>
+		<dict>
+			<key>en</key>
+			<string>Register Status(Unregistered)</string>
+			<key>es</key>
+			<string>Estado de registro (No registrado)</string>
+			<key>zh-Hans</key>
+			<string>注册状态(未注册)</string>
+			<key>zh-Hant</key>
+			<string>註冊狀態(未註冊)</string>
+		</dict>
+		<key>Registered</key>
+		<dict>
+			<key>en</key>
+			<string>Registered</string>
+			<key>es</key>
+			<string>Registrado</string>
+			<key>zh-Hans</key>
+			<string>已注册</string>
+			<key>zh-Hant</key>
+			<string>已註冊</string>
+		</dict>
+		<key>Registering</key>
+		<dict>
+			<key>en</key>
+			<string>Registering</string>
+			<key>es</key>
+			<string>Registrando</string>
+			<key>zh-Hans</key>
+			<string>注册中</string>
+			<key>zh-Hant</key>
+			<string>註冊中</string>
+		</dict>
+		<key>Registration Failed</key>
+		<dict>
+			<key>en</key>
+			<string>REG Failed</string>
+			<key>es</key>
+			<string>Error de registro</string>
+			<key>zh-Hans</key>
+			<string>注册失败</string>
+			<key>zh-Hant</key>
+			<string>註冊失敗</string>
+		</dict>
+		<key>Remenber Password</key>
+		<dict>
+			<key>en</key>
+			<string>Remember Password</string>
+			<key>es</key>
+			<string>Recordar contraseña</string>
+			<key>zh-Hans</key>
+			<string>记住密码</string>
+			<key>zh-Hant</key>
+			<string>記住密碼</string>
+		</dict>
+		<key>Remote endpoint application cleared call</key>
+		<dict>
+			<key>en</key>
+			<string>Remote endpoint application cleared call</string>
+			<key>es</key>
+			<string>Endpoint remoto terminó la llamada</string>
+			<key>zh-Hans</key>
+			<string>远程端点应用结束通话</string>
+			<key>zh-Hant</key>
+			<string>遠程端點應用結束通話</string>
+		</dict>
+		<key>Remote endpoint refused call</key>
+		<dict>
+			<key>en</key>
+			<string>Remote endpoint refused call</string>
+			<key>es</key>
+			<string>Remote endpoint refused call</string>
+			<key>zh-Hans</key>
+			<string>远程端点拒绝通话</string>
+			<key>zh-Hant</key>
+			<string>遠程端點拒絕通話</string>
+		</dict>
+		<key>Resolution</key>
+		<dict>
+			<key>en</key>
+			<string>Resolution</string>
+			<key>es</key>
+			<string>Resolución</string>
+			<key>zh-Hans</key>
+			<string>分辨率</string>
+			<key>zh-Hant</key>
+			<string>分辨率</string>
+		</dict>
+		<key>Response data error</key>
+		<dict>
+			<key>en</key>
+			<string>Response data error</string>
+			<key>es</key>
+			<string>Error de datos de respuesta</string>
+			<key>zh-Hans</key>
+			<string>响应数据错误</string>
+			<key>zh-Hant</key>
+			<string>響應數據錯誤</string>
+		</dict>
+		<key>SIP Account</key>
+		<dict>
+			<key>en</key>
+			<string>SIP Account</string>
+			<key>es</key>
+			<string>Cuenta SIP</string>
+			<key>zh-Hans</key>
+			<string>SIP账号</string>
+			<key>zh-Hant</key>
+			<string>SIP賬號</string>
+		</dict>
+		<key>SIP IP Call</key>
+		<dict>
+			<key>en</key>
+			<string>SIP IP Call</string>
+			<key>es</key>
+			<string>Llamada SIP IP</string>
+			<key>zh-Hans</key>
+			<string>SIP直拨</string>
+			<key>zh-Hant</key>
+			<string>SIP直撥</string>
+		</dict>
+		<key>SIP/H323</key>
+		<dict>
+			<key>en</key>
+			<string>SIP/H.323</string>
+			<key>es</key>
+			<string>SIP/H.323</string>
+			<key>zh-Hans</key>
+			<string>SIP/H323</string>
+			<key>zh-Hant</key>
+			<string>SIP/H323</string>
+		</dict>
+		<key>STUN Enabled</key>
+		<dict>
+			<key>en</key>
+			<string>STUN Enabled</string>
+			<key>es</key>
+			<string>STUN Habilitado</string>
+			<key>zh-Hans</key>
+			<string>STUN启用</string>
+			<key>zh-Hant</key>
+			<string>STUN啟用</string>
+		</dict>
+		<key>STUN Port</key>
+		<dict>
+			<key>en</key>
+			<string>STUN Port</string>
+			<key>es</key>
+			<string>Puerto STUN</string>
+			<key>zh-Hans</key>
+			<string>STUN端口</string>
+			<key>zh-Hant</key>
+			<string>STUN端口</string>
+		</dict>
+		<key>STUN Server</key>
+		<dict>
+			<key>en</key>
+			<string>STUN Server</string>
+			<key>es</key>
+			<string>Servidor STUN</string>
+			<key>zh-Hans</key>
+			<string>STUN服务器地址</string>
+			<key>zh-Hant</key>
+			<string>STUN服務器地址</string>
+		</dict>
+		<key>Sample Rate</key>
+		<dict>
+			<key>en</key>
+			<string>Sample Rate</string>
+			<key>es</key>
+			<string>Tasa de muestreo</string>
+			<key>zh-Hans</key>
+			<string>采样率</string>
+			<key>zh-Hant</key>
+			<string>採樣率</string>
+		</dict>
+		<key>Save</key>
+		<dict>
+			<key>en</key>
+			<string>Save</string>
+			<key>es</key>
+			<string>Guardar</string>
+			<key>zh-Hans</key>
+			<string>保存</string>
+			<key>zh-Hant</key>
+			<string>保存</string>
+		</dict>
+		<key>Save Success</key>
+		<dict>
+			<key>en</key>
+			<string>Save Success</string>
+			<key>es</key>
+			<string>Guardado exitosamente</string>
+			<key>zh-Hans</key>
+			<string>保存成功</string>
+			<key>zh-Hant</key>
+			<string>保存成功</string>
+		</dict>
+		<key>Save failed</key>
+		<dict>
+			<key>en</key>
+			<string>Save failed</string>
+			<key>es</key>
+			<string>Error al guardar</string>
+			<key>zh-Hans</key>
+			<string>保存失败！</string>
+			<key>zh-Hant</key>
+			<string>保存失敗！</string>
+		</dict>
+		<key>Select the server type</key>
+		<dict>
+			<key>en</key>
+			<string>Select the server type</string>
+			<key>es</key>
+			<string>Select the server type</string>
+			<key>zh-Hans</key>
+			<string>选择服务器类型</string>
+			<key>zh-Hant</key>
+			<string>選擇服務器類型</string>
+		</dict>
+		<key>Selected members</key>
+		<dict>
+			<key>en</key>
+			<string>Selected members</string>
+			<key>es</key>
+			<string>Miembros seleccionados</string>
+			<key>zh-Hans</key>
+			<string>已选成员</string>
+			<key>zh-Hant</key>
+			<string>已選成員</string>
+		</dict>
+		<key>Send logs</key>
+		<dict>
+			<key>en</key>
+			<string>Send logs</string>
+			<key>es</key>
+			<string>Enviar logs</string>
+			<key>zh-Hans</key>
+			<string>发送日志</string>
+			<key>zh-Hant</key>
+			<string>發送日誌</string>
+		</dict>
+		<key>Server</key>
+		<dict>
+			<key>en</key>
+			<string>Server</string>
+			<key>es</key>
+			<string>Servidor</string>
+			<key>zh-Hans</key>
+			<string>服务器</string>
+			<key>zh-Hant</key>
+			<string>服務器</string>
+		</dict>
+		<key>Server is under maintenance, please try again later</key>
+		<dict>
+			<key>en</key>
+			<string>Server is under maintenance, please try again later</string>
+			<key>es</key>
+			<string>El servidor está en mantenimiento, por favor intente más tarde</string>
+			<key>zh-Hans</key>
+			<string>服务器正在维护中，请稍后再试</string>
+			<key>zh-Hant</key>
+			<string>服務器正在維護中，請稍後再試</string>
+		</dict>
+		<key>Server not respond, please check the address of the server and network</key>
+		<dict>
+			<key>en</key>
+			<string>Server not respond, please check the address of the server and network</string>
+			<key>es</key>
+			<string>El servidor no responde, por favor revisa la dirección del servidor y la red</string>
+			<key>zh-Hans</key>
+			<string>服务器未响应，请检查服务器地址与网络情况</string>
+			<key>zh-Hant</key>
+			<string>服務器未響應，請檢查服務器地址與網絡情況</string>
+		</dict>
+		<key>ShareCopy</key>
+		<dict>
+			<key>en</key>
+			<string>Copy</string>
+			<key>es</key>
+			<string>Copy</string>
+			<key>zh-Hans</key>
+			<string>拷贝</string>
+			<key>zh-Hant</key>
+			<string>拷貝</string>
+		</dict>
+		<key>ShareMail</key>
+		<dict>
+			<key>en</key>
+			<string>Mail</string>
+			<key>es</key>
+			<string>Mail</string>
+			<key>zh-Hans</key>
+			<string>邮箱</string>
+			<key>zh-Hant</key>
+			<string>郵箱</string>
+		</dict>
+		<key>ShareMore</key>
+		<dict>
+			<key>en</key>
+			<string>More</string>
+			<key>es</key>
+			<string>More</string>
+			<key>zh-Hans</key>
+			<string>更多</string>
+			<key>zh-Hant</key>
+			<string>更多</string>
+		</dict>
+		<key>ShareQQ</key>
+		<dict>
+			<key>en</key>
+			<string>QQ</string>
+			<key>es</key>
+			<string>QQ</string>
+			<key>zh-Hans</key>
+			<string>QQ</string>
+			<key>zh-Hant</key>
+			<string>QQ</string>
+		</dict>
+		<key>ShareSkype</key>
+		<dict>
+			<key>en</key>
+			<string>Skype</string>
+			<key>es</key>
+			<string>Skype</string>
+			<key>zh-Hans</key>
+			<string>Skype</string>
+			<key>zh-Hant</key>
+			<string>Skype</string>
+		</dict>
+		<key>ShareWechat</key>
+		<dict>
+			<key>en</key>
+			<string>Wechat</string>
+			<key>es</key>
+			<string>Wechat</string>
+			<key>zh-Hans</key>
+			<string>微信</string>
+			<key>zh-Hant</key>
+			<string>微信</string>
+		</dict>
+		<key>ShareWhatsApp</key>
+		<dict>
+			<key>en</key>
+			<string>WhatsApp</string>
+			<key>es</key>
+			<string>WhatsApp</string>
+			<key>zh-Hans</key>
+			<string>WhatsApp</string>
+			<key>zh-Hant</key>
+			<string>WhatsApp</string>
+		</dict>
+		<key>Show the best video quality, will occupy more system resources and bandwidth</key>
+		<dict>
+			<key>en</key>
+			<string>Best video quality, higher system &amp; bandwidth usage.</string>
+			<key>es</key>
+			<string>Mejor calidad de audio, más alto uso de sistena y ancho de banda.</string>
+			<key>zh-Hans</key>
+			<string>充分发挥系统性能,展现最好视频画质,会占用较多系统与网络资源</string>
+			<key>zh-Hant</key>
+			<string>充分發揮系統性能,展現最好視頻畫質,會占用較多系統與網絡資源</string>
+		</dict>
+		<key>Site Name</key>
+		<dict>
+			<key>en</key>
+			<string>Site Name</string>
+			<key>es</key>
+			<string>Nombre del sitio</string>
+			<key>zh-Hans</key>
+			<string>站点名称</string>
+			<key>zh-Hant</key>
+			<string>站點名稱</string>
+		</dict>
+		<key>Standard Model</key>
+		<dict>
+			<key>en</key>
+			<string>Standard Mode</string>
+			<key>es</key>
+			<string>Standard Mode</string>
+			<key>zh-Hans</key>
+			<string>标准模式</string>
+			<key>zh-Hant</key>
+			<string>標準模式</string>
+		</dict>
+		<key>Static</key>
+		<dict>
+			<key>en</key>
+			<string>Static</string>
+			<key>es</key>
+			<string>Estatica</string>
+			<key>zh-Hans</key>
+			<string>静态</string>
+			<key>zh-Hant</key>
+			<string>靜態</string>
+		</dict>
+		<key>Static NAT</key>
+		<dict>
+			<key>en</key>
+			<string>Static NAT</string>
+			<key>es</key>
+			<string>NAT estático</string>
+			<key>zh-Hans</key>
+			<string>静态NAT</string>
+			<key>zh-Hant</key>
+			<string>靜態NAT</string>
+		</dict>
+		<key>System boot failure, can't call</key>
+		<dict>
+			<key>en</key>
+			<string>System boot failure, can't call</string>
+			<key>es</key>
+			<string>Error de inicialización de sistema, no se puede llamar.</string>
+			<key>zh-Hans</key>
+			<string>底层启动失败，不能呼出</string>
+			<key>zh-Hant</key>
+			<string>底層啟動失敗，不能呼出</string>
+		</dict>
+		<key>TCP Port Scope</key>
+		<dict>
+			<key>en</key>
+			<string>TCP Port Scope</string>
+			<key>es</key>
+			<string>Alcance de puerto TCP</string>
+			<key>zh-Hans</key>
+			<string>TCP端口范围</string>
+			<key>zh-Hant</key>
+			<string>TCP端口範圍</string>
+		</dict>
+		<key>The PIN is incorrect, please enter the correct PIN</key>
+		<dict>
+			<key>en</key>
+			<string>The PIN is incorrect, please enter the correct PIN</string>
+			<key>es</key>
+			<string>El PIN esta incorrecto , por favor ingrese el PIN correcto</string>
+			<key>zh-Hans</key>
+			<string>您输入的PIN码不正确，请重新输入正确PIN码</string>
+			<key>zh-Hant</key>
+			<string>您輸入的PIN碼不正確，請重新輸入正確PIN碼</string>
+		</dict>
+		<key>The input content cannot contain special characters: &lt;&gt;[]! &amp;%;?</key>
+		<dict>
+			<key>en</key>
+			<string>The input content cannot contain special characters: &lt;&gt;[]! &amp;%;?</string>
+			<key>es</key>
+			<string>El contenido a ingresar no puede contener caracteres especiales: &lt;&gt;[]! &amp;%;?</string>
+			<key>zh-Hans</key>
+			<string>输入内容不能包含特殊字符!&amp;:;&lt;&gt;[]?%</string>
+			<key>zh-Hant</key>
+			<string>輸入內容不能包含特殊字符!&amp;:;&lt;&gt;[]?%</string>
+		</dict>
+		<key>The link address is incorrect. Please reopen it</key>
+		<dict>
+			<key>en</key>
+			<string>The link address is incorrect. Please reopen it</string>
+			<key>es</key>
+			<string>La dirección de la liga es incorrecta. Por favor vuelva a abrirla.</string>
+			<key>zh-Hans</key>
+			<string>链接地址不正确，请重新打开</string>
+			<key>zh-Hant</key>
+			<string>鏈接地址不正確，請重新打開</string>
+		</dict>
+		<key>The max value</key>
+		<dict>
+			<key>en</key>
+			<string>The max value</string>
+			<key>es</key>
+			<string>Valor máximo</string>
+			<key>zh-Hans</key>
+			<string>最大值</string>
+			<key>zh-Hant</key>
+			<string>最大值</string>
+		</dict>
+		<key>The maximum port is at least 200 larger than the smallest port</key>
+		<dict>
+			<key>en</key>
+			<string>The maximum port is at least 200 larger than the smallest port</string>
+			<key>es</key>
+			<string>El puerto máximo es al menos 200 más grande que em puerto más pequeño</string>
+			<key>zh-Hans</key>
+			<string>最大端口至少要比最小端口大200</string>
+			<key>zh-Hant</key>
+			<string>最大端口至少要比最小端口大200</string>
+		</dict>
+		<key>The meeting ID does not exist</key>
+		<dict>
+			<key>en</key>
+			<string>The meeting ID does not exist</string>
+			<key>es</key>
+			<string>La ID de la reunión no existe</string>
+			<key>zh-Hans</key>
+			<string>该会议ID不存在</string>
+			<key>zh-Hant</key>
+			<string>該會議ID不存在</string>
+		</dict>
+		<key>The meeting has been cancelled by the host</key>
+		<dict>
+			<key>en</key>
+			<string>The meeting has been cancelled by the host</string>
+			<key>es</key>
+			<string>La reunión ha sido cancelada por el propietario</string>
+			<key>zh-Hans</key>
+			<string>会议已被主持人取消</string>
+			<key>zh-Hant</key>
+			<string>會議已被主持人取消</string>
+		</dict>
+		<key>The min value</key>
+		<dict>
+			<key>en</key>
+			<string>The min value</string>
+			<key>es</key>
+			<string>Valor mínimo</string>
+			<key>zh-Hans</key>
+			<string>最小值</string>
+			<key>zh-Hant</key>
+			<string>最小值</string>
+		</dict>
+		<key>The network is not available</key>
+		<dict>
+			<key>en</key>
+			<string>The network is not available</string>
+			<key>es</key>
+			<string>La red no está disponible</string>
+			<key>zh-Hans</key>
+			<string>网络不可用</string>
+			<key>zh-Hant</key>
+			<string>網絡不可用</string>
+		</dict>
+		<key>The network is not available, check the configuration</key>
+		<dict>
+			<key>en</key>
+			<string>The network is not available, check the configuration</string>
+			<key>es</key>
+			<string>La red no está disponible, revise la configuración.</string>
+			<key>zh-Hans</key>
+			<string>网络不可用,单击进行设置</string>
+			<key>zh-Hant</key>
+			<string>網絡不可用,單擊進行設置</string>
+		</dict>
+		<key>The password you entered is incorrect, please enter again</key>
+		<dict>
+			<key>en</key>
+			<string>The password you entered is incorrect, please try again</string>
+			<key>es</key>
+			<string>La contraseña que ingresaste es incorrecta, por favor intente más tarde.</string>
+			<key>zh-Hans</key>
+			<string>您输入的密码不正确，请重新输入</string>
+			<key>zh-Hant</key>
+			<string>您輸入的密碼不正確，請重新輸入</string>
+		</dict>
+		<key>The range is not between 1~65535</key>
+		<dict>
+			<key>en</key>
+			<string>The range is not between 1~65535</string>
+			<key>es</key>
+			<string>El rango no esta dentro de 1~65535</string>
+			<key>zh-Hans</key>
+			<string>范围不在1~65535之间</string>
+			<key>zh-Hant</key>
+			<string>範圍不在1~65535之間</string>
+		</dict>
+		<key>The remote ended the call with unmapped Q.931 cause code</key>
+		<dict>
+			<key>en</key>
+			<string>The remote ended the call with unmapped Q.931 cause code</string>
+			<key>es</key>
+			<string>The remote ended the call with unmapped Q.931 cause code</string>
+			<key>zh-Hans</key>
+			<string>远程结束通话，未映射的Q.931错误码</string>
+			<key>zh-Hant</key>
+			<string>遠程結束通話，未映射的Q.931錯誤碼</string>
+		</dict>
+		<key>The server address is invalid</key>
+		<dict>
+			<key>en</key>
+			<string>The server address is invalid</string>
+			<key>es</key>
+			<string>La dirección del servidor es invalida</string>
+			<key>zh-Hans</key>
+			<string>服务器地址无效</string>
+			<key>zh-Hant</key>
+			<string>服務器地址無效</string>
+		</dict>
+		<key>The server address is not allowed to be empty</key>
+		<dict>
+			<key>en</key>
+			<string>The server address is not allowed to be null</string>
+			<key>es</key>
+			<string>La dirección del servidor no puede ser nula</string>
+			<key>zh-Hans</key>
+			<string>服务器地址不允许为空</string>
+			<key>zh-Hant</key>
+			<string>服務器地址不允許為空</string>
+		</dict>
+		<key>The userName or password is not correct</key>
+		<dict>
+			<key>en</key>
+			<string>The username or password is not correct</string>
+			<key>es</key>
+			<string>El usuario o contraseña no son correctos</string>
+			<key>zh-Hans</key>
+			<string>用户名或密码不正确</string>
+			<key>zh-Hant</key>
+			<string>用戶名或密碼不正確</string>
+		</dict>
+		<key>Theme</key>
+		<dict>
+			<key>en</key>
+			<string>Theme</string>
+			<key>es</key>
+			<string>Theme</string>
+			<key>zh-Hans</key>
+			<string>主题</string>
+			<key>zh-Hant</key>
+			<string>主題</string>
+		</dict>
+		<key>There is no call records</key>
+		<dict>
+			<key>en</key>
+			<string>There is no call records</string>
+			<key>es</key>
+			<string>No hay registros de llamadas</string>
+			<key>zh-Hans</key>
+			<string>没有呼出记录</string>
+			<key>zh-Hant</key>
+			<string>沒有呼出記錄</string>
+		</dict>
+		<key>Time</key>
+		<dict>
+			<key>en</key>
+			<string>Time</string>
+			<key>es</key>
+			<string>Time</string>
+			<key>zh-Hans</key>
+			<string>时间</string>
+			<key>zh-Hant</key>
+			<string>時間</string>
+		</dict>
+		<key>Time of occurrence:</key>
+		<dict>
+			<key>en</key>
+			<string>Time of occurrence:</string>
+			<key>es</key>
+			<string>Tiempo de ocurrencia:</string>
+			<key>zh-Hans</key>
+			<string>发生时间:</string>
+			<key>zh-Hant</key>
+			<string>發生時間:</string>
+		</dict>
+		<key>Time:</key>
+		<dict>
+			<key>en</key>
+			<string>Time:</string>
+			<key>es</key>
+			<string>Tiempo:</string>
+			<key>zh-Hans</key>
+			<string>时间:</string>
+			<key>zh-Hant</key>
+			<string>時間:</string>
+		</dict>
+		<key>Total Lost</key>
+		<dict>
+			<key>en</key>
+			<string>Total Lost</string>
+			<key>es</key>
+			<string>Perdida total</string>
+			<key>zh-Hans</key>
+			<string>总丢包数</string>
+			<key>zh-Hant</key>
+			<string>總丟包數</string>
+		</dict>
+		<key>Transfer Protocol</key>
+		<dict>
+			<key>en</key>
+			<string>Transport Protocols</string>
+			<key>es</key>
+			<string>Protocolos de transporte</string>
+			<key>zh-Hans</key>
+			<string>传输协议</string>
+			<key>zh-Hant</key>
+			<string>傳輸協議</string>
+		</dict>
+		<key>Transfer Type</key>
+		<dict>
+			<key>en</key>
+			<string>Transfer Type</string>
+			<key>es</key>
+			<string>Tipo de transferencia</string>
+			<key>zh-Hans</key>
+			<string>传输方式</string>
+			<key>zh-Hant</key>
+			<string>傳輸方式</string>
+		</dict>
+		<key>UDP Port Scope</key>
+		<dict>
+			<key>en</key>
+			<string>UDP Port Scope</string>
+			<key>es</key>
+			<string>Alcance de puerto UDP</string>
+			<key>zh-Hans</key>
+			<string>UDP端口范围</string>
+			<key>zh-Hant</key>
+			<string>UDP端口範圍</string>
+		</dict>
+		<key>Unable to connect to the server</key>
+		<dict>
+			<key>en</key>
+			<string>Unable to connect to the server</string>
+			<key>es</key>
+			<string>Unable to connect to the server</string>
+			<key>zh-Hans</key>
+			<string>无法连接到服务器</string>
+			<key>zh-Hant</key>
+			<string>無法連接到服務器</string>
+		</dict>
+		<key>Unregistered</key>
+		<dict>
+			<key>en</key>
+			<string>Unregistered</string>
+			<key>es</key>
+			<string>No registrado</string>
+			<key>zh-Hans</key>
+			<string>未注册</string>
+			<key>zh-Hant</key>
+			<string>未註冊</string>
+		</dict>
+		<key>Uplink Bandwidth</key>
+		<dict>
+			<key>en</key>
+			<string>Uplink Bandwidth</string>
+			<key>es</key>
+			<string>Ancho de banda de subida</string>
+			<key>zh-Hans</key>
+			<string>上行带宽</string>
+			<key>zh-Hant</key>
+			<string>上行帶寬</string>
+		</dict>
+		<key>Use account to log in</key>
+		<dict>
+			<key>en</key>
+			<string>Use account to log in</string>
+			<key>es</key>
+			<string>Use account to log in</string>
+			<key>zh-Hans</key>
+			<string>Use account to log in</string>
+			<key>zh-Hant</key>
+			<string>Use account to log in</string>
+		</dict>
+		<key>Use account to login</key>
+		<dict>
+			<key>en</key>
+			<string>Use account to log in</string>
+			<key>es</key>
+			<string>Utilizar cuenta para iniciar sesión</string>
+			<key>zh-Hans</key>
+			<string>使用账号密码登录</string>
+			<key>zh-Hant</key>
+			<string>使用賬號密碼登錄</string>
+		</dict>
+		<key>Use pinCode to login</key>
+		<dict>
+			<key>en</key>
+			<string>Use PIN Code to login</string>
+			<key>es</key>
+			<string>Utilizar PIN Code para iniciar sesión</string>
+			<key>zh-Hans</key>
+			<string>使用PIN码登录</string>
+			<key>zh-Hant</key>
+			<string>使用PIN碼登錄</string>
+		</dict>
+		<key>UseAudioCall</key>
+		<dict>
+			<key>en</key>
+			<string>Use an audio call</string>
+			<key>es</key>
+			<string>Use an audio call</string>
+			<key>zh-Hans</key>
+			<string>使用音频呼叫</string>
+			<key>zh-Hant</key>
+			<string>使用音頻呼叫</string>
+		</dict>
+		<key>User Name</key>
+		<dict>
+			<key>en</key>
+			<string>User Name</string>
+			<key>es</key>
+			<string>Nombre de usuario</string>
+			<key>zh-Hans</key>
+			<string>用户名</string>
+			<key>zh-Hant</key>
+			<string>用戶名</string>
+		</dict>
+		<key>UserAgreement</key>
+		<dict>
+			<key>en</key>
+			<string>User Agreement</string>
+			<key>es</key>
+			<string>User Agreement</string>
+			<key>zh-Hans</key>
+			<string>用户协议</string>
+			<key>zh-Hant</key>
+			<string>用戶協議</string>
+		</dict>
+		<key>UserAgreementUrl</key>
+		<dict>
+			<key>en</key>
+			<string>http://yealink.com.cn/onepage_67.html</string>
+			<key>es</key>
+			<string>http://yealink.com.cn/onepage_67.html</string>
+			<key>zh-Hans</key>
+			<string>http://yealink.com.cn/onepage_30.html</string>
+			<key>zh-Hant</key>
+			<string>http://yealink.com.cn/onepage_30.html</string>
+		</dict>
+		<key>Username contains illegal characters !&amp;:;&lt;&gt;[]?%</key>
+		<dict>
+			<key>en</key>
+			<string>Username contains illegal characters !&amp;:;&lt;&gt;[]?%</string>
+			<key>es</key>
+			<string>El nombre de usuario contiene caracteres ilegales !&amp;:;&lt;&gt;[]?%</string>
+			<key>zh-Hans</key>
+			<string>用户名包含非法字符 !&amp;:;&lt;&gt;[]?%</string>
+			<key>zh-Hant</key>
+			<string>用戶名包含非法字符 !&amp;:;&lt;&gt;[]?%</string>
+		</dict>
+		<key>Username is not allowed to be empty</key>
+		<dict>
+			<key>en</key>
+			<string>Username is not allowed to be null</string>
+			<key>es</key>
+			<string>El usuario no puede ser nulo</string>
+			<key>zh-Hans</key>
+			<string>用户名不允许为空</string>
+			<key>zh-Hant</key>
+			<string>用戶名不允許為空</string>
+		</dict>
+		<key>VCM IOS questions feedback</key>
+		<dict>
+			<key>en</key>
+			<string>VCM iOS questions feedback</string>
+			<key>es</key>
+			<string>Preguntas de retroalimentación de VCM iOS</string>
+			<key>zh-Hans</key>
+			<string>VCM IOS问题反馈</string>
+			<key>zh-Hant</key>
+			<string>VCM IOS問題反饋</string>
+		</dict>
+		<key>VCM Recent contact</key>
+		<dict>
+			<key>en</key>
+			<string>VCM Recent contact</string>
+			<key>es</key>
+			<string>Contacto VCM reciente</string>
+			<key>zh-Hans</key>
+			<string>VCM最近联系人</string>
+			<key>zh-Hant</key>
+			<string>VCM最近聯繫人</string>
+		</dict>
+		<key>Video</key>
+		<dict>
+			<key>en</key>
+			<string>Video</string>
+			<key>es</key>
+			<string>Video</string>
+			<key>zh-Hans</key>
+			<string>视频</string>
+			<key>zh-Hant</key>
+			<string>視頻</string>
+		</dict>
+		<key>Video Codec</key>
+		<dict>
+			<key>en</key>
+			<string>Video Codec</string>
+			<key>es</key>
+			<string>Codec de video</string>
+			<key>zh-Hans</key>
+			<string>视频编解码</string>
+			<key>zh-Hant</key>
+			<string>視頻編解碼</string>
+		</dict>
+		<key>Video call</key>
+		<dict>
+			<key>en</key>
+			<string>Video Call</string>
+			<key>es</key>
+			<string>Video llamada</string>
+			<key>zh-Hans</key>
+			<string>视频呼叫</string>
+			<key>zh-Hant</key>
+			<string>視頻呼叫</string>
+		</dict>
+		<key>View details</key>
+		<dict>
+			<key>en</key>
+			<string>View details</string>
+			<key>es</key>
+			<string>Ver detalles</string>
+			<key>zh-Hans</key>
+			<string>查看详情</string>
+			<key>zh-Hant</key>
+			<string>查看詳情</string>
+		</dict>
+		<key>View immediately</key>
+		<dict>
+			<key>en</key>
+			<string>View immediately</string>
+			<key>es</key>
+			<string>View immediately</string>
+			<key>zh-Hans</key>
+			<string>立即查看</string>
+			<key>zh-Hant</key>
+			<string>立即查看</string>
+		</dict>
+		<key>Volumn is low</key>
+		<dict>
+			<key>en</key>
+			<string>Volumn is low</string>
+			<key>es</key>
+			<string>El volúmen es bajo</string>
+			<key>zh-Hans</key>
+			<string>您当前音量较小</string>
+			<key>zh-Hant</key>
+			<string>您當前音量較小</string>
+		</dict>
+		<key>Whether to save the changes?</key>
+		<dict>
+			<key>en</key>
+			<string>Whether to save the changes?</string>
+			<key>es</key>
+			<string>¿Desea guardar los cambios?</string>
+			<key>zh-Hans</key>
+			<string>是否保存修改?</string>
+			<key>zh-Hant</key>
+			<string>是否保存修改?</string>
+		</dict>
+		<key>Without this contact!</key>
+		<dict>
+			<key>en</key>
+			<string>Without this contact!</string>
+			<key>es</key>
+			<string>No existe este contacto</string>
+			<key>zh-Hans</key>
+			<string>无此联系人！</string>
+			<key>zh-Hant</key>
+			<string>無此聯繫人！</string>
+		</dict>
+		<key>YMS</key>
+		<dict>
+			<key>en</key>
+			<string>YMS</string>
+			<key>es</key>
+			<string>YMS</string>
+			<key>zh-Hans</key>
+			<string>YMS</string>
+			<key>zh-Hant</key>
+			<string>YMS</string>
+		</dict>
+		<key>YMS Server</key>
+		<dict>
+			<key>en</key>
+			<string>YMS Server</string>
+			<key>es</key>
+			<string>YMS Server</string>
+			<key>zh-Hans</key>
+			<string>YMS服务器</string>
+			<key>zh-Hant</key>
+			<string>YMS服務器</string>
+		</dict>
+		<key>Yealink Cloud</key>
+		<dict>
+			<key>en</key>
+			<string>Yealink Cloud</string>
+			<key>es</key>
+			<string>Yealink Cloud</string>
+			<key>zh-Hans</key>
+			<string>亿联云部署管理服务</string>
+			<key>zh-Hant</key>
+			<string>億聯雲部署管理服務</string>
+		</dict>
+		<key>Yealink Meeting Server</key>
+		<dict>
+			<key>en</key>
+			<string>Yealink Meeting Server</string>
+			<key>es</key>
+			<string>Yealink Meeting Server</string>
+			<key>zh-Hans</key>
+			<string>亿联YMS视频会议服务器</string>
+			<key>zh-Hant</key>
+			<string>億聯YMS視頻會議服務器</string>
+		</dict>
+		<key>Yealink VC Mobile</key>
+		<dict>
+			<key>en</key>
+			<string>Yealink VC Mobile</string>
+			<key>es</key>
+			<string>Yealink VC Mobile</string>
+			<key>zh-Hans</key>
+			<string>Yealink VC Mobile</string>
+			<key>zh-Hant</key>
+			<string>Yealink VC Mobile</string>
+		</dict>
+		<key>You have %d meetings at the same time</key>
+		<dict>
+			<key>en</key>
+			<string>You have %d meetings at the same time</string>
+			<key>es</key>
+			<string>You have %d meetings at the same time</string>
+			<key>zh-Hans</key>
+			<string>您同时有%d场会议</string>
+			<key>zh-Hant</key>
+			<string>您同時有%d場會議</string>
+		</dict>
+		<key>You have logged on to the computer, and you can send files to the computer.</key>
+		<dict>
+			<key>en</key>
+			<string>You have logged on to the computer, and you can send files to the computer.</string>
+			<key>es</key>
+			<string>Has iniciado sesión en la computadora y puedes enviar archivos a la computadora</string>
+			<key>zh-Hans</key>
+			<string>您已在电脑端登录,可传文件到电脑。</string>
+			<key>zh-Hant</key>
+			<string>您已在電腦端登錄,可傳文件到電腦。</string>
+		</dict>
+		<key>Your next meeting</key>
+		<dict>
+			<key>en</key>
+			<string>Your next meeting</string>
+			<key>es</key>
+			<string>Your next meeting</string>
+			<key>zh-Hans</key>
+			<string>您的下一场会议</string>
+			<key>zh-Hant</key>
+			<string>您的下一場會議</string>
+		</dict>
+		<key>back</key>
+		<dict>
+			<key>en</key>
+			<string>Back</string>
+			<key>es</key>
+			<string>Atrás</string>
+			<key>zh-Hans</key>
+			<string>返回</string>
+			<key>zh-Hant</key>
+			<string>返回</string>
+		</dict>
+		<key>left</key>
+		<dict>
+			<key>en</key>
+			<string> left</string>
+			<key>es</key>
+			<string> left</string>
+			<key>zh-Hans</key>
+			<string>还剩</string>
+			<key>zh-Hant</key>
+			<string>還剩</string>
+		</dict>
+		<key>local</key>
+		<dict>
+			<key>en</key>
+			<string>Local</string>
+			<key>es</key>
+			<string>Local</string>
+			<key>zh-Hans</key>
+			<string>本地</string>
+			<key>zh-Hant</key>
+			<string>本地</string>
+		</dict>
+		<key>login</key>
+		<dict>
+			<key>en</key>
+			<string>Login</string>
+			<key>es</key>
+			<string>Iniciar sesión</string>
+			<key>zh-Hans</key>
+			<string>登录</string>
+			<key>zh-Hant</key>
+			<string>登錄</string>
+		</dict>
+		<key>logining</key>
+		<dict>
+			<key>en</key>
+			<string>Logining</string>
+			<key>es</key>
+			<string>Iniciando sesión</string>
+			<key>zh-Hans</key>
+			<string>正在登录</string>
+			<key>zh-Hant</key>
+			<string>正在登錄</string>
+		</dict>
+		<key>meeting reminder:%ld</key>
+		<dict>
+			<key>en</key>
+			<string>Conference Reminder:%ld</string>
+			<key>es</key>
+			<string>Recordatorio de conferencia: %Id</string>
+			<key>zh-Hans</key>
+			<string>%ld个会议提醒</string>
+			<key>zh-Hant</key>
+			<string>%ld個會議提醒</string>
+		</dict>
+		<key>phone.book.device.root.name</key>
+		<dict>
+			<key>en</key>
+			<string>Room System</string>
+			<key>es</key>
+			<string>Room System</string>
+			<key>zh-Hans</key>
+			<string>视频会议设备</string>
+			<key>zh-Hant</key>
+			<string>視頻會議設備</string>
+		</dict>
+		<key>phone.book.staff.root.name</key>
+		<dict>
+			<key>en</key>
+			<string>Contact</string>
+			<key>es</key>
+			<string>Contact</string>
+			<key>zh-Hans</key>
+			<string>联系人</string>
+			<key>zh-Hant</key>
+			<string>聯繫人</string>
+		</dict>
+		<key>phone.book.third.party.root.name</key>
+		<dict>
+			<key>en</key>
+			<string>Third PartyDevice</string>
+			<key>es</key>
+			<string>Third PartyDevice</string>
+			<key>zh-Hans</key>
+			<string>第三方设备</string>
+			<key>zh-Hant</key>
+			<string>第三方設備</string>
+		</dict>
+		<key>phone.book.vmr.root.name</key>
+		<dict>
+			<key>en</key>
+			<string>Virtual Meeting Room</string>
+			<key>es</key>
+			<string>Virtual Meeting Room</string>
+			<key>zh-Hans</key>
+			<string>虚拟会议室</string>
+			<key>zh-Hant</key>
+			<string>虛擬會議室</string>
+		</dict>
+		<key>pinCode Login</key>
+		<dict>
+			<key>en</key>
+			<string>PIN Code Login</string>
+			<key>es</key>
+			<string>Inicio de sesión con PIN Code</string>
+			<key>zh-Hans</key>
+			<string>PIN码登录</string>
+			<key>zh-Hant</key>
+			<string>PIN碼登錄</string>
+		</dict>
+		<key>request data in...</key>
+		<dict>
+			<key>en</key>
+			<string>request data in...</string>
+			<key>es</key>
+			<string>Solicitar datos en…</string>
+			<key>zh-Hans</key>
+			<string>请求数据中...</string>
+			<key>zh-Hant</key>
+			<string>請求數據中...</string>
+		</dict>
+		<key>search</key>
+		<dict>
+			<key>en</key>
+			<string>Search</string>
+			<key>es</key>
+			<string>Buscar</string>
+			<key>zh-Hans</key>
+			<string>搜索</string>
+			<key>zh-Hant</key>
+			<string>搜索</string>
+		</dict>
+		<key>server is not available</key>
+		<dict>
+			<key>en</key>
+			<string>server is not available</string>
+			<key>es</key>
+			<string>Servidor no disponible</string>
+			<key>zh-Hans</key>
+			<string>服务器不可用</string>
+			<key>zh-Hant</key>
+			<string>服務器不可用</string>
+		</dict>
+		<key>server license is invalid</key>
+		<dict>
+			<key>en</key>
+			<string>server license is invalid</string>
+			<key>es</key>
+			<string>Licencia de servidor invalida</string>
+			<key>zh-Hans</key>
+			<string>服务器license无效</string>
+			<key>zh-Hant</key>
+			<string>服務器license無效</string>
+		</dict>
+		<key>sip service is not available</key>
+		<dict>
+			<key>en</key>
+			<string>SIP service is not available</string>
+			<key>es</key>
+			<string>Servicio SIP no disponible</string>
+			<key>zh-Hans</key>
+			<string>sip服务不可用</string>
+			<key>zh-Hant</key>
+			<string>sip服務不可用</string>
+		</dict>
+		<key>skip</key>
+		<dict>
+			<key>en</key>
+			<string>Skip</string>
+			<key>es</key>
+			<string>Saltar</string>
+			<key>zh-Hans</key>
+			<string>跳过</string>
+			<key>zh-Hant</key>
+			<string>跳過</string>
+		</dict>
+		<key>software overdue</key>
+		<dict>
+			<key>en</key>
+			<string>software overdue</string>
+			<key>es</key>
+			<string>Software caducado</string>
+			<key>zh-Hans</key>
+			<string>软件过期</string>
+			<key>zh-Hant</key>
+			<string>軟件過期</string>
+		</dict>
+		<key>user-agent be rejected</key>
+		<dict>
+			<key>en</key>
+			<string>user-agent is rejected</string>
+			<key>es</key>
+			<string>usuario-agente es rechazado</string>
+			<key>zh-Hans</key>
+			<string>user-agent被拒绝</string>
+			<key>zh-Hant</key>
+			<string>user-agent被拒絕</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

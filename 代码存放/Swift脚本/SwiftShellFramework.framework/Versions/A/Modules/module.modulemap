@@ -1,0 +1,11 @@
+framework module SwiftShellFramework {
+  umbrella header "SwiftShellFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftShellFramework.Swift {
+    header "SwiftShellFramework-Swift.h"
+    requires objc
+}

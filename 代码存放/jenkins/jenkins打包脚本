@@ -1,0 +1,130 @@
+// 运行到指定的结点上
+node("${ParamNodeName}") {
+
+// 运行结点初始化脚本（解决环境问题，如Xcode签名问题需要通过脚本解锁keychain）
+    if (env.EVSetupScriptPath) {
+        sh '${EVSetupScriptPath} || echo setupError'
+    }
+
+    def YL_PROJECT_DIR = pwd()
+    def YL_ARCHIVE_DIR = YL_PROJECT_DIR + '/output'
+
+    echo YL_PROJECT_DIR
+    echo YL_ARCHIVE_DIR
+
+    echo ParamProject
+    echo ParamAppVersion
+    echo ParamLogicVersion
+    echo ParamIsDebug
+    echo ParamIsUploadPgyer
+    echo ParamReceiverMail
+
+    if (ParamAppVersion == "") {
+        echo "empty app version"
+    }
+
+    if (Boolean.valueOf(ParamIsDebug)) {
+        currentBuild.displayName = "#${BUILD_NUMBER}【${ParamAppVersion}-Debug】"
+    }
+    else {
+        currentBuild.displayName = "#${BUILD_NUMBER}【${ParamAppVersion}】"
+    }
+
+    currentBuild.description = "【ParamAppVersion:${ParamAppVersion},ParamLogicVersion:${ParamLogicVersion},ParamIsDebug:${ParamIsDebug}】"
+
+    withEnv(['PATH+=/usr/local/bin',
+    'LANG=zh_CN.UTF-8',
+    'LC_COLLATE=zh_CN.UTF-8',
+    'LC_CTYPE=en_US.UTF-8',
+    'LC_MESSAGES=zh_CN.UTF-8',
+    'LC_MONETARY=zh_CN.UTF-8',
+    'LC_NUMERIC=zh_CN.UTF-8',
+    'LC_TIME=zh_CN.UTF-8']) { 
+        stage('Source') {
+            ansiColor('xterm') {
+                sh 'rm -rf AutoPackageScript.zip'
+                sh 'curl http://appmac.yealink.com:8080/job/AutoPackageScript/74/artifact/*zip*/archive.zip --output AutoPackageScript.zip'
+                sh 'unzip -o AutoPackageScript.zip'
+            }
+        }
+
+        stage('Run') {
+
+            ansiColor('xterm') {
+                sh "xcodebuild -version"
+
+                sh "chmod 777 archive/JenkinsArchive/AutoPackageScript"
+                sh "./archive/JenkinsArchive/AutoPackageScript -h"
+                if (ParamProject == "--ShowHelp") {
+                    return
+                }
+
+                def cmd = "./archive/JenkinsArchive/AutoPackageScript"
+                cmd += " -packageName ${ParamProject}"
+                cmd += " -appVersion ${ParamAppVersion}"
+                cmd += " -logicVersion ${ParamLogicVersion}"
+                cmd += " -isDebug ${ParamIsDebug}"
+                cmd += " -fileSavePath ${YL_ARCHIVE_DIR}"
+                cmd += " -receiverMail ${ParamReceiverMail}"
+                cmd += " -preAppVersion ${ParamPrevAppVersionTag}"
+                sh "${cmd}"
+            }
+        }
+
+        stage('dsym') {
+            ansiColor('xterm') {
+                sh "chmod 777 archive/JenkinsArchive/UploadDSYMs"
+                sh "./archive/JenkinsArchive/UploadDSYMs -dSYMUploadPath=dSYMUpload.sh -buglyAppID=${BuglyAppID} -buglyAppKey=${BuglyAppKey} -rootPath=${YL_ARCHIVE_DIR}/${ParamAppVersion}"
+                echo "dsym end"
+            }
+        }
+                
+        stage('Output') {
+            ansiColor('xterm') {
+                if (ParamProject == "--ShowHelp") {
+                    return
+                }
+                sh "rm -rf JenkinsArchive"
+                sh "mv ${YL_ARCHIVE_DIR} JenkinsArchive"
+
+                archiveArtifacts "JenkinsArchive/**/*"
+                // def dirPath = pwd()
+                // dirPath += "/JenkinsArchive"
+                // def appPath = "UC-iOS-app/${ParamAppVersion}/${BUILD_NUMBER}"
+                // if (Boolean.valueOf(ParamIsDebug)) {
+                // appPath = "UC-iOS-app/${ParamAppVersion}/Debug/${BUILD_NUMBER}"
+                // }
+                // uploadToJFrog(dirPath, appPath)
+                // }
+            }
+
+            stage('Upload') {
+
+                ansiColor('xterm') {
+                    if (!Boolean.valueOf(ParamIsUploadPgyer)) {
+                        return
+                    }
+
+                    sh "chmod 777 archive/JenkinsArchive/uploadToPlatform"
+                    sh "./archive/JenkinsArchive/uploadToPlatform -h"
+                
+                    def cmd = "./archive/JenkinsArchive/uploadToPlatform"
+                    cmd += " -apiKey ${ParamPgyerAPIKey}"
+                    cmd += " -userKey ${ParamPgyerUserKey}"
+                    cmd += " -ipaPath JenkinsArchive/${ParamAppVersion}/Odin-UC.ipa"
+
+                    sh "${cmd}"
+                }
+            }
+        }
+    }
+
+    // 上传到JFrog Artifactory
+// def uploadToJFrog(String dirPath, String genericPath) { 
+// def basrUrl = "http://appgit.yealink.com:8081/artifactory/generic-local/${genericPath}"
+
+// def cmd = "for f in \$(cd \"${dirPath}\" && find * -type f); do curl -u dengxb:123456 -T \"${dirPath}/\$f\" \"${basrUrl}/\$f\"; done"
+// echo "${cmd}"
+// sh "${cmd}"
+    
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Commit</key>
+	<string>update</string>
+	<key>VersionInfoPath(如果配置该字段则与索引到的info文件版本号一致)</key>
+	<string>/Users/mac/Documents/GitSpace/migu-mnn-alldetect-clib/lib/ios/MGAILibrary.framework/Info.plist</string>
+	<key>LocalRepository</key>
+	<string>/Users/mac/Documents/GitSpace/AICoreComponent</string>
+	<key>CocoaPodUrl</key>
+	<string>http://112.5.196.26:10080/ios/base/MGDMSpecs.git</string>
+	<key>GitUrl</key>
+	<string>http://112.5.196.26:10080/ios/base/AICoreComponent.git</string>
+	<key>IsLibrary</key>
+	<true/>
+	<key>MoveList</key>
+	<array>
+		<dict>
+			<key>FileName</key>
+			<string>MNN.framework</string>
+			<key>GoalRelativePath</key>
+			<string>AiCoreComponent/Lib</string>
+			<key>ResourcePath</key>
+			<string>/Users/mac/Documents/GitSpace/migu-mnn-alldetect-clib/lib/ios</string>
+		</dict>
+		<dict>
+			<key>FileName</key>
+			<string>MGAILibrary.framework</string>
+			<key>GoalRelativePath</key>
+			<string>AiCoreComponent/Lib</string>
+			<key>ResourcePath</key>
+			<string>/Users/mac/Documents/GitSpace/migu-mnn-alldetect-clib/lib/ios</string>
+		</dict>
+	</array>
+	<key>CocoaPods</key>
+	<string>196-ios-base-mgdmspecs</string>
+	<key>RepositoryName</key>
+	<string>AiCoreComponent</string>
+</dict>
+</plist>

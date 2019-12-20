@@ -1,0 +1,2275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Language</key>
+	<dict>
+		<key>SDK enables DND feature</key>
+		<dict>
+			<key>en</key>
+			<string> enables DND feature</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>开启了DND</string>
+			<key>zh-Hant</key>
+			<string>開啟了DND</string>
+		</dict>
+		<key>SDK fail</key>
+		<dict>
+			<key>en</key>
+			<string> fail</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>失败</string>
+			<key>zh-Hant</key>
+			<string>失敗</string>
+		</dict>
+		<key>SDK is offline</key>
+		<dict>
+			<key>en</key>
+			<string> is offline</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>用户离线</string>
+			<key>zh-Hant</key>
+			<string>用戶離線</string>
+		</dict>
+		<key>SDK refused your invitation</key>
+		<dict>
+			<key>en</key>
+			<string> refused your invitation</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>拒绝了入会邀请</string>
+			<key>zh-Hant</key>
+			<string>拒絕了入會邀請</string>
+		</dict>
+		<key>SDK's invitation is overdue</key>
+		<dict>
+			<key>en</key>
+			<string>'s invitation is overdue</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>超时未接</string>
+			<key>zh-Hant</key>
+			<string>超時未接</string>
+		</dict>
+		<key>SDK's phone</key>
+		<dict>
+			<key>en</key>
+			<string>'s phone</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>的电话</string>
+			<key>zh-Hant</key>
+			<string>的電話</string>
+		</dict>
+		<key>SDK's video Confidence</key>
+		<dict>
+			<key>en</key>
+			<string>'s video Confidence</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>的视频会议</string>
+			<key>zh-Hant</key>
+			<string>的視頻會議</string>
+		</dict>
+		<key>SDK&lt;&lt; see secondary flow</key>
+		<dict>
+			<key>en</key>
+			<string>&lt;&lt; Display sharing</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>&lt;&lt;查看辅流</string>
+			<key>zh-Hant</key>
+			<string>&lt;&lt;查看輔流</string>
+		</dict>
+		<key>SDK&gt;&gt; View video</key>
+		<dict>
+			<key>en</key>
+			<string>&gt;&gt; Display video</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>&gt;&gt;查看视频</string>
+			<key>zh-Hant</key>
+			<string>&gt;&gt;查看視頻</string>
+		</dict>
+		<key>SDKAnonymity disallowed</key>
+		<dict>
+			<key>en</key>
+			<string>Anonymity disallowed</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>匿名拒绝</string>
+			<key>zh-Hant</key>
+			<string>匿名拒絕</string>
+		</dict>
+		<key>SDKAnswer</key>
+		<dict>
+			<key>en</key>
+			<string>Answer</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>接听</string>
+			<key>zh-Hant</key>
+			<string>接聽</string>
+		</dict>
+		<key>SDKAudio problem</key>
+		<dict>
+			<key>en</key>
+			<string>Audio problem</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>音频问题</string>
+			<key>zh-Hant</key>
+			<string>音頻問題</string>
+		</dict>
+		<key>SDKBad request</key>
+		<dict>
+			<key>en</key>
+			<string>Wrong request</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>错误的请求</string>
+			<key>zh-Hant</key>
+			<string>錯誤的請求</string>
+		</dict>
+		<key>SDKBlacklist</key>
+		<dict>
+			<key>en</key>
+			<string>Blacklist</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>黑名单</string>
+			<key>zh-Hant</key>
+			<string>黑名單</string>
+		</dict>
+		<key>SDKCall Failed</key>
+		<dict>
+			<key>en</key>
+			<string>Call Failed</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>呼叫失败</string>
+			<key>zh-Hant</key>
+			<string>呼叫失敗</string>
+		</dict>
+		<key>SDKCall Finished</key>
+		<dict>
+			<key>en</key>
+			<string>Call Finished</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>通话结束</string>
+			<key>zh-Hant</key>
+			<string>通話結束</string>
+		</dict>
+		<key>SDKCall cleared as OSP server unable or unwilling to route</key>
+		<dict>
+			<key>en</key>
+			<string>Call cleared as OSP server unable or unwilling to route</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>OSP服务器无法路由，通话被清除</string>
+			<key>zh-Hant</key>
+			<string>OSP服務器無法路由，通話被清除</string>
+		</dict>
+		<key>SDKCall cleared as number was invalid format</key>
+		<dict>
+			<key>en</key>
+			<string>Call cleared as number was invalid format</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>无效的格式，通话被清除</string>
+			<key>zh-Hant</key>
+			<string>無效的格式，通話被清除</string>
+		</dict>
+		<key>SDKCall cleared due to invalid conferenceID</key>
+		<dict>
+			<key>en</key>
+			<string>Call cleared due to invalid conferenceID</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>无效的会议ID，通话被清除</string>
+			<key>zh-Hant</key>
+			<string>無效的會議ID，通話被清除</string>
+		</dict>
+		<key>SDKCall cleared due to unspecified protocol error</key>
+		<dict>
+			<key>en</key>
+			<string>Call cleared due to unspecified protocol error</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>未知的协议错误，通话结束</string>
+			<key>zh-Hant</key>
+			<string>未知的協議錯誤，通話結束</string>
+		</dict>
+		<key>SDKCall crashed</key>
+		<dict>
+			<key>en</key>
+			<string>Call crashed</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>呼叫崩溃</string>
+			<key>zh-Hant</key>
+			<string>呼叫崩潰</string>
+		</dict>
+		<key>SDKCall ended due to Feature not being present</key>
+		<dict>
+			<key>en</key>
+			<string>Call ended due to Feature not being present</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>功能不存在，通话结束</string>
+			<key>zh-Hant</key>
+			<string>功能不存在，通話結束</string>
+		</dict>
+		<key>SDKCall failed a security check and was ended</key>
+		<dict>
+			<key>en</key>
+			<string>Call failed a security check and was ended</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>安全检查导致呼叫失败</string>
+			<key>zh-Hant</key>
+			<string>安全檢查導致呼叫失敗</string>
+		</dict>
+		<key>SDKCall failed as could not find user (in GK)</key>
+		<dict>
+			<key>en</key>
+			<string>Call failed as could not find user (in GK)</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>呼叫失败，无法找到用户</string>
+			<key>zh-Hant</key>
+			<string>呼叫失敗，無法找到用戶</string>
+		</dict>
+		<key>SDKCall failed as could not get enough bandwidth</key>
+		<dict>
+			<key>en</key>
+			<string>Call failed as could not get enough bandwidth</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>呼叫失败，带宽不足</string>
+			<key>zh-Hant</key>
+			<string>呼叫失敗，帶寬不足</string>
+		</dict>
+		<key>SDKCall forbidden</key>
+		<dict>
+			<key>en</key>
+			<string>Call is forbidden</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>禁止呼叫</string>
+			<key>zh-Hant</key>
+			<string>禁止呼叫</string>
+		</dict>
+		<key>SDKCall restriction</key>
+		<dict>
+			<key>en</key>
+			<string>Call restriction</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>通话限制</string>
+			<key>zh-Hant</key>
+			<string>通話限制</string>
+		</dict>
+		<key>SDKCall transaction does not exist</key>
+		<dict>
+			<key>en</key>
+			<string>Call transaction does not exist</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>事务不存在</string>
+			<key>zh-Hant</key>
+			<string>事務不存在</string>
+		</dict>
+		<key>SDKCall was forwarded using FACILITY message</key>
+		<dict>
+			<key>en</key>
+			<string>Call was forwarded using FACILITY message</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>通话未发送FACILITY报文</string>
+			<key>zh-Hant</key>
+			<string>通話未發送FACILITY報文</string>
+		</dict>
+		<key>SDKCalling, please try again later</key>
+		<dict>
+			<key>en</key>
+			<string>The number you dial is busy, please try again later</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>通话中，请稍后再试</string>
+			<key>zh-Hant</key>
+			<string>通話中，請稍後再試</string>
+		</dict>
+		<key>SDKCamera</key>
+		<dict>
+			<key>en</key>
+			<string>Camera</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>摄像头</string>
+			<key>zh-Hant</key>
+			<string>攝像頭</string>
+		</dict>
+		<key>SDKCancel</key>
+		<dict>
+			<key>en</key>
+			<string>Cancel</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>取消</string>
+			<key>zh-Hant</key>
+			<string>取消</string>
+		</dict>
+		<key>SDKCancelTheLecture</key>
+		<dict>
+			<key>en</key>
+			<string>Cancel the lecture</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>取消演讲</string>
+			<key>zh-Hant</key>
+			<string>取消演講</string>
+		</dict>
+		<key>SDKChange audio</key>
+		<dict>
+			<key>en</key>
+			<string>Change audio</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>转音频</string>
+			<key>zh-Hant</key>
+			<string>轉音頻</string>
+		</dict>
+		<key>SDKClickToInvite</key>
+		<dict>
+			<key>en</key>
+			<string>Click invite</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>点击邀请</string>
+			<key>zh-Hant</key>
+			<string>點擊邀請</string>
+		</dict>
+		<key>SDKCode decline</key>
+		<dict>
+			<key>en</key>
+			<string>Code decline</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>代码下降</string>
+			<key>zh-Hant</key>
+			<string>代碼下降</string>
+		</dict>
+		<key>SDKCompleted elsewhere</key>
+		<dict>
+			<key>en</key>
+			<string>Completed elsewhere</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>在别处完成</string>
+			<key>zh-Hant</key>
+			<string>在別處完成</string>
+		</dict>
+		<key>SDKConfNoExist</key>
+		<dict>
+			<key>en</key>
+			<string>The conference does not exist</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>会议不存在</string>
+			<key>zh-Hant</key>
+			<string>會議不存在</string>
+		</dict>
+		<key>SDKConfOnlyOneperson</key>
+		<dict>
+			<key>en</key>
+			<string>You are the only participant</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>当前只有您一名参会人</string>
+			<key>zh-Hant</key>
+			<string>當前只有您一名參會人</string>
+		</dict>
+		<key>SDKConference has been ended by moderator</key>
+		<dict>
+			<key>en</key>
+			<string>Conference has been ended by moderator</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>主持人结束了当前会议</string>
+			<key>zh-Hant</key>
+			<string>主持人結束了當前會議</string>
+		</dict>
+		<key>SDKConference initialization failed</key>
+		<dict>
+			<key>en</key>
+			<string>Conference initialization failed</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>会议初始化失败</string>
+			<key>zh-Hant</key>
+			<string>會議初始化失敗</string>
+		</dict>
+		<key>SDKConference lock</key>
+		<dict>
+			<key>en</key>
+			<string>Conference is locked</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>会议已锁定</string>
+			<key>zh-Hant</key>
+			<string>會議已鎖定</string>
+		</dict>
+		<key>SDKConference locked</key>
+		<dict>
+			<key>en</key>
+			<string>Conference locked</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>会议锁定</string>
+			<key>zh-Hant</key>
+			<string>會議鎖定</string>
+		</dict>
+		<key>SDKConference service failed</key>
+		<dict>
+			<key>en</key>
+			<string>Conference service failed</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>会议服务失败</string>
+			<key>zh-Hant</key>
+			<string>會議服務失敗</string>
+		</dict>
+		<key>SDKConference uri unknown</key>
+		<dict>
+			<key>en</key>
+			<string>Conference URI unknown</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>未知的会议URI</string>
+			<key>zh-Hant</key>
+			<string>未知的會議URI</string>
+		</dict>
+		<key>SDKConference user count exceed</key>
+		<dict>
+			<key>en</key>
+			<string>Conference user count exceed</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>会议用户计数超出</string>
+			<key>zh-Hant</key>
+			<string>會議用戶計數超出</string>
+		</dict>
+		<key>SDKConference user duplicate</key>
+		<dict>
+			<key>en</key>
+			<string>Conference user duplicate</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>会议用户重复</string>
+			<key>zh-Hant</key>
+			<string>會議用戶重覆</string>
+		</dict>
+		<key>SDKConfirm</key>
+		<dict>
+			<key>en</key>
+			<string>Confirm</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>确定</string>
+			<key>zh-Hant</key>
+			<string>確定</string>
+		</dict>
+		<key>SDKContinueVideoCall</key>
+		<dict>
+			<key>en</key>
+			<string>Continue the video call</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>继续视频呼叫</string>
+			<key>zh-Hant</key>
+			<string>繼續視頻呼叫</string>
+		</dict>
+		<key>SDKCould not find common capabilities</key>
+		<dict>
+			<key>en</key>
+			<string>Could not find common capabilities</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>无法找到相同功能</string>
+			<key>zh-Hant</key>
+			<string>無法找到相同功能</string>
+		</dict>
+		<key>SDKCould not reach the remote party</key>
+		<dict>
+			<key>en</key>
+			<string>Could not reach the remote party</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>无法连接到远端</string>
+			<key>zh-Hant</key>
+			<string>無法連接到遠端</string>
+		</dict>
+		<key>SDKCurrent call statistics</key>
+		<dict>
+			<key>en</key>
+			<string>Current call statistics</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>当前通话统计</string>
+			<key>zh-Hant</key>
+			<string>當前通話統計</string>
+		</dict>
+		<key>SDKDevice is unplugged</key>
+		<dict>
+			<key>en</key>
+			<string>Device is unplugged</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>设备已拔下</string>
+			<key>zh-Hant</key>
+			<string>設備已拔下</string>
+		</dict>
+		<key>SDKDial keyboard</key>
+		<dict>
+			<key>en</key>
+			<string>Dial keyboard</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>拨号键盘</string>
+			<key>zh-Hant</key>
+			<string>撥號鍵盤</string>
+		</dict>
+		<key>SDKDnd hangs up</key>
+		<dict>
+			<key>en</key>
+			<string>Ended by Do Not Disturb mode</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>因DND勿扰模式而挂断</string>
+			<key>zh-Hant</key>
+			<string>因DND勿擾模式而掛斷</string>
+		</dict>
+		<key>SDKEndConf</key>
+		<dict>
+			<key>en</key>
+			<string>End conference</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>结束会议</string>
+			<key>zh-Hant</key>
+			<string>結束會議</string>
+		</dict>
+		<key>SDKExpired timeout</key>
+		<dict>
+			<key>en</key>
+			<string>Call timeout</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>呼出超时</string>
+			<key>zh-Hant</key>
+			<string>呼出超時</string>
+		</dict>
+		<key>SDKFinish it somewhere else</key>
+		<dict>
+			<key>en</key>
+			<string>Users completed elsewhere</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>用户在其他地方完成</string>
+			<key>zh-Hant</key>
+			<string>用戶在其他地方完成</string>
+		</dict>
+		<key>SDKForced withdrawal</key>
+		<dict>
+			<key>en</key>
+			<string>Forced withdrawal</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>强制退出</string>
+			<key>zh-Hant</key>
+			<string>強制退出</string>
+		</dict>
+		<key>SDKFriday</key>
+		<dict>
+			<key>en</key>
+			<string>Friday</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>星期五</string>
+			<key>zh-Hant</key>
+			<string>星期五</string>
+		</dict>
+		<key>SDKFrom </key>
+		<dict>
+			<key>en</key>
+			<string>From </string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>来自</string>
+			<key>zh-Hant</key>
+			<string>來自</string>
+		</dict>
+		<key>SDKGatekeeper has cleared call</key>
+		<dict>
+			<key>en</key>
+			<string>Gatekeeper has cleared call</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>网守已清除通话</string>
+			<key>zh-Hant</key>
+			<string>網守已清除通話</string>
+		</dict>
+		<key>SDKHand up</key>
+		<dict>
+			<key>en</key>
+			<string>Hand up</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>申请发言</string>
+			<key>zh-Hant</key>
+			<string>申請發言</string>
+		</dict>
+		<key>SDKHide small window</key>
+		<dict>
+			<key>en</key>
+			<string>Hide window</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>隐藏小窗口</string>
+			<key>zh-Hant</key>
+			<string>隱藏小窗口</string>
+		</dict>
+		<key>SDKHung up</key>
+		<dict>
+			<key>en</key>
+			<string>Hang up</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>挂断</string>
+			<key>zh-Hant</key>
+			<string>掛斷</string>
+		</dict>
+		<key>SDKIgnore call or Force reject by peer</key>
+		<dict>
+			<key>en</key>
+			<string>Call is ingnored or ended by force</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>忽略对等点调用或强制拒绝</string>
+			<key>zh-Hant</key>
+			<string>忽略對等點調用或強制拒絕</string>
+		</dict>
+		<key>SDKIncoming call from %@...</key>
+		<dict>
+			<key>en</key>
+			<string>Incoming call from %@...</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>来自%@的电话...</string>
+			<key>zh-Hant</key>
+			<string>來自%@的電話...</string>
+		</dict>
+		<key>SDKInvite</key>
+		<dict>
+			<key>en</key>
+			<string>Invite</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>邀请</string>
+			<key>zh-Hant</key>
+			<string>邀請</string>
+		</dict>
+		<key>SDKInvite contact</key>
+		<dict>
+			<key>en</key>
+			<string>Invite Contact</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>邀请联系人</string>
+			<key>zh-Hant</key>
+			<string>邀請聯繫人</string>
+		</dict>
+		<key>SDKInvite members</key>
+		<dict>
+			<key>en</key>
+			<string>Invite members</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>邀请成员</string>
+			<key>zh-Hant</key>
+			<string>邀請成員</string>
+		</dict>
+		<key>SDKJoin elsewhere</key>
+		<dict>
+			<key>en</key>
+			<string>Users joined elsewhere</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>用户从其它地方加入</string>
+			<key>zh-Hant</key>
+			<string>用戶從其它地方加入</string>
+		</dict>
+		<key>SDKLeaveConf</key>
+		<dict>
+			<key>en</key>
+			<string>leave conference, others continue</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>离开,其它人继续会议</string>
+			<key>zh-Hant</key>
+			<string>離開,其它人繼續會議</string>
+		</dict>
+		<key>SDKLeaveOrEndConf</key>
+		<dict>
+			<key>en</key>
+			<string>Leave or end conference?</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>离开还是结束会议?</string>
+			<key>zh-Hant</key>
+			<string>離開還是結束會議?</string>
+		</dict>
+		<key>SDKLimitedPermissions</key>
+		<dict>
+			<key>en</key>
+			<string>Limited permissions</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>权限受限</string>
+			<key>zh-Hant</key>
+			<string>權限受限</string>
+		</dict>
+		<key>SDKLocal endpoint busy</key>
+		<dict>
+			<key>en</key>
+			<string>Local endpoint busy</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>本地端点忙碌</string>
+			<key>zh-Hant</key>
+			<string>本地端點忙碌</string>
+		</dict>
+		<key>SDKLocal endpoint congested</key>
+		<dict>
+			<key>en</key>
+			<string>Local endpoint congested</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>本地端点堵塞</string>
+			<key>zh-Hant</key>
+			<string>本地端點堵塞</string>
+		</dict>
+		<key>SDKLocal ends up the session</key>
+		<dict>
+			<key>en</key>
+			<string>Call ended by local</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>本地结束会话</string>
+			<key>zh-Hant</key>
+			<string>本地結束會話</string>
+		</dict>
+		<key>SDKLoop detected</key>
+		<dict>
+			<key>en</key>
+			<string>Loop detected</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>检测到回环</string>
+			<key>zh-Hant</key>
+			<string>檢測到迴環</string>
+		</dict>
+		<key>SDKMandatory refusal</key>
+		<dict>
+			<key>en</key>
+			<string>Mandatory refusal</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>强制拒绝</string>
+			<key>zh-Hant</key>
+			<string>強制拒絕</string>
+		</dict>
+		<key>SDKMedia consultation failed</key>
+		<dict>
+			<key>en</key>
+			<string>Media consultation failed</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>媒体协商失败</string>
+			<key>zh-Hant</key>
+			<string>媒體協商失敗</string>
+		</dict>
+		<key>SDKMedia negotiate fail</key>
+		<dict>
+			<key>en</key>
+			<string>Media negotiate fail</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>媒体谈判失败</string>
+			<key>zh-Hant</key>
+			<string>媒體談判失敗</string>
+		</dict>
+		<key>SDKMeeting lost</key>
+		<dict>
+			<key>en</key>
+			<string>Meeting lost</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>会议丢失</string>
+			<key>zh-Hant</key>
+			<string>會議丟失</string>
+		</dict>
+		<key>SDKMeetingControlLockMeeting</key>
+		<dict>
+			<key>en</key>
+			<string>Lock</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>锁定会议</string>
+			<key>zh-Hant</key>
+			<string>鎖定會議</string>
+		</dict>
+		<key>SDKMeetingControlMuteAll</key>
+		<dict>
+			<key>en</key>
+			<string>Mute All</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>全员禁言</string>
+			<key>zh-Hant</key>
+			<string>全員禁言</string>
+		</dict>
+		<key>SDKMeetingMemberAllowSpeaking</key>
+		<dict>
+			<key>en</key>
+			<string>Allow</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>允许发言</string>
+			<key>zh-Hant</key>
+			<string>允許發言</string>
+		</dict>
+		<key>SDKMeetingMemberCancelAllMuteModerator</key>
+		<dict>
+			<key>en</key>
+			<string>Unmute All</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>解除全员禁言</string>
+			<key>zh-Hant</key>
+			<string>解除全員禁言</string>
+		</dict>
+		<key>SDKMeetingMemberMessageApplicationSpeaking</key>
+		<dict>
+			<key>en</key>
+			<string>You are sending speaking application</string>
+			<key>es</key>
+			<string>You are sending speaking application</string>
+			<key>zh-Hans</key>
+			<string>您正在申请发言</string>
+			<key>zh-Hant</key>
+			<string>您正在申請發言</string>
+		</dict>
+		<key>SDKMeetingMemberMessageApplicationSpeakingAllowed</key>
+		<dict>
+			<key>en</key>
+			<string>Your speaking application has been allowed</string>
+			<key>es</key>
+			<string>Your speaking application has been allowed</string>
+			<key>zh-Hans</key>
+			<string>您的发言申请被允许</string>
+			<key>zh-Hant</key>
+			<string>您的發言申請被允許</string>
+		</dict>
+		<key>SDKMeetingMemberMessageApplicationSpeakingRejected</key>
+		<dict>
+			<key>en</key>
+			<string>Your speaking application has been refused</string>
+			<key>es</key>
+			<string>Your speaking application has been refused</string>
+			<key>zh-Hans</key>
+			<string>您的发言申请被拒绝</string>
+			<key>zh-Hant</key>
+			<string>您的發言申請被拒絕</string>
+		</dict>
+		<key>SDKMeetingMemberMessageBeGuest</key>
+		<dict>
+			<key>en</key>
+			<string>You are set as a guest</string>
+			<key>es</key>
+			<string>You are set as a guest</string>
+			<key>zh-Hans</key>
+			<string>您被设置为访客</string>
+			<key>zh-Hant</key>
+			<string>您被設置為訪客</string>
+		</dict>
+		<key>SDKMeetingMemberMessageBeLecturer</key>
+		<dict>
+			<key>en</key>
+			<string>You are set as a lecturer</string>
+			<key>es</key>
+			<string>You are set as a lecturer</string>
+			<key>zh-Hans</key>
+			<string>您被设置为演讲者</string>
+			<key>zh-Hant</key>
+			<string>您被設置為演講者</string>
+		</dict>
+		<key>SDKMeetingMemberMessageBeModerator</key>
+		<dict>
+			<key>en</key>
+			<string>You are set as a moderator</string>
+			<key>es</key>
+			<string>You are set as a moderator</string>
+			<key>zh-Hans</key>
+			<string>您被设置为主持人</string>
+			<key>zh-Hant</key>
+			<string>您被設置為主持人</string>
+		</dict>
+		<key>SDKMeetingMemberMessageBlockByModerator</key>
+		<dict>
+			<key>en</key>
+			<string>You are blocked by moderator</string>
+			<key>es</key>
+			<string>You are blocked by moderator</string>
+			<key>zh-Hans</key>
+			<string>您被主持人闭音</string>
+			<key>zh-Hant</key>
+			<string>您被主持人閉音</string>
+		</dict>
+		<key>SDKMeetingMemberMessageCancelApplicationSpeaking</key>
+		<dict>
+			<key>en</key>
+			<string>You have cancelled your speaking application</string>
+			<key>es</key>
+			<string>Tu aplicación para hablar ha sido cancelada</string>
+			<key>zh-Hans</key>
+			<string>您取消了发言申请</string>
+			<key>zh-Hant</key>
+			<string>您取消了發言申請</string>
+		</dict>
+		<key>SDKMeetingMemberMessageCancelBlockByModerator</key>
+		<dict>
+			<key>en</key>
+			<string>You are unblocked by moderator</string>
+			<key>es</key>
+			<string>You are unblocked by moderator</string>
+			<key>zh-Hans</key>
+			<string>您被主持人解除闭音</string>
+			<key>zh-Hant</key>
+			<string>您被主持人解除閉音</string>
+		</dict>
+		<key>SDKMeetingMemberMessageCancelMuteByModerator</key>
+		<dict>
+			<key>en</key>
+			<string>You are unmuted by moderator</string>
+			<key>es</key>
+			<string>You are unmuted by moderator</string>
+			<key>zh-Hans</key>
+			<string>您被主持人解除禁言</string>
+			<key>zh-Hant</key>
+			<string>您被主持人解除禁言</string>
+		</dict>
+		<key>SDKMeetingMemberMessageDeleteConfUserFailed</key>
+		<dict>
+			<key>en</key>
+			<string>Delete user %@ fail</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>移除用户%@失败</string>
+			<key>zh-Hant</key>
+			<string>移除用戶%@失敗</string>
+		</dict>
+		<key>SDKMeetingMemberMessageDiscardLecturer</key>
+		<dict>
+			<key>en</key>
+			<string>Your lecturer role has been cancelled</string>
+			<key>es</key>
+			<string>Your lecturer role has been cancelled</string>
+			<key>zh-Hans</key>
+			<string>您被取消演讲权限</string>
+			<key>zh-Hant</key>
+			<string>您被取消演講權限</string>
+		</dict>
+		<key>SDKMeetingMemberMessageInviteFail</key>
+		<dict>
+			<key>en</key>
+			<string>Invite %@ Fail</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>%@邀请失败</string>
+			<key>zh-Hant</key>
+			<string>%@邀請失敗</string>
+		</dict>
+		<key>SDKMeetingMemberMessageInviteNewMemberFormat</key>
+		<dict>
+			<key>en</key>
+			<string>Inviting %@</string>
+			<key>es</key>
+			<string>Inviting %@</string>
+			<key>zh-Hans</key>
+			<string>您邀请了%@加入会议</string>
+			<key>zh-Hant</key>
+			<string>您邀請了%@加入會議</string>
+		</dict>
+		<key>SDKMeetingMemberMessageJoinMeetingFormat</key>
+		<dict>
+			<key>en</key>
+			<string>%@ Join</string>
+			<key>es</key>
+			<string>%@ Join</string>
+			<key>zh-Hans</key>
+			<string>%@ 加入会议</string>
+			<key>zh-Hant</key>
+			<string>%@ 加入會議</string>
+		</dict>
+		<key>SDKMeetingMemberMessageLeaveMeetingFormat</key>
+		<dict>
+			<key>en</key>
+			<string>%@ Leave</string>
+			<key>es</key>
+			<string>%@ Leave</string>
+			<key>zh-Hans</key>
+			<string>%@ 离开会议</string>
+			<key>zh-Hant</key>
+			<string>%@ 離開會議</string>
+		</dict>
+		<key>SDKMeetingMemberMessageList</key>
+		<dict>
+			<key>en</key>
+			<string>System Message</string>
+			<key>es</key>
+			<string>System Message</string>
+			<key>zh-Hans</key>
+			<string>消息列表</string>
+			<key>zh-Hant</key>
+			<string>消息列表</string>
+		</dict>
+		<key>SDKMeetingMemberMessageMeetingEnd</key>
+		<dict>
+			<key>en</key>
+			<string>Conference has been ended by moderator</string>
+			<key>es</key>
+			<string>La conferencia fue terminada por el moderador</string>
+			<key>zh-Hans</key>
+			<string>主持人结束了当前会议</string>
+			<key>zh-Hant</key>
+			<string>主持人結束了當前會議</string>
+		</dict>
+		<key>SDKMeetingMemberMessageMuteByModerator</key>
+		<dict>
+			<key>en</key>
+			<string>You are muted by moderator</string>
+			<key>es</key>
+			<string>You are muted by moderator</string>
+			<key>zh-Hans</key>
+			<string>您被主持人禁言</string>
+			<key>zh-Hant</key>
+			<string>您被主持人禁言</string>
+		</dict>
+		<key>SDKMeetingMemberMessageRemoveFromMeeting</key>
+		<dict>
+			<key>en</key>
+			<string>You have been removed from the conference</string>
+			<key>es</key>
+			<string>Has sido removido de la conferencia</string>
+			<key>zh-Hans</key>
+			<string>您被移出会议</string>
+			<key>zh-Hant</key>
+			<string>您被移出會議</string>
+		</dict>
+		<key>SDKMeetingMemberNoMessage</key>
+		<dict>
+			<key>en</key>
+			<string>No Message</string>
+			<key>es</key>
+			<string>No Message</string>
+			<key>zh-Hans</key>
+			<string>暂无消息</string>
+			<key>zh-Hant</key>
+			<string>暫無消息</string>
+		</dict>
+		<key>SDKMeetingMemberRejectSpeaking</key>
+		<dict>
+			<key>en</key>
+			<string>Refuse</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>拒绝发言</string>
+			<key>zh-Hant</key>
+			<string>拒絕發言</string>
+		</dict>
+		<key>SDKMeetingMemberTitle</key>
+		<dict>
+			<key>en</key>
+			<string>Participants</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>成员列表</string>
+			<key>zh-Hant</key>
+			<string>成員列表</string>
+		</dict>
+		<key>SDKMeetingMemberUnlockMeeting</key>
+		<dict>
+			<key>en</key>
+			<string>Unlock</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>解锁会议</string>
+			<key>zh-Hant</key>
+			<string>解鎖會議</string>
+		</dict>
+		<key>SDKMethod not allowed</key>
+		<dict>
+			<key>en</key>
+			<string>Unallowed call</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>不允许的方法</string>
+			<key>zh-Hant</key>
+			<string>不允許的方法</string>
+		</dict>
+		<key>SDKMissing Call :%@</key>
+		<dict>
+			<key>en</key>
+			<string>Missing Call :%@</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>未接电话：%@</string>
+			<key>zh-Hant</key>
+			<string>未接電話：%@</string>
+		</dict>
+		<key>SDKMonday</key>
+		<dict>
+			<key>en</key>
+			<string>Monday</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>星期一</string>
+			<key>zh-Hant</key>
+			<string>星期一</string>
+		</dict>
+		<key>SDKMute</key>
+		<dict>
+			<key>en</key>
+			<string>Mute</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>静音</string>
+			<key>zh-Hant</key>
+			<string>靜音</string>
+		</dict>
+		<key>SDKNetwork Error</key>
+		<dict>
+			<key>en</key>
+			<string>Network Error</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>网络中断</string>
+			<key>zh-Hant</key>
+			<string>網絡中斷</string>
+		</dict>
+		<key>SDKNot acceptable</key>
+		<dict>
+			<key>en</key>
+			<string>Unacceptable</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>本地不支持</string>
+			<key>zh-Hant</key>
+			<string>本地不支持</string>
+		</dict>
+		<key>SDKPlease unlock</key>
+		<dict>
+			<key>en</key>
+			<string>Please unlock</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>请解锁</string>
+			<key>zh-Hant</key>
+			<string>請解鎖</string>
+		</dict>
+		<key>SDKProtocol</key>
+		<dict>
+			<key>en</key>
+			<string>Protocol</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>协议</string>
+			<key>zh-Hant</key>
+			<string>協議</string>
+		</dict>
+		<key>SDKReceive</key>
+		<dict>
+			<key>en</key>
+			<string>Receive</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>接收</string>
+			<key>zh-Hant</key>
+			<string>接收</string>
+		</dict>
+		<key>SDKReceived secondary</key>
+		<dict>
+			<key>en</key>
+			<string>Received secondary</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>收到辅流</string>
+			<key>zh-Hant</key>
+			<string>收到輔流</string>
+		</dict>
+		<key>SDKReceived stream</key>
+		<dict>
+			<key>en</key>
+			<string>Received stream</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>收到辅流</string>
+			<key>zh-Hant</key>
+			<string>收到輔流</string>
+		</dict>
+		<key>SDKReceiving equipment</key>
+		<dict>
+			<key>en</key>
+			<string>Receiving end</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>接收设备</string>
+			<key>zh-Hant</key>
+			<string>接收設備</string>
+		</dict>
+		<key>SDKRefused to join the invitation</key>
+		<dict>
+			<key>en</key>
+			<string>Refused to join the invitation</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>拒绝入会邀请</string>
+			<key>zh-Hant</key>
+			<string>拒絕入會邀請</string>
+		</dict>
+		<key>SDKRemote end hangup the session</key>
+		<dict>
+			<key>en</key>
+			<string>Call ended by remote party</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>远端挂断电话</string>
+			<key>zh-Hant</key>
+			<string>遠端掛斷電話</string>
+		</dict>
+		<key>SDKRemote end up</key>
+		<dict>
+			<key>en</key>
+			<string>Ended by remote</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>远端结束</string>
+			<key>zh-Hant</key>
+			<string>遠端結束</string>
+		</dict>
+		<key>SDKRemote endpoint busy</key>
+		<dict>
+			<key>en</key>
+			<string>Remote endpoint busy</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>远程端点忙碌</string>
+			<key>zh-Hant</key>
+			<string>遠程端點忙碌</string>
+		</dict>
+		<key>SDKRemote endpoint congested</key>
+		<dict>
+			<key>en</key>
+			<string>Remote endpoint congested</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>远程端点堵塞</string>
+			<key>zh-Hant</key>
+			<string>遠程端點堵塞</string>
+		</dict>
+		<key>SDKRemote endpoint did not answer in required time</key>
+		<dict>
+			<key>en</key>
+			<string>Remote endpoint did not answer in required time</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>远程端点没有在规定时间内回应</string>
+			<key>zh-Hant</key>
+			<string>遠程端點沒有在規定時間內回應</string>
+		</dict>
+		<key>SDKRemote endpoint not found</key>
+		<dict>
+			<key>en</key>
+			<string>Remote endpoint not found</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>远程端点未找到</string>
+			<key>zh-Hant</key>
+			<string>遠程端點未找到</string>
+		</dict>
+		<key>SDKRemote endpoint stopped calling</key>
+		<dict>
+			<key>en</key>
+			<string>Remote endpoint stopped calling</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>远程端点停止通话</string>
+			<key>zh-Hant</key>
+			<string>遠程端點停止通話</string>
+		</dict>
+		<key>SDKRemote endpoint unsupported media type</key>
+		<dict>
+			<key>en</key>
+			<string>Media type is not supported by remote endpoint</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>远程端点不支持媒体类型</string>
+			<key>zh-Hant</key>
+			<string>遠程端點不支持媒體類型</string>
+		</dict>
+		<key>SDKRemove</key>
+		<dict>
+			<key>en</key>
+			<string>Remove</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>移除</string>
+			<key>zh-Hant</key>
+			<string>移除</string>
+		</dict>
+		<key>SDKRequest pending</key>
+		<dict>
+			<key>en</key>
+			<string>Request pending</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>等待请求</string>
+			<key>zh-Hant</key>
+			<string>等待請求</string>
+		</dict>
+		<key>SDKRequest time out</key>
+		<dict>
+			<key>en</key>
+			<string>Request time out</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>请求超时</string>
+			<key>zh-Hant</key>
+			<string>請求超時</string>
+		</dict>
+		<key>SDKSaturday</key>
+		<dict>
+			<key>en</key>
+			<string>Saturday</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>星期六</string>
+			<key>zh-Hant</key>
+			<string>星期六</string>
+		</dict>
+		<key>SDKSend</key>
+		<dict>
+			<key>en</key>
+			<string>Send</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>发送</string>
+			<key>zh-Hant</key>
+			<string>發送</string>
+		</dict>
+		<key>SDKService Internal Server Error</key>
+		<dict>
+			<key>en</key>
+			<string>Server internal service error</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>服务器内部错误</string>
+			<key>zh-Hant</key>
+			<string>服務器內部錯誤</string>
+		</dict>
+		<key>SDKService lost</key>
+		<dict>
+			<key>en</key>
+			<string>Service lost</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>服务丢失</string>
+			<key>zh-Hant</key>
+			<string>服務丟失</string>
+		</dict>
+		<key>SDKService unavailable</key>
+		<dict>
+			<key>en</key>
+			<string>Service unavailable</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>暂停服务</string>
+			<key>zh-Hant</key>
+			<string>暫停服務</string>
+		</dict>
+		<key>SDKSetAsAGuest</key>
+		<dict>
+			<key>en</key>
+			<string>Set as a guest</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>设为访客</string>
+			<key>zh-Hant</key>
+			<string>設為訪客</string>
+		</dict>
+		<key>SDKSetAsALecturer</key>
+		<dict>
+			<key>en</key>
+			<string>Set as a lecturer</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>设为演讲者</string>
+			<key>zh-Hant</key>
+			<string>設為演講者</string>
+		</dict>
+		<key>SDKSetAsAModerator</key>
+		<dict>
+			<key>en</key>
+			<string>Set as a moderator</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>设为主持人</string>
+			<key>zh-Hant</key>
+			<string>設為主持人</string>
+		</dict>
+		<key>SDKSharingMeetingInformation</key>
+		<dict>
+			<key>en</key>
+			<string>Share conference info</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>分享入会信息</string>
+			<key>zh-Hant</key>
+			<string>分享入會信息</string>
+		</dict>
+		<key>SDKShow small sindow</key>
+		<dict>
+			<key>en</key>
+			<string>Display window</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>打开小窗口</string>
+			<key>zh-Hant</key>
+			<string>打開小窗口</string>
+		</dict>
+		<key>SDKSip ended by forbidden</key>
+		<dict>
+			<key>en</key>
+			<string>SIP ended due to be forbidden</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>SIP被禁止</string>
+			<key>zh-Hant</key>
+			<string>SIP被禁止</string>
+		</dict>
+		<key>SDKSip ended by not found</key>
+		<dict>
+			<key>en</key>
+			<string>SIP ended due to number not found</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>SIP未找到</string>
+			<key>zh-Hant</key>
+			<string>SIP未找到</string>
+		</dict>
+		<key>SDKSip ended by request time out</key>
+		<dict>
+			<key>en</key>
+			<string>SIP ended due to request time out</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>Sip終止請求超時</string>
+			<key>zh-Hant</key>
+			<string>Sip終止請求超時</string>
+		</dict>
+		<key>SDKSpeaker</key>
+		<dict>
+			<key>en</key>
+			<string>Speaker</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>扬声器</string>
+			<key>zh-Hant</key>
+			<string>揚聲器</string>
+		</dict>
+		<key>SDKSubscriber limit</key>
+		<dict>
+			<key>en</key>
+			<string>Reached the limit of maximum users</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>用户人数限制</string>
+			<key>zh-Hant</key>
+			<string>用戶人數限制</string>
+		</dict>
+		<key>SDKSunday</key>
+		<dict>
+			<key>en</key>
+			<string>Sunday</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>星期日</string>
+			<key>zh-Hant</key>
+			<string>星期日</string>
+		</dict>
+		<key>SDKSwitchToAudio</key>
+		<dict>
+			<key>en</key>
+			<string>Switch audio</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>转为音频接听</string>
+			<key>zh-Hant</key>
+			<string>轉為音頻接聽</string>
+		</dict>
+		<key>SDKTalk finish, audio has error</key>
+		<dict>
+			<key>en</key>
+			<string>Call is ended due to audio error</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>通话因为音频问题而中断</string>
+			<key>zh-Hant</key>
+			<string>通話因為音頻問題而中斷</string>
+		</dict>
+		<key>SDKTalk finish, network broken</key>
+		<dict>
+			<key>en</key>
+			<string>Call is ended due to network error</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>通话因为网络问题而中断</string>
+			<key>zh-Hant</key>
+			<string>通話因為網絡問題而中斷</string>
+		</dict>
+		<key>SDKTemporarily unavailable</key>
+		<dict>
+			<key>en</key>
+			<string>Temporarily unavailable</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>暂时不可用</string>
+			<key>zh-Hant</key>
+			<string>暫時不可用</string>
+		</dict>
+		<key>SDKThe camera has closed</key>
+		<dict>
+			<key>en</key>
+			<string>The camera has closed</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>摄像头已关闭</string>
+			<key>zh-Hant</key>
+			<string>攝像頭已關閉</string>
+		</dict>
+		<key>SDKThe current call has been interrupted by a network switch. Please try to call again</key>
+		<dict>
+			<key>en</key>
+			<string>The current call has been interrupted by a network switch. Please try to call again</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>当前通话因网络切换而导致中断，请尝试重新呼叫</string>
+			<key>zh-Hant</key>
+			<string>當前通話因網絡切換而導致中斷，請嘗試重新呼叫</string>
+		</dict>
+		<key>SDKThe current network is not available, please check the network</key>
+		<dict>
+			<key>en</key>
+			<string>The current network is not available, please check the network</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>当前网络不可用，请检查网络</string>
+			<key>zh-Hant</key>
+			<string>當前網絡不可用，請檢查網絡</string>
+		</dict>
+		<key>SDKThe network signal is poor</key>
+		<dict>
+			<key>en</key>
+			<string>The network signal is unstable</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>网络信号差</string>
+			<key>zh-Hant</key>
+			<string>網絡信號差</string>
+		</dict>
+		<key>SDKThe remote failed temporarily app mayretry</key>
+		<dict>
+			<key>en</key>
+			<string>The remote failed temporarily app mayretry</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>远程暂时没有可用的应用程序重试</string>
+			<key>zh-Hant</key>
+			<string>遠程暫時沒有可用的應用程序重試</string>
+		</dict>
+		<key>SDKThe remote party host off line</key>
+		<dict>
+			<key>en</key>
+			<string>The remote party host off line</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>对方主机下线</string>
+			<key>zh-Hant</key>
+			<string>對方主機下線</string>
+		</dict>
+		<key>SDKThe remote party is not running an endpoint</key>
+		<dict>
+			<key>en</key>
+			<string>The remote party is not running an endpoint</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>对方没有运行端点</string>
+			<key>zh-Hant</key>
+			<string>對方沒有運行端點</string>
+		</dict>
+		<key>SDKThe user is not registered</key>
+		<dict>
+			<key>en</key>
+			<string>User is not registered</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>用户未注册</string>
+			<key>zh-Hant</key>
+			<string>用戶未註冊</string>
+		</dict>
+		<key>SDKThursday</key>
+		<dict>
+			<key>en</key>
+			<string>Thursday</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>星期四</string>
+			<key>zh-Hant</key>
+			<string>星期四</string>
+		</dict>
+		<key>SDKToday</key>
+		<dict>
+			<key>en</key>
+			<string>Today</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>今天</string>
+			<key>zh-Hant</key>
+			<string>今天</string>
+		</dict>
+		<key>SDKTomorrow</key>
+		<dict>
+			<key>en</key>
+			<string>Tomorrow</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>明天</string>
+			<key>zh-Hant</key>
+			<string>明天</string>
+		</dict>
+		<key>SDKTotal bandwidth:</key>
+		<dict>
+			<key>en</key>
+			<string>Total bandwidth:</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>总带宽:</string>
+			<key>zh-Hant</key>
+			<string>總帶寬:</string>
+		</dict>
+		<key>SDKTransport connection failed to establish call</key>
+		<dict>
+			<key>en</key>
+			<string>Transport connection failed to establish call</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>呼叫传输失败</string>
+			<key>zh-Hant</key>
+			<string>呼叫傳輸失敗</string>
+		</dict>
+		<key>SDKTransport error cleared call</key>
+		<dict>
+			<key>en</key>
+			<string>Transport error cleared call</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>传输错误，清除通话</string>
+			<key>zh-Hant</key>
+			<string>傳輸錯誤，清除通話</string>
+		</dict>
+		<key>SDKTuesday</key>
+		<dict>
+			<key>en</key>
+			<string>Tuesday</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>星期二</string>
+			<key>zh-Hant</key>
+			<string>星期二</string>
+		</dict>
+		<key>SDKUnknown URI scheme</key>
+		<dict>
+			<key>en</key>
+			<string>Unknown URI scheme</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>未知的URI</string>
+			<key>zh-Hant</key>
+			<string>未知的URI</string>
+		</dict>
+		<key>SDKUnknown type</key>
+		<dict>
+			<key>en</key>
+			<string>Unknown type</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>未知类型</string>
+			<key>zh-Hant</key>
+			<string>未知類型</string>
+		</dict>
+		<key>SDKUnsupported URI scheme</key>
+		<dict>
+			<key>en</key>
+			<string>Unsupported URI scheme</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>不支持的URI格式</string>
+			<key>zh-Hant</key>
+			<string>不支持的URI格式</string>
+		</dict>
+		<key>SDKUser busy</key>
+		<dict>
+			<key>en</key>
+			<string>User busy</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>用户忙</string>
+			<key>zh-Hant</key>
+			<string>用戶忙</string>
+		</dict>
+		<key>SDKUsers ignore</key>
+		<dict>
+			<key>en</key>
+			<string>Users ignored</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>用户忽略</string>
+			<key>zh-Hant</key>
+			<string>用戶忽略</string>
+		</dict>
+		<key>SDKVideo timeout</key>
+		<dict>
+			<key>en</key>
+			<string>Video timeout</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>视频超时</string>
+			<key>zh-Hant</key>
+			<string>視頻超時</string>
+		</dict>
+		<key>SDKWednesday</key>
+		<dict>
+			<key>en</key>
+			<string>Wednesday</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>星期三</string>
+			<key>zh-Hant</key>
+			<string>星期三</string>
+		</dict>
+		<key>SDKWifiVideoCallNotice</key>
+		<dict>
+			<key>en</key>
+			<string>Are you using a non-WiFi network that affects video quality and generates traffic costs, are you sure you want to continue calling your video?</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>您正在使用非WiFi网络，会影响视频质量并且产生流量费用，您确定继续呼叫视频？</string>
+			<key>zh-Hant</key>
+			<string>您正在使用非WiFi網絡，會影響視頻質量並且產生流量費用，您確定繼續呼叫視頻？</string>
+		</dict>
+		<key>SDKYesterday</key>
+		<dict>
+			<key>en</key>
+			<string>Yesterday</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>昨天</string>
+			<key>zh-Hant</key>
+			<string>昨天</string>
+		</dict>
+		<key>SDKYou are muted by moderator</key>
+		<dict>
+			<key>en</key>
+			<string>You are muted by moderator</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>您被主持人禁言</string>
+			<key>zh-Hant</key>
+			<string>您被主持人禁言</string>
+		</dict>
+		<key>SDKYou are sending speaking application</key>
+		<dict>
+			<key>en</key>
+			<string>You are sending speaking application</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>您正在申请发言</string>
+			<key>zh-Hant</key>
+			<string>您正在申請發言</string>
+		</dict>
+		<key>SDKYou are set as a guest</key>
+		<dict>
+			<key>en</key>
+			<string>You are set as a guest</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>您被设置为访客</string>
+			<key>zh-Hant</key>
+			<string>您被設置為訪客</string>
+		</dict>
+		<key>SDKYou are set as a lecturer</key>
+		<dict>
+			<key>en</key>
+			<string>You are set as a lecturer</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>您被设置为演讲者</string>
+			<key>zh-Hant</key>
+			<string>您被設置為演講者</string>
+		</dict>
+		<key>SDKYou are set as a moderator</key>
+		<dict>
+			<key>en</key>
+			<string>You are set as a moderator</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>您被设置为主持人</string>
+			<key>zh-Hant</key>
+			<string>您被設置為主持人</string>
+		</dict>
+		<key>SDKYou are unmuted by moderator</key>
+		<dict>
+			<key>en</key>
+			<string>You are unmuted by moderator</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>您被主持人解除禁言</string>
+			<key>zh-Hant</key>
+			<string>您被主持人解除禁言</string>
+		</dict>
+		<key>SDKYou have a call</key>
+		<dict>
+			<key>en</key>
+			<string>You have a call</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>您有一个来电</string>
+			<key>zh-Hant</key>
+			<string>您有一個來電</string>
+		</dict>
+		<key>SDKYou have been removed from the conference</key>
+		<dict>
+			<key>en</key>
+			<string>You have been removed from the conference</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>您被移出会议</string>
+			<key>zh-Hant</key>
+			<string>您被移出會議</string>
+		</dict>
+		<key>SDKYou have cancelled your speaking application</key>
+		<dict>
+			<key>en</key>
+			<string>You have cancelled your speaking application</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>您取消了发言申请</string>
+			<key>zh-Hant</key>
+			<string>您取消了發言申請</string>
+		</dict>
+		<key>SDKYou have switched to headset</key>
+		<dict>
+			<key>en</key>
+			<string>Switched to headset</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>你已经切换到耳机</string>
+			<key>zh-Hant</key>
+			<string>你已經切換到耳機</string>
+		</dict>
+		<key>SDKYour lecturer role has been cancelled</key>
+		<dict>
+			<key>en</key>
+			<string>Your lecturer role has been cancelled</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>您被取消演讲权限</string>
+			<key>zh-Hant</key>
+			<string>您被取消演講權限</string>
+		</dict>
+		<key>SDKYour speaking application has been allowed</key>
+		<dict>
+			<key>en</key>
+			<string>Your speaking application has been allowed</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>您的发言申请被允许</string>
+			<key>zh-Hant</key>
+			<string>您的發言申請被允許</string>
+		</dict>
+		<key>SDKYour speaking application has been refused</key>
+		<dict>
+			<key>en</key>
+			<string>Your speaking application has been refused</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>您的发言申请被拒绝</string>
+			<key>zh-Hant</key>
+			<string>您的發言申請被拒絕</string>
+		</dict>
+		<key>SDKback</key>
+		<dict>
+			<key>en</key>
+			<string>Back</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>返回</string>
+			<key>zh-Hant</key>
+			<string>返回</string>
+		</dict>
+		<key>SDKincoming</key>
+		<dict>
+			<key>en</key>
+			<string>incoming</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>来电</string>
+			<key>zh-Hant</key>
+			<string>來電</string>
+		</dict>
+		<key>SDKinvalid information element</key>
+		<dict>
+			<key>en</key>
+			<string>invalid information element</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>无效的信息元素</string>
+			<key>zh-Hant</key>
+			<string>無效的信息元素</string>
+		</dict>
+		<key>SDKjoins the conference</key>
+		<dict>
+			<key>en</key>
+			<string> joins the conference</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>加入会议</string>
+			<key>zh-Hant</key>
+			<string>加入會議</string>
+		</dict>
+		<key>SDKleaves the conference</key>
+		<dict>
+			<key>en</key>
+			<string> leaves the conference</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>离开会议</string>
+			<key>zh-Hant</key>
+			<string>離開會議</string>
+		</dict>
+		<key>SDKmandatory information element missing</key>
+		<dict>
+			<key>en</key>
+			<string>mandatory information element missing</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>强制信息元素丢失</string>
+			<key>zh-Hant</key>
+			<string>強制信息元素丟失</string>
+		</dict>
+		<key>SDKmessage not compatible with call state</key>
+		<dict>
+			<key>en</key>
+			<string>message not compatible with call state</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>消息与调用状态不相容</string>
+			<key>zh-Hant</key>
+			<string>消息與調用狀態不相容</string>
+		</dict>
+		<key>SDKnew msg, add by requirement</key>
+		<dict>
+			<key>en</key>
+			<string>new msg, add by requirement</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>需要添加新的消息</string>
+			<key>zh-Hant</key>
+			<string>需要添加新的消息</string>
+		</dict>
+		<key>SDKno Usable Account</key>
+		<dict>
+			<key>en</key>
+			<string>No usable account</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>无可用帐户</string>
+			<key>zh-Hant</key>
+			<string>無可用帳戶</string>
+		</dict>
+		<key>SDKoutGoing</key>
+		<dict>
+			<key>en</key>
+			<string>outGoing</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>去电</string>
+			<key>zh-Hant</key>
+			<string>去電</string>
+		</dict>
+		<key>SDKsession Over Flow</key>
+		<dict>
+			<key>en</key>
+			<string>Session flow over</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>会话过流</string>
+			<key>zh-Hant</key>
+			<string>會話過流</string>
+		</dict>
+		<key>SDKtime outed</key>
+		<dict>
+			<key>en</key>
+			<string>time outed</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>超时</string>
+			<key>zh-Hant</key>
+			<string>超時</string>
+		</dict>
+		<key>SDKunkown Error</key>
+		<dict>
+			<key>en</key>
+			<string>Unkown error</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>未知错误</string>
+			<key>zh-Hant</key>
+			<string>未知錯誤</string>
+		</dict>
+		<key>SDKunkown Protocol</key>
+		<dict>
+			<key>en</key>
+			<string>Unkown protocol</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>未知协议</string>
+			<key>zh-Hant</key>
+			<string>未知協議</string>
+		</dict>
+		<key>SDKuser not register</key>
+		<dict>
+			<key>en</key>
+			<string>user not register</string>
+			<key>es</key>
+			<string></string>
+			<key>zh-Hans</key>
+			<string>用戶未注册</string>
+			<key>zh-Hant</key>
+			<string>用戶未註冊</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

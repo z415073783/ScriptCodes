@@ -1,0 +1,6 @@
+framework module Pods_ChangeSpecVersion {
+  umbrella header "Pods-ChangeSpecVersion-umbrella.h"
+
+  export *
+  module * { export * }
+}

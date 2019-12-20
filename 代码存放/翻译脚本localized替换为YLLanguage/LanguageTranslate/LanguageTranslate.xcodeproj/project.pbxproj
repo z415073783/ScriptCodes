@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4861C31120F440FF006A483B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4861C31020F440FF006A483B /* main.swift */; };
+		48765AA421F011BB00ADAE0E /* YLJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48765AA221F011BB00ADAE0E /* YLJSON.swift */; };
+		48765AA521F011BB00ADAE0E /* Notification+YLJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48765AA321F011BB00ADAE0E /* Notification+YLJSON.swift */; };
+		48765AA721F0129A00ADAE0E /* InterfaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48765AA621F0129A00ADAE0E /* InterfaceModel.swift */; };
+		48D746822177014A008B0D0D /* YLLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D746772177014A008B0D0D /* YLLog.swift */; };
+		48D746832177014A008B0D0D /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D746782177014A008B0D0D /* NSObject+Extension.swift */; };
+		48D746842177014A008B0D0D /* FileControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D746792177014A008B0D0D /* FileControl.swift */; };
+		48D746852177014A008B0D0D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D7467A2177014A008B0D0D /* String+Extension.swift */; };
+		48D746862177014A008B0D0D /* PgyerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D7467B2177014A008B0D0D /* PgyerManager.swift */; };
+		48D746872177014B008B0D0D /* MailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D7467C2177014A008B0D0D /* MailManager.swift */; };
+		48D746882177014B008B0D0D /* YLWholeDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D7467D2177014A008B0D0D /* YLWholeDefine.swift */; };
+		48D746892177014B008B0D0D /* YLScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D7467E2177014A008B0D0D /* YLScript.swift */; };
+		48D7468A2177014B008B0D0D /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D7467F2177014A008B0D0D /* DateManager.swift */; };
+		48D7468B2177014B008B0D0D /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D746802177014A008B0D0D /* LogManager.swift */; };
+		48D7468C2177014B008B0D0D /* ProcessInfoControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D746812177014A008B0D0D /* ProcessInfoControl.swift */; };
+		48F6C36021EC66C000C05D15 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6C35F21EC66BF00C05D15 /* Network.swift */; };
+		48F6C36421EC671600C05D15 /* BaiduTranslateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6C36321EC671600C05D15 /* BaiduTranslateManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4861C30B20F440FF006A483B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4861C30D20F440FF006A483B /* LanguageTranslate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LanguageTranslate; sourceTree = BUILT_PRODUCTS_DIR; };
+		4861C31020F440FF006A483B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		48765AA221F011BB00ADAE0E /* YLJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLJSON.swift; sourceTree = "<group>"; };
+		48765AA321F011BB00ADAE0E /* Notification+YLJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+YLJSON.swift"; sourceTree = "<group>"; };
+		48765AA621F0129A00ADAE0E /* InterfaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceModel.swift; sourceTree = "<group>"; };
+		48D746772177014A008B0D0D /* YLLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLLog.swift; sourceTree = "<group>"; };
+		48D746782177014A008B0D0D /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		48D746792177014A008B0D0D /* FileControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileControl.swift; sourceTree = "<group>"; };
+		48D7467A2177014A008B0D0D /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		48D7467B2177014A008B0D0D /* PgyerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PgyerManager.swift; sourceTree = "<group>"; };
+		48D7467C2177014A008B0D0D /* MailManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailManager.swift; sourceTree = "<group>"; };
+		48D7467D2177014A008B0D0D /* YLWholeDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLWholeDefine.swift; sourceTree = "<group>"; };
+		48D7467E2177014A008B0D0D /* YLScript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLScript.swift; sourceTree = "<group>"; };
+		48D7467F2177014A008B0D0D /* DateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		48D746802177014A008B0D0D /* LogManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		48D746812177014A008B0D0D /* ProcessInfoControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessInfoControl.swift; sourceTree = "<group>"; };
+		48F6C35F21EC66BF00C05D15 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		48F6C36321EC671600C05D15 /* BaiduTranslateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduTranslateManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4861C30A20F440FF006A483B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4861C30420F440FF006A483B = {
+			isa = PBXGroup;
+			children = (
+				4861C30F20F440FF006A483B /* LanguageTranslate */,
+				4861C30E20F440FF006A483B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4861C30E20F440FF006A483B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4861C30D20F440FF006A483B /* LanguageTranslate */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4861C30F20F440FF006A483B /* LanguageTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				48D746762177014A008B0D0D /* TargetManager */,
+				4861C31020F440FF006A483B /* main.swift */,
+				48F6C36321EC671600C05D15 /* BaiduTranslateManager.swift */,
+				48765AA621F0129A00ADAE0E /* InterfaceModel.swift */,
+			);
+			path = LanguageTranslate;
+			sourceTree = "<group>";
+		};
+		48765AA121F011BB00ADAE0E /* YLJSON */ = {
+			isa = PBXGroup;
+			children = (
+				48765AA221F011BB00ADAE0E /* YLJSON.swift */,
+				48765AA321F011BB00ADAE0E /* Notification+YLJSON.swift */,
+			);
+			path = YLJSON;
+			sourceTree = "<group>";
+		};
+		48D746762177014A008B0D0D /* TargetManager */ = {
+			isa = PBXGroup;
+			children = (
+				48765AA121F011BB00ADAE0E /* YLJSON */,
+				48F6C35E21EC66BF00C05D15 /* Network */,
+				48D746772177014A008B0D0D /* YLLog.swift */,
+				48D746782177014A008B0D0D /* NSObject+Extension.swift */,
+				48D746792177014A008B0D0D /* FileControl.swift */,
+				48D7467A2177014A008B0D0D /* String+Extension.swift */,
+				48D7467B2177014A008B0D0D /* PgyerManager.swift */,
+				48D7467C2177014A008B0D0D /* MailManager.swift */,
+				48D7467D2177014A008B0D0D /* YLWholeDefine.swift */,
+				48D7467E2177014A008B0D0D /* YLScript.swift */,
+				48D7467F2177014A008B0D0D /* DateManager.swift */,
+				48D746802177014A008B0D0D /* LogManager.swift */,
+				48D746812177014A008B0D0D /* ProcessInfoControl.swift */,
+			);
+			name = TargetManager;
+			path = ../../../SwiftShellFramework/SwiftShellFramework/TargetManager;
+			sourceTree = "<group>";
+		};
+		48F6C35E21EC66BF00C05D15 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				48F6C35F21EC66BF00C05D15 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4861C30C20F440FF006A483B /* LanguageTranslate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4861C31420F440FF006A483B /* Build configuration list for PBXNativeTarget "LanguageTranslate" */;
+			buildPhases = (
+				4861C30920F440FF006A483B /* Sources */,
+				4861C30A20F440FF006A483B /* Frameworks */,
+				4861C30B20F440FF006A483B /* CopyFiles */,
+				484B59CD21EC231700F6A1D8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanguageTranslate;
+			productName = LanguageTranslate;
+			productReference = 4861C30D20F440FF006A483B /* LanguageTranslate */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4861C30520F440FF006A483B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = zlm;
+				TargetAttributes = {
+					4861C30C20F440FF006A483B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 4861C30820F440FF006A483B /* Build configuration list for PBXProject "LanguageTranslate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4861C30420F440FF006A483B;
+			productRefGroup = 4861C30E20F440FF006A483B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4861C30C20F440FF006A483B /* LanguageTranslate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		484B59CD21EC231700F6A1D8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\npath=${BUILD_DIR}\"/\"${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}\"/\"${TARGET_NAME}\n\necho ${BUILD_DIR}\necho ${CONFIGURATION}\necho ${EFFECTIVE_PLATFORM_NAME}\necho ${TARGET_NAME}\necho \"打印路径:\"$path\ncp $path /ScriptCodes/\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4861C30920F440FF006A483B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F6C36021EC66C000C05D15 /* Network.swift in Sources */,
+				4861C31120F440FF006A483B /* main.swift in Sources */,
+				48D7468B2177014B008B0D0D /* LogManager.swift in Sources */,
+				48765AA721F0129A00ADAE0E /* InterfaceModel.swift in Sources */,
+				48D7468A2177014B008B0D0D /* DateManager.swift in Sources */,
+				48D7468C2177014B008B0D0D /* ProcessInfoControl.swift in Sources */,
+				48765AA521F011BB00ADAE0E /* Notification+YLJSON.swift in Sources */,
+				48D746862177014A008B0D0D /* PgyerManager.swift in Sources */,
+				48D746842177014A008B0D0D /* FileControl.swift in Sources */,
+				48765AA421F011BB00ADAE0E /* YLJSON.swift in Sources */,
+				48F6C36421EC671600C05D15 /* BaiduTranslateManager.swift in Sources */,
+				48D746822177014A008B0D0D /* YLLog.swift in Sources */,
+				48D746852177014A008B0D0D /* String+Extension.swift in Sources */,
+				48D746882177014B008B0D0D /* YLWholeDefine.swift in Sources */,
+				48D746892177014B008B0D0D /* YLScript.swift in Sources */,
+				48D746832177014A008B0D0D /* NSObject+Extension.swift in Sources */,
+				48D746872177014B008B0D0D /* MailManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4861C31220F440FF006A483B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4861C31320F440FF006A483B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4861C31520F440FF006A483B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4861C31620F440FF006A483B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4861C30820F440FF006A483B /* Build configuration list for PBXProject "LanguageTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4861C31220F440FF006A483B /* Debug */,
+				4861C31320F440FF006A483B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4861C31420F440FF006A483B /* Build configuration list for PBXNativeTarget "LanguageTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4861C31520F440FF006A483B /* Debug */,
+				4861C31620F440FF006A483B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4861C30520F440FF006A483B /* Project object */;
+}
