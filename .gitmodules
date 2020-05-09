@@ -1,0 +1,3 @@
+[submodule "MMScriptFramework"]
+	path = MMScriptFramework
+	url = git@github.com:z415073783/MMScriptFramework.git
