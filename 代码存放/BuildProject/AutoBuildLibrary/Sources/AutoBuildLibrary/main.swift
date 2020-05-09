@@ -13,6 +13,7 @@ onlyActiveArch(可选)   NO | YES   默认NO
 buildDir(可选)      默认Build目录
 configType(可选)     Debug | Release 默认Release
 libraryConfigPlist(可选)   配置文件名称 默认AutoBuildLibrary.plist
+armTypeList(可选)  iphoneos | iphonesimulator    架构类型,多个值使用逗号隔开 默认: iphoneos,iphonesimulator
 
 
 """)
@@ -29,6 +30,7 @@ let buildDir = dictionary["buildDir"] ?? cacheDictionary["buildDir"] ?? "Build"
 let onlyActiveArch = dictionary["onlyActiveArch"] ?? cacheDictionary["onlyActiveArch"] ?? "NO"
 let configType = dictionary["configType"] ?? cacheDictionary["configType"] ?? "Release"
 let rootPath = dictionary["rootPath"] ?? cacheDictionary["rootPath"] ?? kShellPath
+let armTypeList = dictionary["armTypeList"] ?? cacheDictionary["armTypeList"] ?? "iphoneos,iphonesimulator"
 //拉取文件缓存, 如果dictionary中没有读取到数据, 则通过缓存读取
 guard let projectName = dictionary["projectName"] ?? cacheDictionary["projectName"],
     let targetName = dictionary["targetName"] ?? cacheDictionary["targetName"] else {
@@ -77,6 +79,7 @@ dictionary["targetName"] = targetName
 dictionary["onlyActiveArch"] = onlyActiveArch
 dictionary["buildDir"] = buildDir
 dictionary["configType"] = configType
+dictionary["armTypeList"] = armTypeList
 MMLOG.info("保存配置: \(dictionary) -> \(cachePath)")
 (dictionary as NSDictionary).write(to: cachePath, atomically: true)
 
@@ -94,7 +97,10 @@ guard var projectRootPath = projectPaths.first?.fullPath() else {
     exit(2)
 }
 
-let buildSdks = ["iphoneos", "iphonesimulator"]
+
+
+let buildSdks = armTypeList.split(",")
+
 struct BuildFrameworkStruct {
     var frameworkPath: URL
     func swiftModule() -> URL {
