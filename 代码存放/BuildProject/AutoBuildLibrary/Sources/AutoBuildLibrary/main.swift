@@ -159,6 +159,17 @@ for item in swiftModulePaths {
         }
     }
 }
+//合并二进制文件
+var arguments: [String] = ["-create"]
+for item in swiftModulePaths {
+    let path = item.frameworkPath.appendingPathComponent(targetName).path
+    arguments.append(path)
+}
+arguments.append("-output")
+arguments.append(URL(fileURLWithPath: goalFramework).appendingPathComponent(targetName).path)
+
+MMScript.runScript(model: ScriptModel(path: kLipoPath, arguments: arguments, showOutData: true))
+
 
 
 MMLOG.info("脚本运行完成")
