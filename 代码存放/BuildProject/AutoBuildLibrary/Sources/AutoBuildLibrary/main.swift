@@ -8,7 +8,7 @@ ProcessInfo.processInfo.isHelp(helpStr: """
 projectName     工程名 包括后缀 如:MMLibrary.xcodeproj或MMSandBoxHTTP.xcworkspace
 targetName      target名称
 
-rootPath(可选)  项目根目录, 默认和执行文件在同一目录下
+rootPath(可选)  项目根目录(执行文件的相对路径), 默认和执行文件在同一目录下
 onlyActiveArch(可选)   NO | YES   默认NO
 buildDir(可选)      默认Build目录
 configType(可选)     Debug | Release 默认Release
@@ -29,7 +29,7 @@ let buildDir = dictionary["buildDir"] ?? cacheDictionary["buildDir"] ?? "Build"
 
 let onlyActiveArch = dictionary["onlyActiveArch"] ?? cacheDictionary["onlyActiveArch"] ?? "NO"
 let configType = dictionary["configType"] ?? cacheDictionary["configType"] ?? "Release"
-let rootPath = dictionary["rootPath"] ?? cacheDictionary["rootPath"] ?? kShellPath
+let rootPath = kShellPath + "/" + (dictionary["rootPath"] ?? cacheDictionary["rootPath"] ?? "")
 let armTypeList = dictionary["armTypeList"] ?? cacheDictionary["armTypeList"] ?? "iphoneos,iphonesimulator"
 //拉取文件缓存, 如果dictionary中没有读取到数据, 则通过缓存读取
 guard let projectName = dictionary["projectName"] ?? cacheDictionary["projectName"],
@@ -70,8 +70,8 @@ if !FileControl.isExist(atPath: buildUrl.path) {
 
 
 //配置写入文件
-if let _ = dictionary["rootPath"] ?? cacheDictionary["rootPath"] {
-    dictionary["rootPath"] = rootPath
+if let relativeRootPath = dictionary["rootPath"] ?? cacheDictionary["rootPath"] {
+    dictionary["rootPath"] = relativeRootPath
 }
 
 dictionary["projectName"] = projectName
